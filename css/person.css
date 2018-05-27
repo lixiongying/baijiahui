@@ -1,0 +1,191 @@
+.main {
+  width: 100%;
+}
+.order {
+  width: 100%;
+  height: 2.66666667rem;
+  position: relative;
+  text-align: center;
+  line-height: 2.66666667rem;
+  font-size: 0.88888889rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.03703704rem;
+  color: #2a2a2a;
+  background-color: #e52323;
+  color: #ffffff;
+}
+.order span img {
+  font-family: MicrosoftYaHei;
+  font-size: 0.74074074rem;
+  letter-spacing: 0.03703704rem;
+  color: #ffffff;
+  position: absolute;
+  top: 30%;
+  right: 0.98148148rem;
+  width: 0.94444444rem;
+  height: 0.90740741rem;
+}
+.person {
+  width: 20rem;
+  height: 8.77777778rem;
+  background-color: #e52323;
+  position: relative;
+}
+.person .person_login {
+  background: none;
+  width: 100%;
+  height: 100%;
+}
+.person .person_login .login_img {
+  width: 3.74074074rem;
+  height: 3.74074074rem;
+  background: none;
+  position: absolute;
+  left: 8.18518519rem;
+  top: 0.92592593rem;
+}
+.person .person_login .name {
+  width: 9.31481481rem;
+  height: 1.11111111rem;
+  background: none;
+  position: absolute;
+  left: 8.5rem;
+  top: 5.18518519rem;
+}
+.person .person_login .name .name_one {
+  width: 2.40740741rem;
+  height: 0.88888889rem;
+  display: inline;
+  background-color: #e52323;
+  border-radius: 0.11111111rem;
+  font-family: MicrosoftYaHei-Bold;
+  font-size: 0.88888889rem;
+  font-weight: normal;
+  font-stretch: normal;
+  text-align: center;
+  line-height: 0.88888889rem;
+  white-space: nowrap;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+.person .person_login .name .name_two {
+  width: 2.40740741rem;
+  height: 0.74074074rem;
+  background-color: #f13231;
+  border-radius: 6px;
+  display: inline;
+  font-family: MicrosoftYaHei;
+  font-size: 0.55555556rem;
+  white-space: nowrap;
+  letter-spacing: 0px;
+  color: #ffa000;
+}
+.person .person_login .descrie {
+  width: 7.03703704rem;
+  height: 0.64814815rem;
+  font-family: MicrosoftYaHei;
+  font-size: 0.62962963rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.11111111rem;
+  letter-spacing: 1px;
+  color: #fefefe;
+  background: none;
+  text-align: center;
+  position: absolute;
+  left: 6.98148148rem;
+  top: 75%;
+  white-space: nowrap;
+}
+.person .myorder {
+  width: 100%;
+  height: 1.88888889rem;
+  position: relative;
+  background-color: #ffffff;
+}
+.person .myorder .myorder_one {
+  width: 0.74074074rem;
+  height: 0.81481481rem;
+  float: left;
+  position: absolute;
+  top: 0.59259259rem;
+  left: 0.94444444rem;
+}
+.person .myorder .myorder_one_two {
+  font-family: MicrosoftYaHei;
+  font-size: 0.77777778rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.03703704rem;
+  color: #2a2a2a;
+  width: 3.27777778rem;
+  height: 0.77777778rem;
+  float: left;
+  white-space: nowrap;
+  position: absolute;
+  left: 2.35185185rem;
+  top: 0.46296296rem;
+}
+.person .myorder .myorder_one_three {
+  font-family: MicrosoftYaHei;
+  font-size: 0.66666667rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  color: #787878;
+  width: 1.33333333rem;
+  height: 0.64814815rem;
+  float: left;
+  white-space: nowrap;
+  position: absolute;
+  right: 1.66666667rem;
+  top: 0.46296296rem;
+}
+.person .myorder .myorder_one_four {
+  width: 0.33333333rem;
+  height: 0.59259259rem;
+  float: left;
+  position: absolute;
+  right: 0.81481481rem;
+  top: 0.74074074rem;
+}
+.person .ordernav {
+  width: 100%;
+  height: 2.77777778rem;
+}
+.person .ordernav div {
+  width: 25%;
+  margin-top: 0.37037037rem;
+  float: left;
+  text-align: center;
+}
+.person .ordernav img {
+  display: block;
+  margin-left: 1.85185185rem;
+  width: 1.2037037rem;
+  height: 0.96296296rem;
+}
+.person .item {
+  width: 100%;
+  height: 8.88888889rem;
+}
+.person .item div {
+  height: 4.44444444rem;
+  width: 25%;
+  float: left;
+  text-align: center;
+  font-family: MicrosoftYaHei;
+  font-size: 0.77777778rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 2px;
+  color: #2a2a2a;
+  padding-top: 0.92592593rem;
+}
+.person .item div img {
+  width: 0.85185185rem;
+  height: 0.85185185rem;
+  margin-left: 2.03703704rem;
+  margin-bottom: 0.37037037rem;
+}

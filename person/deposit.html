@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,minimum-scale=1.0">
+		<title>开通会员</title>
+		<link href="../css/mui.min.css" rel="stylesheet"/>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/deposit.css"/>
+        <script src="../js/mui.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../js/public.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="mui-content">
+			<div class="main">
+				<!--头部导航栏-->
+				<div class="order">					
+					提现			
+					<span><a href=""><img src="../img/back2.png" alt="" /></a></span>	
+				</div>	
+				
+				<div class="center">
+					<div class="income">
+						<ul class="income_ul">
+							<li class="incomewithdrawal li_income" data-type = "0">
+								收益提现
+								<span class="li_span" ></span>
+							</li>
+							<li class="incomerecode li_income" data-type = "1">
+								提现记录
+								<span class="li_span"></span>
+							</li>
+						</ul>
+					</div>
+                    <div class="incomecontent">
+						<div class="withdrawal ul_content">
+							<div class="canbalance">
+								<div class="canbalance_pic">
+									<img src="../img/tixian_shouyi.png"/>
+								</div>
+								<div class="canbalance_num">
+									可提现余额：<span>¥0.00</span>
+								</div>
+							</div>
+							<div class="withdrawalto">
+								<div class="withdrawalwhere">
+									提现到：
+								</div>
+								<div class="withdrawal_input">
+									<input type="" name="" id="" value="" placeholder="请填写支付宝账号"/>
+								</div>
+							</div>
+							<div class="money">
+								<div class="moneynum">
+									金额：
+								</div>
+								<div class="money_input">
+									<input type="" name="" id="" value="" placeholder="请输入提现金额"/>
+								</div>
+							</div>
+							<div class="code">
+								<div class="codenum">
+									密码：
+								</div>
+								<div class="code_input">
+									<input type="" name="" id="" value="" placeholder="请输入您的支付密码"/>
+								</div>
+								<div class="forgetcode">
+									忘记密码？
+								</div>
+							</div>
+							
+							<div class="applyfor">
+								申请提现
+							</div>
+						</div>
+					   <!--提现记录-->
+					    <div class="recode ul_content">
+							<div class="recode_content">
+								<div class="money">
+									<div class="">
+										金额
+									</div>
+									<div class="">
+										¥50.00
+									</div>
+								</div>
+								<div class="type">
+									<div class="">
+										类型
+									</div>
+									<div class="">
+										支付宝
+									</div>
+								</div>
+								<div class="time">
+									<div class="">
+										时间	
+									</div>
+									<div class="">
+										2018-02-28 16:21:21
+									</div>
+								</div>
+								<div class="deal">
+									<div class="">
+										交易单号
+									</div>
+									<div class="">
+										15198260622860166297
+									</div>
+								</div>
+							</div>
+						
+					        <div class="recode_content">
+								<div class="money">
+									<div class="">
+										金额
+									</div>
+									<div class="">
+										¥50.00
+									</div>
+								</div>
+								<div class="type">
+									<div class="">
+										类型
+									</div>
+									<div class="">
+										支付宝
+									</div>
+								</div>
+								<div class="time">
+									<div class="">
+										时间	
+									</div>
+									<div class="">
+										2018-02-28 16:21:21
+									</div>
+								</div>
+								<div class="deal">
+									<div class="">
+										交易单号
+									</div>
+									<div class="">
+										15198260622860166297
+									</div>
+								</div>
+							</div>
+					   </div>
+			        </div>
+				</div>
+				
+		</div>	
+		
+	</body>
+	<script type="text/javascript">
+       $(function(){
+       	var $li_income=$('.center .income .income_ul .li_income');
+       	
+       	var $ul_income=$('.center .incomecontent .ul_content');
+       
+       	var index=0;
+       	var li_span=$('center .income .income_ul .li_income span.li_span');
+       
+       	$li_income.bind('click',function(){
+//     		index=$(this).attr('data-type');
+//     		console.log(index)
+            index=$(this).index()
+       		$(this).find("span.li_span").show(200).parent().siblings().find("span.li_span").hide(200);
+			$ul_income.eq(index).fadeIn(50).siblings().fadeOut(50);
+//			if(index==0){
+////				
+//				$('.withdrawal').show();
+//				$('.recode').hide();
+//			}else{
+////				$ul_income.eq(index).fadeIn(50).siblings().fadeOut(50);
+//				$('.withdrawal').hide();
+//				$('.recode').show();
+//			}
+//			
+			
+       	})
+       })
+	</script>
+</html>

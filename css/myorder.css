@@ -1,0 +1,246 @@
+.main {
+  width: 100%;
+}
+.order {
+  width: 100%;
+  height: 2.66666667rem;
+  position: relative;
+  text-align: center;
+  line-height: 2.66666667rem;
+  font-size: 0.88888889rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.03703704rem;
+  color: #2a2a2a;
+  background-color: #e52323;
+  color: #ffffff;
+}
+.order_title {
+  width: 0.51851852rem;
+  height: 0.88888889rem;
+  position: absolute;
+  top: 0.88888889rem;
+  left: 0.85185185rem;
+  background: none;
+}
+.order_title i {
+  background-image: url(../img/back.png);
+  background-size: 100% 100%;
+  background-position: center center;
+  display: block;
+  width: 0.51851852rem;
+  height: 0.88888889rem;
+}
+.order img {
+  background: none;
+}
+.nav_order {
+  width: 100%;
+}
+.nav_order .topline ul {
+  width: 100%;
+  height: 1.85185185rem;
+}
+.nav_order .topline li {
+  float: left;
+  width: 20%;
+  text-align: center;
+  font-family: MicrosoftYaHei;
+  font-size: 0.74074074rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.85185185rem;
+  letter-spacing: 0.03703704rem;
+  color: #7b7a7a;
+  position: relative;
+}
+.nav_order .inner_pages ul.inner_nav li.inner_con_style {
+  color: #ED0012;
+}
+.nav_order .inner_pages ul .inner_border_con {
+  width: 2.5rem;
+  height: 0.05555556rem;
+  display: block;
+  background: #f00;
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  right: 0px;
+  margin: auto;
+  display: none;
+}
+.orderrceive .form_item_four .form_btn_three {
+  color: #2a2a2a;
+  background-color: #f0f0f0;
+}
+.order_main {
+  position: relative;
+  width: 100%;
+}
+.main .indent {
+  width: 100%;
+  height: 2.40740741rem;
+  background-color: #ffffff;
+  border-top: solid 0.25925926rem #f8f8f8;
+  position: relative;
+}
+.main .indent div:first-child {
+  font-family: MicrosoftYaHei;
+  font-size: 0.66666667rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  color: #2a2a2a;
+  position: absolute;
+  left: 0.37037037rem;
+  top: 30%;
+}
+.main .indent div:last-child {
+  font-family: MicrosoftYaHei;
+  font-size: 0.59259259rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 0.88888889rem;
+  letter-spacing: 1px;
+  color: #e52323;
+  position: absolute;
+  right: 0.37037037rem;
+  top: 30%;
+}
+.form_item {
+  height: 10.55555556rem;
+  border-top: 0.24074074rem solid #f5f5f5;
+}
+.form_item img {
+  width: 4.81481481rem;
+  height: 4.81481481rem;
+  padding: 0.37037037rem 0 0.37037037rem 0.66666667rem;
+}
+.form_item_two .numeber {
+  position: absolute;
+  right: -7.03703704rem;
+  top: 0.01851852rem;
+  font-family: MicrosoftYaHei;
+  font-size: 0.55555556rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  color: #787878;
+}
+.form_item .form_item_two p {
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  color: #2a2a2a;
+  position: absolute;
+  left: 6.05555556rem;
+  top: 0.7962963rem;
+}
+.form_item .form_item_two span {
+  display: block;
+  position: absolute;
+  left: 6.05555556rem;
+  top: 3.16666667rem;
+  font-size: 0.55555556rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  color: #787878;
+}
+.form_item_two .price_newprice {
+  font-size: 0.74074074rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.03703704rem;
+  color: red;
+  position: absolute;
+  left: 6.05555556rem;
+  top: 4.44444444rem;
+}
+.form_item_two .old_price {
+  font-size: 0.55555556rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  color: #787878;
+  position: absolute;
+  left: 9.38888889rem;
+  top: 4.35185185rem;
+}
+.form_item_two .line {
+  width: 2.51851852rem;
+  height: 0.03703704rem;
+  background: gray;
+  position: absolute;
+  top: 0.5rem;
+}
+.form_item_three {
+  font-family: MicrosoftYaHei;
+  font-size: 0.59259259rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  color: #7b7a7a;
+  position: absolute;
+  right: 0.68518519rem;
+  top: 6.24074074rem;
+}
+.form_item_four {
+  width: 100%;
+  height: 2.22222222rem;
+  background-color: #ffffff;
+  border-top: solid 0.25925926rem #f8f8f8;
+  position: absolute;
+  top: 8.33333333rem;
+}
+.form_item_four .form_btn_one {
+  text-align: center;
+  width: 3.35185185rem;
+  height: 1.25925926rem;
+  background-color: #f6f6f6;
+  border-radius: 0.18518519rem;
+  font-family: MicrosoftYaHei;
+  font-size: 0.66666667rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.25925926rem;
+  letter-spacing: 1px;
+  color: #1a1a1a;
+  position: absolute;
+  left: 8.51851852rem;
+  top: 0.38888889rem;
+}
+.form_item_four .form_btn_two {
+  text-align: center;
+  width: 3.35185185rem;
+  height: 1.25925926rem;
+  background-color: #f6f6f6;
+  border-radius: 0.18518519rem;
+  font-family: MicrosoftYaHei;
+  font-size: 0.66666667rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.25925926rem;
+  letter-spacing: 1px;
+  color: #1a1a1a;
+  position: absolute;
+  left: 12.22222222rem;
+  top: 0.38888889rem;
+}
+.form_item_four .form_btn_three {
+  text-align: center;
+  width: 3.35185185rem;
+  height: 1.25925926rem;
+  background-color: #e52323;
+  border-radius: 0.18518519rem;
+  font-family: MicrosoftYaHei;
+  font-size: 0.66666667rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.25925926rem;
+  letter-spacing: 1px;
+  color: #ffffff;
+  position: absolute;
+  left: 15.98148148rem;
+  top: 0.38888889rem;
+}

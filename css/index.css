@@ -1,0 +1,12 @@
+.mui-bar .mui-tab-item .img1 {
+  background-image: url(../img/home.png);
+  width: 1.11111111rem;
+  height: 1.11111111rem;
+}
+.mui-bar .mui-tab-item .bot {
+  font-size: 0.59259259rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  color: #787878;
+}

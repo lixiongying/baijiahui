@@ -1,0 +1,264 @@
+.main {
+  width: 100%;
+}
+.order {
+  width: 100%;
+  height: 2.66666667rem;
+  position: relative;
+  text-align: center;
+  line-height: 2.66666667rem;
+  font-size: 0.88888889rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.03703704rem;
+  color: #2a2a2a;
+  background-color: #e52323;
+  color: #ffffff;
+}
+.order span img {
+  font-family: MicrosoftYaHei;
+  font-size: 0.74074074rem;
+  letter-spacing: 0.03703704rem;
+  color: #ffffff;
+  position: absolute;
+  top: 30%;
+  left: 0.98148148rem;
+  width: 0.51851852rem;
+  height: 0.90740741rem;
+}
+.person {
+  width: 20rem;
+  height: 8.77777778rem;
+  background-color: #e52323;
+  position: relative;
+}
+.person .person_login {
+  background: none;
+  width: 100%;
+  height: 100%;
+}
+.person .person_login .login_img {
+  width: 3.74074074rem;
+  height: 3.74074074rem;
+  background: none;
+  position: absolute;
+  left: 8.18518519rem;
+  top: 0.92592593rem;
+}
+.person .person_login .name {
+  width: 9.31481481rem;
+  height: 1.11111111rem;
+  background: none;
+  position: absolute;
+  left: 8.5rem;
+  top: 5.18518519rem;
+}
+.person .person_login .name .name_one {
+  width: 2.40740741rem;
+  height: 0.88888889rem;
+  display: inline;
+  background-color: #e52323;
+  border-radius: 0.11111111rem;
+  font-family: MicrosoftYaHei-Bold;
+  font-size: 0.88888889rem;
+  font-weight: normal;
+  font-stretch: normal;
+  text-align: center;
+  line-height: 0.88888889rem;
+  white-space: nowrap;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+.person .person_login .descrie {
+  width: 7.03703704rem;
+  height: 0.64814815rem;
+  font-family: MicrosoftYaHei;
+  font-size: 0.66666667rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.11111111rem;
+  letter-spacing: 1px;
+  color: #ffe44d;
+  background: none;
+  text-align: center;
+  position: absolute;
+  left: 6.98148148rem;
+  top: 75%;
+  white-space: nowrap;
+}
+.member .member_one {
+  font-family: PingFang-SC-Bold;
+  font-size: 1.27777778rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 0px;
+  letter-spacing: 0px;
+  color: #1f1f1f;
+  width: 100%;
+  height: 3.7037037rem;
+  text-align: center;
+  line-height: 3.7037037rem;
+}
+.member .member_account {
+  width: 100%;
+  height: 4.07407407rem;
+  text-align: center;
+  line-height: 4.07407407rem;
+  position: relative;
+}
+.member .member_account .member_pic {
+  width: 1.46296296rem;
+  height: 1.46296296rem;
+  position: absolute;
+  left: 0.62962963rem;
+  top: 1.11111111rem;
+}
+.member .member_account .merber_world p {
+  font-family: PingFang-SC-Bold;
+  font-size: 0.74074074rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 0px;
+  letter-spacing: 0px;
+  color: #1f1f1f;
+  position: absolute;
+  left: 2.48148148rem;
+  top: 1.2962963rem;
+}
+.member .member_account .merber_world span {
+  font-family: PingFang-SC-Medium;
+  font-size: 0.68518519rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 0px;
+  letter-spacing: 0px;
+  color: #666666;
+  position: absolute;
+  left: 2.48148148rem;
+  top: 2.59259259rem;
+}
+.member .member_discounts {
+  width: 100%;
+  height: 4.07407407rem;
+  text-align: center;
+  line-height: 4.07407407rem;
+  position: relative;
+}
+.member .member_discounts .member_pic {
+  width: 1.46296296rem;
+  height: 1.46296296rem;
+  position: absolute;
+  left: 0.62962963rem;
+  top: 1.11111111rem;
+}
+.member .member_discounts .merber_world p {
+  font-family: PingFang-SC-Bold;
+  font-size: 0.74074074rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 0px;
+  letter-spacing: 0px;
+  color: #1f1f1f;
+  position: absolute;
+  left: 2.48148148rem;
+  top: 1.2962963rem;
+}
+.member .member_discounts .merber_world span {
+  font-family: PingFang-SC-Medium;
+  font-size: 0.68518519rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 0px;
+  letter-spacing: 0px;
+  color: #666666;
+  position: absolute;
+  left: 2.48148148rem;
+  top: 2.59259259rem;
+}
+.main .dredge_member {
+  width: 100%;
+  height: 2.37037037rem;
+  background-color: #e52323;
+  position: fixed;
+  bottom: 0;
+  font-family: MicrosoftYaHei;
+  font-size: 0.88888889rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 0px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 2.37037037rem;
+}
+.panel {
+  width: 100%;
+  height: 10.37037037rem;
+  background-color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 102;
+}
+.panel .panel_vip {
+  width: 100%;
+  height: 2.77777778rem;
+  text-align: center;
+  line-height: 2.77777778rem;
+  font-size: 0.74074074rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #2a2a2a;
+}
+.panel_num {
+  width: 100%;
+  height: 1.85185185rem;
+  text-align: left;
+  line-height: 1.85185185rem;
+  position: relative;
+}
+.panel_num p {
+  font-family: MicrosoftYaHei;
+  font-size: 0.66666667rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #2a2a2a;
+  position: absolute;
+  left: 0.74074074rem;
+}
+.panel_num p span {
+  color: red;
+}
+.panel_num div {
+  width: 2.59259259rem;
+  height: 0.92592593rem;
+  background-color: #ffffff;
+  border-radius: 0.18518519rem;
+  border: solid 0.03703704rem #e52323;
+  line-height: 0.92592593rem;
+  text-align: center;
+  font-family: MicrosoftYaHei;
+  font-size: 0.66666667rem;
+  font-weight: normal;
+  font-stretch: normal;
+  position: absolute;
+  letter-spacing: 0px;
+  color: #e52323;
+  display: inline;
+  right: 0.66666667rem;
+  top: 0.55555556rem;
+}
+.mask {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 101;
+  background: black;
+  opacity: 0.5;
+}

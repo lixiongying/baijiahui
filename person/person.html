@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,minimum-scale=1.0">
+		<title></title>
+		<link href="../css/mui.min.css" rel="stylesheet"/>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/person.css"/>
+        <script src="../js/mui.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../js/public.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="mui-content">
+			<div class="main">
+				<!--头部导航栏-->
+				<div class="order">
+					
+					个人中心				
+					<span><a href=""><img src="../img/geren_shezhi.png" alt="" /></a></span>	
+				</div>	
+				<div class="person">
+					<div class="person_login">
+						<div class="login_img">
+							<img src="../img/shouye_xinxianshuiguo.png"/>
+						</div>
+						<div class="name">
+							<div class="name_one">
+									xu小敏
+							</div>
+						
+							<div class="name_two">
+								开通会员
+							</div>
+						</div>
+						<div class="descrie">
+							我任性，我开心，喵~
+						</div>
+					</div>
+				    <div class="myorder">
+				    	<div class="myorder_one">
+				    		<img src="../img/wodejilu.png"/>
+				    	</div>
+				    	<div class="myorder_one_two">
+				    		我的订单
+				    	</div>
+				    	<div id="more"><div class="myorder_one_three">
+				    		更多
+				    	</div>
+				    	<div class="myorder_one_four">
+				    		<img src="../img/next.png"/>
+				    	</div></div>
+				    	
+				    </div>
+					<div class="ordernav">
+						<div class="ordernav_one">
+							<a href=""><img src="../img/zhuce_yaoqingma.png"/></a>
+							待付款
+						</div>
+						<div class="ordernav_two">
+							<a href=""><img src="../img/zhuce_yaoqingma.png"/></a>
+							待发货
+						</div>
+						<div class="ordernav_three">
+							<a href=""><img src="../img/zhuce_yaoqingma.png"/></a>
+							待收获
+						</div>
+						<div class="ordernav_four">
+							<a href=""><img src="../img/zhuce_yaoqingma.png"/></a>
+							评价
+						</div>
+					</div>
+				    <div class="item">
+				     	<div>
+				     		<img src="../img/11.png"/>
+				     		邀请有礼
+				     	</div>
+				     	<div>
+				     		<img src="../img/11.png"/>
+				     		实体门店
+				     	</div>
+				     	<div>
+				     		<img src="../img/11.png"/>
+				     		我的消息
+				     	</div>
+				     	<div>
+				     		<img src="../img/11.png"/>
+				     		收货地址
+				     	</div>
+				     	<div>
+				     		<img src="../img/11.png"/>
+				     		我的收藏
+				     	</div>
+				     	<div>
+				     		<img src="../img/11.png"/>
+				     		服务与反馈
+				     	</div>
+				     
+				    </div>
+				</div>
+				</div>
+			</div>
+		</div>				
+	</body>
+	<script type="text/javascript">
+		document.getElementById("more").addEventListener('tap',function(){
+			mui.openWindow({
+				url:'myorder.html',
+				
+				id:'myorder.html'
+			})
+		})
+	</script>
+</html>

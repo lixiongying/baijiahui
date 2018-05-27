@@ -1,0 +1,401 @@
+.main {
+  width: 100%;
+}
+.order {
+  width: 100%;
+  height: 2.6666666666666665rem;
+  position: relative;
+  text-align: center;
+  line-height: 2.6666666666666665rem;
+  font-size: 0.8888888888888888rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.037037037037037035rem;
+  color: #2a2a2a;
+  background-color: #e52323;
+  color: #ffffff;
+}
+.order span img {
+  font-family: MicrosoftYaHei;
+  font-size: 0.7407407407407407rem;
+  letter-spacing: 0.037037037037037035rem;
+  color: #ffffff;
+  position: absolute;
+  top: 30%;
+  left: 0.9814814814814815rem;
+  width: 0.5185185185185185rem;
+  height: 0.9074074074074074rem;
+}
+.center {
+  width: 100%;
+}
+.center .income {
+  width: 100%;
+  height: 1.8518518518518519rem;
+  background-color: #ffffff;
+}
+.center .incomecontent {
+  background: none;
+}
+.center .income ul {
+  width: 100%;
+  height: 1.8518518518518519rem;
+}
+.center .income ul li {
+  float: left;
+  font-family: MicrosoftYaHei;
+  font-size: 0.7407407407407407rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.07407407407407407rem;
+  color: #2a2a2a;
+}
+.center .income ul li.incomewithdrawal {
+  position: relative;
+}
+.center .income ul li.incomerecode {
+  position: relative;
+}
+.center .income ul span.li_span {
+  width: 1.0740740740740742rem;
+  height: 0.14814814814814814rem;
+  background-color: #2a2a2a;
+  border-radius: 0.07407407407407407rem;
+  position: absolute;
+  display: block;
+  bottom: 0rem;
+  left: 4.462962962962963rem;
+}
+.center .income ul .incomerecode span {
+  display: none;
+}
+.center .income ul li.incomewithdrawal {
+  width: 50%;
+  height: 1.8518518518518519rem;
+  line-height: 1.8518518518518519rem;
+  text-align: center;
+}
+.center .income ul li.incomerecode {
+  width: 50%;
+  height: 1.8518518518518519rem;
+  line-height: 1.8518518518518519rem;
+  text-align: center;
+}
+.center .withdrawal {
+  width: 100%;
+}
+.center .withdrawal .canbalance {
+  width: 100%;
+  height: 2.2222222222222223rem;
+  background: #F5F5F5;
+  position: relative;
+}
+.center .withdrawal .canbalance .canbalance_pic {
+  width: 0.7037037037037037rem;
+  height: 0.7037037037037037rem;
+  position: absolute;
+  left: 0.4444444444444444rem;
+  bottom: 0.37037037037037035rem;
+}
+.center .withdrawal .canbalance .canbalance_num {
+  background: none;
+  float: left;
+  width: 6.074074074074074rem;
+  white-space: nowrap;
+  height: 0.6481481481481481rem;
+  font-family: MicrosoftYaHei;
+  font-size: 0.6666666666666666rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 0.6481481481481481rem;
+  letter-spacing: 0px;
+  color: #2a2a2a;
+  position: absolute;
+  left: 1.7962962962962963rem;
+  bottom: 0.37037037037037035rem;
+}
+.center .withdrawal .canbalance .canbalance_num span {
+  color: red;
+}
+.center .withdrawal .withdrawalto {
+  width: 100%;
+  height: 2.2222222222222223rem;
+  background-color: #ffffff;
+  position: relative;
+}
+.center .withdrawal .withdrawalto .withdrawalwhere {
+  width: 2.5925925925925926rem;
+  height: 2.2222222222222223rem;
+  font-family: MicrosoftYaHei;
+  font-size: 0.6666666666666666rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 2.2222222222222223rem;
+  letter-spacing: 0px;
+  color: #2a2a2a;
+  text-align: center;
+  white-space: nowrap;
+  margin-left: 0.4444444444444444rem;
+  float: left;
+}
+.center .withdrawal .withdrawalto .withdrawal_input {
+  width: 11.11111111111111rem;
+  height: 2.2222222222222223rem;
+  float: left;
+  background: none;
+}
+.center .withdrawal .withdrawalto .withdrawal_input input {
+  width: 11.11111111111111rem;
+  height: 2.2222222222222223rem;
+  padding: 0;
+  margin: 0;
+  font-family: MicrosoftYaHei;
+  font-size: 0.6666666666666666rem;
+  font-weight: normal;
+  line-height: 2.2222222222222223rem;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #787878;
+  padding-left: 0.9259259259259259rem;
+}
+.center .withdrawal .money {
+  width: 100%;
+  height: 2.2222222222222223rem;
+  background-color: #ffffff;
+  position: relative;
+}
+.center .withdrawal .money .moneynum {
+  width: 2.5925925925925926rem;
+  height: 2.2222222222222223rem;
+  font-family: MicrosoftYaHei;
+  font-size: 0.6666666666666666rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 2.2222222222222223rem;
+  letter-spacing: 0px;
+  color: #2a2a2a;
+  text-align: center;
+  white-space: nowrap;
+  margin-left: 0.4444444444444444rem;
+  float: left;
+}
+.center .withdrawal .money .money_input {
+  width: 11.11111111111111rem;
+  height: 2.2222222222222223rem;
+  float: left;
+  background: none;
+}
+.center .withdrawal .money .money_input input {
+  width: 11.11111111111111rem;
+  height: 2.2222222222222223rem;
+  padding: 0;
+  margin: 0;
+  font-family: MicrosoftYaHei;
+  font-size: 0.6666666666666666rem;
+  font-weight: normal;
+  line-height: 2.2222222222222223rem;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #787878;
+  padding-left: 0.9259259259259259rem;
+}
+.center .withdrawal .code {
+  width: 100%;
+  height: 2.2222222222222223rem;
+  background-color: #ffffff;
+  position: relative;
+}
+.center .withdrawal .code .codenum {
+  width: 2.5925925925925926rem;
+  height: 2.2222222222222223rem;
+  font-family: MicrosoftYaHei;
+  font-size: 0.6666666666666666rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 2.2222222222222223rem;
+  letter-spacing: 0px;
+  color: #2a2a2a;
+  text-align: center;
+  white-space: nowrap;
+  margin-left: 0.4444444444444444rem;
+  float: left;
+}
+.center .withdrawal .code .code_input {
+  width: 11.11111111111111rem;
+  height: 2.2222222222222223rem;
+  float: left;
+  background: none;
+}
+.center .withdrawal .code .code_input input {
+  width: 11.11111111111111rem;
+  height: 2.2222222222222223rem;
+  padding: 0;
+  margin: 0;
+  font-family: MicrosoftYaHei;
+  font-size: 0.6666666666666666rem;
+  font-weight: normal;
+  line-height: 2.2222222222222223rem;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #787878;
+  padding-left: 0.9259259259259259rem;
+}
+.center .withdrawal .code .forgetcode {
+  width: 70px;
+  height: 2.2222222222222223rem;
+  font-family: MicrosoftYaHei;
+  font-size: 0.6666666666666666rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 2.2222222222222223rem;
+  letter-spacing: 0px;
+  color: #1f1f1f;
+  float: right;
+}
+.applyfor {
+  width: 19.11111111111111rem;
+  height: 1.8518518518518519rem;
+  background-color: #e52323;
+  border-radius: 0.1111111111111111rem;
+  line-height: 1.8518518518518519rem;
+  text-align: center;
+  font-family: MicrosoftYaHei;
+  font-size: 0.7407407407407407rem;
+  font-weight: normal;
+  font-stretch: normal;
+  color: #ffffff;
+  margin-top: 3.7037037037037037rem;
+  margin-left: 0.4444444444444444rem;
+}
+.recode {
+  width: 100%;
+  padding: 0 0.42592592592592593rem;
+  background-color: #ffffff;
+  display: none;
+}
+.recode .recode_content {
+  width: 100%;
+  height: 7.407407407407407rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border-top: 3px solid #f5f5f5;
+}
+.recode .recode_content .money {
+  width: 100%;
+  height: 1.8518518518518519rem;
+}
+.recode .recode_content .money div:first-child {
+  width: 1.8518518518518519rem;
+  height: 1.8518518518518519rem;
+  line-height: 1.8518518518518519rem;
+  font-size: 0.6666666666666666rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #2a2a2a;
+  float: left;
+  margin-left: 0.37037037037037035rem;
+}
+.recode .recode_content .money div:last-child {
+  width: 1.8518518518518519rem;
+  height: 1.8518518518518519rem;
+  line-height: 1.8518518518518519rem;
+  font-size: 0.6666666666666666rem;
+  font-family: MicrosoftYaHei;
+  font-weight: normal;
+  font-stretch: normal;
+  float: right;
+  letter-spacing: 0px;
+  color: #e52323;
+  margin-right: 0.37037037037037035rem;
+}
+.recode .recode_content .type {
+  width: 100%;
+  height: 1.8518518518518519rem;
+}
+.recode .recode_content .type div:first-child {
+  width: 1.8518518518518519rem;
+  height: 1.8518518518518519rem;
+  line-height: 1.8518518518518519rem;
+  font-size: 0.6666666666666666rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #2a2a2a;
+  float: left;
+  margin-left: 0.37037037037037035rem;
+}
+.recode .recode_content .type div:last-child {
+  width: 1.8518518518518519rem;
+  height: 1.8518518518518519rem;
+  line-height: 1.8518518518518519rem;
+  font-size: 0.6666666666666666rem;
+  font-family: MicrosoftYaHei;
+  font-weight: normal;
+  font-stretch: normal;
+  float: right;
+  letter-spacing: 0px;
+  color: #787878;
+  margin-right: 0.37037037037037035rem;
+}
+.recode .recode_content .time {
+  width: 100%;
+  height: 1.8518518518518519rem;
+}
+.recode .recode_content .time div:first-child {
+  width: 1.8518518518518519rem;
+  height: 1.8518518518518519rem;
+  line-height: 1.8518518518518519rem;
+  font-size: 0.6666666666666666rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #2a2a2a;
+  float: left;
+  margin-left: 0.37037037037037035rem;
+}
+.recode .recode_content .time div:last-child {
+  width: 7.407407407407407rem;
+  height: 1.8518518518518519rem;
+  line-height: 1.8518518518518519rem;
+  font-size: 0.6666666666666666rem;
+  font-family: MicrosoftYaHei;
+  font-weight: normal;
+  font-stretch: normal;
+  float: right;
+  letter-spacing: 0px;
+  color: #787878;
+  text-align: right;
+  margin-right: 0.37037037037037035rem;
+}
+.recode .recode_content .deal {
+  width: 100%;
+  height: 1.8518518518518519rem;
+}
+.recode .recode_content .deal div:first-child {
+  width: 3.7037037037037037rem;
+  height: 1.8518518518518519rem;
+  line-height: 1.8518518518518519rem;
+  font-size: 0.6666666666666666rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #2a2a2a;
+  float: left;
+  margin-left: 0.37037037037037035rem;
+}
+.recode .recode_content .deal div:last-child {
+  width: 7.407407407407407rem;
+  height: 1.8518518518518519rem;
+  line-height: 1.8518518518518519rem;
+  font-size: 0.6666666666666666rem;
+  font-family: MicrosoftYaHei;
+  font-weight: normal;
+  font-stretch: normal;
+  float: right;
+  letter-spacing: 0px;
+  color: #787878;
+  margin-right: 0.37037037037037035rem;
+  text-align: right;
+}
+/*# sourceMappingURL=deposit.css.map */

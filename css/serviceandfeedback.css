@@ -1,0 +1,208 @@
+.main {
+  width: 100%;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.order {
+  width: 100%;
+  height: 2.6666666666666665rem;
+  position: relative;
+  text-align: center;
+  line-height: 2.6666666666666665rem;
+  font-size: 0.8888888888888888rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.037037037037037035rem;
+  color: #2a2a2a;
+  background-color: #e52323;
+  color: #ffffff;
+}
+.order span img {
+  font-family: MicrosoftYaHei;
+  font-size: 0.7407407407407407rem;
+  letter-spacing: 0.037037037037037035rem;
+  color: #ffffff;
+  position: absolute;
+  top: 30%;
+  left: 0.9814814814814815rem;
+  width: 0.5185185185185185rem;
+  height: 0.9074074074074074rem;
+}
+.center {
+  width: 100%;
+}
+.center .service {
+  width: 100%;
+  height: 8.333333333333334rem;
+  background: #ffffff;
+}
+.service .onlineservice {
+  width: 100%;
+  height: 2.7777777777777777rem;
+  background-color: #ffffff;
+  border-bottom: 0.5px solid #F5F5F5;
+}
+.service .onlineservice div {
+  float: left;
+}
+.service .onlineservice div:first-child {
+  width: 1.0925925925925926rem;
+  height: 1.0185185185185186rem;
+  margin-top: 0.8888888888888888rem;
+  margin-left: 0.8888888888888888rem;
+}
+.service .onlineservice div:nth-child(2) {
+  font-family: MicrosoftYaHei;
+  font-size: 0.7777777777777778rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 2px;
+  color: #2a2a2a;
+  width: 3.7037037037037037rem;
+  height: 2.7777777777777777rem;
+  line-height: 2.7777777777777777rem;
+  margin-left: 1.3888888888888888rem;
+}
+.service .onlineservice div:last-child {
+  width: 0.48148148148148145rem;
+  height: 0.8518518518518519rem;
+  float: right;
+  margin-right: 0.8148148148148148rem;
+  margin-top: 1rem;
+}
+.service .telservice {
+  width: 100%;
+  height: 2.7777777777777777rem;
+  background-color: #ffffff;
+  border-bottom: 0.5px solid #F5F5F5;
+}
+.service .telservice div {
+  float: left;
+}
+.service .telservice div:first-child {
+  width: 1.0925925925925926rem;
+  height: 1.0185185185185186rem;
+  margin-top: 0.8888888888888888rem;
+  margin-left: 0.8888888888888888rem;
+}
+.service .telservice div:nth-child(2) {
+  font-family: MicrosoftYaHei;
+  font-size: 0.7777777777777778rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 2px;
+  color: #2a2a2a;
+  width: 3.7037037037037037rem;
+  height: 2.7777777777777777rem;
+  line-height: 2.7777777777777777rem;
+  margin-left: 1.3888888888888888rem;
+}
+.service .telservice div:last-child {
+  width: 0.48148148148148145rem;
+  height: 0.8518518518518519rem;
+  float: right;
+  margin-right: 0.8148148148148148rem;
+  margin-top: 1rem;
+}
+.service .feedback {
+  width: 100%;
+  height: 2.7777777777777777rem;
+  background-color: #ffffff;
+}
+.service .feedback div {
+  float: left;
+}
+.service .feedback div:first-child {
+  width: 1.0925925925925926rem;
+  height: 1.0185185185185186rem;
+  margin-top: 0.8888888888888888rem;
+  margin-left: 0.8888888888888888rem;
+}
+.service .feedback div:nth-child(2) {
+  font-family: MicrosoftYaHei;
+  font-size: 0.7777777777777778rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 2px;
+  color: #2a2a2a;
+  width: 3.7037037037037037rem;
+  height: 2.7777777777777777rem;
+  line-height: 2.7777777777777777rem;
+  margin-left: 1.3888888888888888rem;
+}
+.service .feedback div:last-child {
+  width: 0.48148148148148145rem;
+  height: 0.8518518518518519rem;
+  float: right;
+  margin-right: 0.8148148148148148rem;
+  margin-top: 1rem;
+}
+.mask {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black;
+  opacity: 0.5;
+  z-index: 100;
+}
+.concat {
+  position: fixed;
+  width: 16.296296296296298rem;
+  height: 9.444444444444445rem;
+  background: white;
+  z-index: 105;
+  top: 12.962962962962964rem;
+  left: 1.8518518518518519rem;
+}
+.concat .service {
+  width: 100%;
+  height: 1.1111111111111112rem;
+  font-family: MicrosoftYaHei;
+  font-size: 0.9259259259259259rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.1111111111111112rem;
+  letter-spacing: 0.037037037037037035rem;
+  color: #e52323;
+  text-align: center;
+  margin-top: 1.2962962962962963rem;
+}
+.concat .servicenumber {
+  width: 100%;
+  height: 0.7407407407407407rem;
+  font-family: MicrosoftYaHei;
+  font-size: 0.7407407407407407rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.037037037037037035rem;
+  text-align: center;
+  margin-top: 0.7407407407407407rem;
+  color: #2a2a2a;
+}
+.concat .sureorcancel {
+  width: 100%;
+  height: 2.962962962962963rem;
+  position: absolute;
+  bottom: 0;
+}
+.concat .sureorcancel .cancel {
+  width: 50%;
+  height: 2.962962962962963rem;
+  line-height: 2.962962962962963rem;
+  float: left;
+  text-align: center;
+  border-right: 1px solid #F5F5F5;
+}
+.concat .sureorcancel .sure {
+  width: 50%;
+  height: 2.962962962962963rem;
+  float: right;
+  line-height: 2.962962962962963rem;
+  text-align: center;
+}
+/*# sourceMappingURL=serviceandfeedback.css.map */

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+<body>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,minimum-scale=1.0">
+		<title>登录</title>
+		<link rel="stylesheet" type="text/css" href="../css/mui.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/mui.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/thegoodsdetail.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<script src="../js/public.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/goodsdetail.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>	
+		
+	<div class="main">
+	
+	   <!--表头-->
+		<div class="detail" id="details">
+			<div id="bagr_pic">
+				商品详情
+			</div>
+			<div class="detail_one">
+				<a href="JavaScript:history.go(-1)"><img src="../img/shangpinxiangqing_back.png"/></a>
+			</div>
+			商品详情
+			<div class="detail_two" id="detailss" onclick="share()">
+				<img src="../img/shangpinxiangqing_fenxiang.png"/>
+				<!--<img src="../img/产品信息1屏（添加购物车）_05.png"/>-->
+			</div>
+		</div>
+		<!--轮播-->
+		<div id="slider">
+			<div class="swiper-container clearfix">
+				<ul class="swiper-wrapper">
+					<li class="swiper-slide"><a href=""><img src="../img/2.jpg"/></a></li>
+					<li class="swiper-slide"><a href=""><img src="../img/4.jpg"/></a></li>
+					<li class="swiper-slide"><a href=""><img src="../img/3.jpg"/></a></li>
+				</ul>
+			</div>
+			<div class="swiper-pagination"></div>
+		</div>
+		<div class="annoumcement">				
+			<div class="main_world">
+				<div class="main_world_one">
+					<p>云南树莓 125g/袋</p>
+			        <p>￥98.00</p>
+			        <p>¥108.00</p>
+				</div>
+				<div class="main_world_two">
+					<p>规格：125g/袋</p>
+				</div>				
+			</div>
+		</div>
+		<div class="none">
+			详情
+			<div class="rect">
+				
+			</div>
+		</div>
+		<div class="goods_img">
+			<img src="../fonts/781293292015138910.jpg"/>
+		</div>
+		<div class="evaluate" id="evalute">			
+			<div class="evaluate_one">
+				<p>宝贝评价</p><p>好评99%</p>
+			</div>
+			<div class="evaluate_two">
+				<p>共1299条评价</p>
+				<img src="../img/next.png"/>
+			</div>
+		</div>
+		<div class="comment">
+			<div class="comment_item">
+				<ul>
+					<li class="comment_one"><img src="../img/shouye_difangtechan.png"/></li>
+					<li class="comment_two">
+						<div><p>EEG</p></div>
+						<div><img src="../img/fabiaopingjia_pingfen.png"/><img src="../img/fabiaopingjia_pingfen.png"/><img src="../img/fabiaopingjia_pingfen.png"/></div>
+					</li>
+					<li class="comment_three">喜欢喜欢喜欢</li>
+					<li class="comment_four"><p>125g/袋</p><img src="../img/shangpinxiangqing_quxiao.png"/></li>
+				</ul>
+			</div>
+			<div class="comment_item">
+				<ul>
+					<li class="comment_one"><img src="../img/shouye_difangtechan.png"/></li>
+					<li class="comment_two">
+						<div><p>EEG</p></div>
+						<div><img src="../img/fabiaopingjia_pingfen.png"/><img src="../img/fabiaopingjia_pingfen.png"/><img src="../img/fabiaopingjia_pingfen.png"/></div>
+					</li>
+					<li class="comment_three">喜欢喜欢喜欢</li>
+					<li class="comment_four"><p>125g/袋</p><img src="../img/shangpinxiangqing_quxiao.png"/></li>
+				</ul>
+			</div>
+			<div class="comment_item">
+				<ul>
+					<li class="comment_one"><img src="../img/shouye_difangtechan.png"/></li>
+					<li class="comment_two">
+						<div><p>EEG</p></div>
+						<div><img src="../img/fabiaopingjia_pingfen.png"/><img src="../img/fabiaopingjia_pingfen.png"/><img src="../img/fabiaopingjia_pingfen.png"/></div>
+					</li>
+					<li class="comment_three">喜欢喜欢喜欢</li>
+					<li class="comment_four"><p>125g/袋</p><img src="../img/shangpinxiangqing_quxiao.png"/></li>
+				</ul>
+			</div>
+		</div>
+		<!--购物车底部导航栏-->
+		<div class="tablebar" id="tabbar">
+			<div class="tablebar_one">
+				<p>客服</p>
+				<a href=""><span><img src="../img/shangpinxiangqing_kefu.png"/></span>
+			</a>
+			
+			</div>
+			<div class="tablebar_two" onclick="buyimmediately(0)" id="plusshopcar">
+				加人购物车
+			</div>
+			<div class="tablebar_three" onclick="buyimmediately(1)" id="buyimmediately">
+	                              立即购买
+			</div>
+		</div>
+	</div>
+	<!--加入购物车面板-->
+	<div class="buy" id="buy_one">
+		<div class="buy_top">
+			<div class="fruit" >
+				<img src="../img/shouye_xinxianshuiguo.png"/>
+			</div>
+			<div class="price">
+				<p>￥98.00</p>
+				<p>库存：3099件</p>
+				<p>规格：125g/袋</p>
+			</div>
+			<div class="cancel" id="fruit_one" >
+				<img src="../img/shangpinxiangqing_quxiao.png"/>
+			</div>
+		</div>
+		<div class="buy_bottom">
+			<div class="buy_number">
+				<p>购买数量</p>
+				<div class="buy_input_num">
+					<button class="reduce" id="jian">-</button>
+					<input id="inputNum" type="text" name="" id="" value="0" />
+					<button class="add" id="jia">+</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--遮罩-->
+	<div class="mask" id="mask_one">
+		
+	</div>
+	<!--添加购物车成功后的提示-->
+	<div class="shoptoast" id="car">
+		<img src="../img/gouwuche_xuanzhong.png"/>
+		<p>添加成功，在购物车等亲~</p>
+	</div>
+	
+	<div class="" id="sureorcancel">
+		<div class="sure" id="sure">
+			确定
+		</div>
+		<div class="cancel" id="cancel">
+			取消
+		</div>
+	</div>
+	
+	<!--分享面板-->
+	<div class="share" id="share">
+		<div class="share_world">
+			分享
+		</div>
+		<div class="share_item">
+			<div class="goodarticel">
+				<img src="../img/weixin.png"/>
+				微信好文
+			</div>
+			<div class="friendcircle">
+				<img src="../img/pengyouquan.png"/>
+				朋友圈
+			</div>
+			<div class="qq">
+				<img src="../img/qq.png"/>
+				QQ
+			</div>
+		</div>
+		<div class="cancelshare" id="cancelshare">
+			取消分享
+		</div>
+	</div>
+	</body>
+	<script type="text/javascript">
+			document.getElementById('evalute').addEventListener('tap',function(){
+				mui.openWindow({
+
+				url:'thegoodsevalute.html',
+				
+				id:'thegoodsevalute.html'
+			})
+		})
+	</script>
+</html>

@@ -1,0 +1,408 @@
+.main {
+  width: 100%;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.order {
+  width: 100%;
+  height: 2.6666666666666665rem;
+  position: relative;
+  text-align: center;
+  line-height: 2.6666666666666665rem;
+  font-size: 0.8888888888888888rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.037037037037037035rem;
+  color: #2a2a2a;
+  background-color: #e52323;
+  color: #ffffff;
+}
+.order span img {
+  font-family: MicrosoftYaHei;
+  font-size: 0.7407407407407407rem;
+  letter-spacing: 0.037037037037037035rem;
+  color: #ffffff;
+  position: absolute;
+  top: 30%;
+  left: 0.9814814814814815rem;
+  width: 0.5185185185185185rem;
+  height: 0.9074074074074074rem;
+}
+.center {
+  width: 100%;
+}
+.center .status {
+  width: 100%;
+  height: 6.481481481481482rem;
+  position: relative;
+  background-color: #ffffff;
+}
+.center .status .status_img {
+  width: 4.462962962962963rem;
+  height: 6.481481481481482rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.center .status .status_img img {
+  width: 3.037037037037037rem;
+  height: 3.037037037037037rem;
+}
+.center .status .status_item {
+  width: 12.962962962962964rem;
+  height: 6.481481481481482rem;
+  display: inline-block;
+  position: absolute;
+  left: 5.555555555555555rem;
+}
+.center .status .status_item .item_one {
+  position: absolute;
+  top: 1.0555555555555556rem;
+  white-space: nowrap;
+}
+.center .status .status_item .item_one p {
+  display: inline-block;
+  font-family: MicrosoftYaHei;
+  font-size: 0.7407407407407407rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.037037037037037035rem;
+  color: #1a1a1a;
+  position: absolute;
+  top: 0;
+}
+.center .status .status_item .item_one p:first-child {
+  font-family: MicrosoftYaHei;
+  font-size: 0.7407407407407407rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 2px;
+  color: #1a1a1a;
+}
+.center .status .status_item .item_one p:last-child {
+  font-family: MicrosoftYaHei;
+  font-size: 0.7407407407407407rem;
+  font-weight: normal;
+  margin-left: 3.7037037037037037rem;
+  font-stretch: normal;
+  letter-spacing: 0.037037037037037035rem;
+  color: #ffa000;
+}
+.center .status .status_item .item_two {
+  font-family: MicrosoftYaHei;
+  font-size: 0.6666666666666666rem;
+  font-weight: normal;
+  font-stretch: normal;
+  position: absolute;
+  top: 2.2777777777777777rem;
+  letter-spacing: 1px;
+  color: #7b7a7a;
+}
+.center .status .status_item .item_three {
+  font-family: MicrosoftYaHei;
+  font-size: 0.6666666666666666rem;
+  font-weight: normal;
+  font-stretch: normal;
+  position: absolute;
+  top: 3.5185185185185186rem;
+  letter-spacing: 1px;
+  color: #7b7a7a;
+}
+.center .status .status_item .item_four {
+  font-family: MicrosoftYaHei;
+  font-size: 0.6666666666666666rem;
+  font-weight: normal;
+  font-stretch: normal;
+  position: absolute;
+  top: 4.722222222222222rem;
+  letter-spacing: 1px;
+  color: #7b7a7a;
+}
+.center .logistics {
+  width: 100%;
+  height: 6.481481481481482rem;
+  position: relative;
+  margin-top: 0.37037037037037035rem;
+}
+.center .logistics .logistics_one {
+  width: 7.407407407407407rem;
+  height: 6.481481481481482rem;
+  float: left;
+  text-align: center;
+}
+.center .logistics .logistics_one img {
+  width: 1.1666666666666667rem;
+  height: 1.1666666666666667rem;
+}
+.center .logistics .logistics_one .circle span {
+  width: 0.5555555555555556rem;
+  height: 0.5555555555555556rem;
+  display: inline-block;
+  background-color: #e52323;
+  border-radius: 100%;
+}
+.center .logistics .logistics_one .sendstaus {
+  font-family: MicrosoftYaHei;
+  font-size: 0.6666666666666666rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  color: #e52323;
+}
+.center .logistics .logistics_one .time {
+  font-family: MicrosoftYaHei;
+  font-size: 0.5555555555555556rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  color: #e52323;
+}
+.center .logistics .logistics_two {
+  width: 7.407407407407407rem;
+  height: 6.481481481481482rem;
+  float: right;
+  text-align: center;
+}
+.center .logistics .logistics_two img {
+  width: 1.2407407407407407rem;
+  height: 1.1666666666666667rem;
+}
+.center .logistics .logistics_two .circle span {
+  width: 0.5555555555555556rem;
+  height: 0.5555555555555556rem;
+  display: inline-block;
+  background-color: #ffccc9;
+  border-radius: 100%;
+}
+.center .logistics .logistics_two .sendstaus {
+  font-family: MicrosoftYaHei;
+  font-size: 0.6666666666666666rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  color: #787878;
+}
+.line {
+  width: 12.222222222222221rem;
+  height: 1px;
+  background: #ffccc9;
+  position: absolute;
+  left: 3.888888888888889rem;
+  top: 1.9444444444444444rem;
+}
+.center .content .headportrait {
+  width: 100%;
+  height: 3.2037037037037037rem;
+  line-height: 3.2037037037037037rem;
+  background-color: #ffffff;
+  position: relative;
+}
+.center .content .headportrait div {
+  float: right;
+}
+.center .content .headportrait .head_title {
+  float: left;
+  margin-left: 0.5555555555555556rem;
+}
+.center .content .headportrait .head_pic {
+  width: 2.1666666666666665rem;
+  height: 2.1481481481481484rem;
+  line-height: 2.1481481481481484rem;
+  text-align: center;
+  margin-top: 0.18518518518518517rem;
+  position: absolute;
+  right: 1.6111111111111112rem;
+  top: 0.35185185185185186rem;
+}
+.center .content .headportrait .head_next {
+  width: 0.4074074074074074rem;
+  height: 0.7777777777777778rem;
+  position: absolute;
+  right: 0.6666666666666666rem;
+  top: 0rem;
+}
+.center .content .nickname {
+  width: 100%;
+  height: 3.2037037037037037rem;
+  line-height: 3.2037037037037037rem;
+  background-color: #ffffff;
+  position: relative;
+}
+.center .content .nickname div {
+  float: right;
+}
+.center .content .nickname .head_title {
+  float: left;
+  margin-left: 0.5555555555555556rem;
+}
+.center .content .nickname .head_pic {
+  width: 2.1666666666666665rem;
+  height: 2.1481481481481484rem;
+  line-height: 2.1481481481481484rem;
+  text-align: center;
+  margin-top: 0.18518518518518517rem;
+  position: absolute;
+  right: 1.6111111111111112rem;
+  top: 0.35185185185185186rem;
+}
+.center .content .nickname .head_next {
+  width: 0.4074074074074074rem;
+  height: 0.7777777777777778rem;
+  position: absolute;
+  right: 0.6666666666666666rem;
+  top: 0rem;
+}
+.center .content .sex {
+  width: 100%;
+  height: 3.2037037037037037rem;
+  line-height: 3.2037037037037037rem;
+  background-color: #ffffff;
+  position: relative;
+}
+.center .content .sex div {
+  float: right;
+}
+.center .content .sex .head_title {
+  float: left;
+  margin-left: 0.5555555555555556rem;
+}
+.center .content .sex .head_pic {
+  width: 2.1666666666666665rem;
+  height: 2.1481481481481484rem;
+  line-height: 2.1481481481481484rem;
+  text-align: right;
+  margin-top: 0.18518518518518517rem;
+  position: absolute;
+  right: 1.6111111111111112rem;
+  top: 0.35185185185185186rem;
+}
+.center .content .sex .head_next {
+  width: 0.4074074074074074rem;
+  height: 0.7777777777777778rem;
+  position: absolute;
+  right: 0.6666666666666666rem;
+  top: 0rem;
+}
+.center .content .phonenumber {
+  width: 100%;
+  height: 3.2037037037037037rem;
+  line-height: 3.2037037037037037rem;
+  background-color: #ffffff;
+  position: relative;
+  margin-top: 0.5555555555555556rem;
+}
+.center .content .phonenumbe div {
+  float: right;
+}
+.center .content .phonenumber .head_title {
+  float: left;
+  margin-left: 0.5555555555555556rem;
+}
+.center .content .phonenumber .head_pic {
+  width: 7.537037037037037rem;
+  height: 2.1481481481481484rem;
+  line-height: 2.1481481481481484rem;
+  text-align: right;
+  margin-top: 0.18518518518518517rem;
+  position: absolute;
+  right: 1.6111111111111112rem;
+  top: 0.35185185185185186rem;
+}
+.center .content .phonenumber .head_next {
+  width: 0.4074074074074074rem;
+  height: 0.7777777777777778rem;
+  position: absolute;
+  right: 0.6666666666666666rem;
+  top: 0rem;
+}
+.center .content .integral {
+  width: 100%;
+  height: 3.2037037037037037rem;
+  line-height: 3.2037037037037037rem;
+  background-color: #ffffff;
+  position: relative;
+}
+.center .content .integral div {
+  float: right;
+}
+.center .content .integral .head_title {
+  float: left;
+  margin-left: 0.5555555555555556rem;
+}
+.center .content .integral .head_pic {
+  width: 2.1666666666666665rem;
+  height: 2.1481481481481484rem;
+  line-height: 2.1481481481481484rem;
+  text-align: center;
+  margin-top: 0.18518518518518517rem;
+  position: absolute;
+  right: 1.6111111111111112rem;
+  top: 0.35185185185185186rem;
+}
+.center .content .integral .head_next {
+  width: 0.4074074074074074rem;
+  height: 0.7777777777777778rem;
+  position: absolute;
+  right: 0.6666666666666666rem;
+  top: 0rem;
+}
+.mask {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  background: black;
+  opacity: 0.5;
+  z-index: 100;
+}
+.changesex {
+  position: fixed;
+  left: 1.4074074074074074rem;
+  width: 17.185185185185187rem;
+  height: 5.555555555555555rem;
+  background-color: #ffffff;
+  border-radius: 0.25925925925925924rem;
+  border: solid 1px #cccccc;
+  z-index: 101;
+  top: 14.814814814814815rem;
+}
+.changesex div {
+  width: 100%;
+  height: 1.8518518518518519rem;
+  text-align: center;
+  line-height: 1.8518518518518519rem;
+  font-size: 0.6296296296296297rem;
+}
+.changesex div:first-child {
+  background: #F5F5F5;
+  font-size: 0.7407407407407407rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #2a2a2a;
+  position: relative;
+}
+.changesex div:last-child {
+  font-size: 0.6296296296296297rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #e52323;
+}
+.changesex div:first-child p {
+  font-size: 0.7407407407407407rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #e52323;
+  display: inline-block;
+  position: absolute;
+  right: 0.37037037037037035rem;
+}
+/*# sourceMappingURL=myprofile.css.map */

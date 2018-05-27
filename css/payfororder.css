@@ -1,0 +1,257 @@
+.main {
+  width: 100%;
+}
+.order {
+  width: 100%;
+  height: 2.66666667rem;
+  position: relative;
+  text-align: center;
+  line-height: 2.66666667rem;
+  font-size: 0.88888889rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.03703704rem;
+  color: #2a2a2a;
+  background-color: #e52323;
+  color: #ffffff;
+}
+.order span img {
+  font-family: MicrosoftYaHei;
+  font-size: 0.74074074rem;
+  letter-spacing: 0.03703704rem;
+  color: #ffffff;
+  position: absolute;
+  top: 30%;
+  left: 0.98148148rem;
+  width: 0.51851852rem;
+  height: 0.90740741rem;
+}
+.center {
+  width: 100%;
+}
+.center .payaccount {
+  font-family: MicrosoftYaHei;
+  font-size: 0.88888889rem;
+  font-weight: normal;
+  font-stretch: normal;
+  width: 100%;
+  height: 5.37037037rem;
+  position: relative;
+  letter-spacing: 0.03703704rem;
+  color: #2a2a2a;
+  margin-left: 0.55555556rem;
+}
+.center .payaccount .payaccount_one {
+  width: 3.92592593rem;
+  height: 3.92592593rem;
+  position: absolute;
+  left: 2rem;
+  top: 0.77777778rem;
+}
+.center .payaccount_two p {
+  font-family: MicrosoftYaHei;
+  font-size: 0.88888889rem;
+  font-weight: normal;
+  font-stretch: normal;
+  position: absolute;
+  left: 6.72222222rem;
+  top: 0.92592593rem;
+  letter-spacing: 2px;
+  color: #2a2a2a;
+}
+.center .payaccount span {
+  font-size: 0.92592593rem;
+  font-weight: normal;
+  font-stretch: normal;
+  position: absolute;
+  letter-spacing: 0.03703704rem;
+  color: #e52323;
+  left: 6.72222222rem;
+  top: 2.35185185rem;
+}
+.center .payfor {
+  width: 100%;
+}
+.center .payfor .payformethod {
+  position: relative;
+  width: 100%;
+  height: 3.33333333rem;
+  background: #f5f5f5;
+}
+.center .payfor .payformethod p {
+  font-family: MicrosoftYaHei;
+  font-size: 0.88888889rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.03703704rem;
+  color: #2a2a2a;
+  position: absolute;
+  bottom: 0;
+  left: 0.66666667rem;
+}
+.center .payfor .extra_payfor {
+  position: relative;
+  width: 100%;
+  height: 2.77777778rem;
+  border-bottom: 3px solid #F5F5F5;
+}
+.center .extra_payfor .extra_payfor_one {
+  width: 0.88888889rem;
+  height: 0.88888889rem;
+  position: absolute;
+  left: 0.77777778rem;
+  top: 0.94444444rem;
+}
+.center .extra_payfor p {
+  font-family: MicrosoftYaHei;
+  font-size: 0.7037037rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  color: #1a1a1a;
+  position: absolute;
+  left: 2.07407407rem;
+  top: 0.83333333rem;
+}
+.center .extra_payfor .extra_payfor_two {
+  width: 1.07407407rem;
+  height: 1.07407407rem;
+  position: absolute;
+  right: 0.85185185rem;
+  top: 0.77777778rem;
+}
+.center .payfor .webchat_payfor {
+  position: relative;
+  width: 100%;
+  height: 2.77777778rem;
+  border-bottom: 3px solid #F5F5F5;
+}
+.center .webchat_payfor .extra_payfor_one {
+  width: 0.88888889rem;
+  height: 0.88888889rem;
+  position: absolute;
+  left: 0.77777778rem;
+  top: 0.94444444rem;
+}
+.center .webchat_payfor p {
+  font-family: MicrosoftYaHei;
+  font-size: 0.7037037rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  color: #1a1a1a;
+  position: absolute;
+  left: 2.07407407rem;
+  top: 0.83333333rem;
+}
+.center .webchat_payfor .extra_payfor_two {
+  width: 1.07407407rem;
+  height: 1.07407407rem;
+  position: absolute;
+  right: 0.85185185rem;
+  top: 0.77777778rem;
+}
+.center .payfor .Alipay_payfor {
+  position: relative;
+  width: 100%;
+  height: 2.77777778rem;
+}
+.center .Alipay_payfor .extra_payfor_one {
+  width: 0.88888889rem;
+  height: 0.88888889rem;
+  position: absolute;
+  left: 0.77777778rem;
+  top: 0.94444444rem;
+}
+.center .Alipay_payfor p {
+  font-family: MicrosoftYaHei;
+  font-size: 0.7037037rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  color: #1a1a1a;
+  position: absolute;
+  left: 2.07407407rem;
+  top: 0.83333333rem;
+}
+.center .Alipay_payfor .extra_payfor_two {
+  width: 1.07407407rem;
+  height: 1.07407407rem;
+  position: absolute;
+  right: 0.85185185rem;
+  top: 0.77777778rem;
+}
+.payforsure {
+  width: 100%;
+  height: 2.59259259rem;
+  background-color: red;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  line-height: 2.59259259rem;
+  font-family: MicrosoftYaHei;
+  font-size: 0.96296296rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.03703704rem;
+  color: #ffffff;
+}
+.paymentcode {
+  width: 16.2962963rem;
+  height: 7.77777778rem;
+  background-color: #ffffff;
+  border-radius: 0.46296296rem;
+  z-index: 103;
+  position: fixed;
+  top: 11.11111111rem;
+  left: 1.85185185rem;
+}
+.paymentcode .code_title {
+  width: 100%;
+  height: 2.22222222rem;
+  font-family: MicrosoftYaHei;
+  font-size: 0.74074074rem;
+  font-weight: normal;
+  font-stretch: normal;
+  text-align: center;
+  line-height: 2.22222222rem;
+  letter-spacing: 0px;
+  color: #2a2a2a;
+}
+.paymentcode .code_title span {
+  width: 0.81481481rem;
+  height: 0.77777778rem;
+  position: absolute;
+  left: 1.51851852rem;
+}
+.paymentcode .code_number {
+  width: 10.37037037rem;
+  height: 1.66666667rem;
+  position: absolute;
+  left: 3.24074074rem;
+  bottom: 2.64814815rem;
+}
+.paymentcode .code_number input {
+  float: left;
+  border-right: none;
+  border-radius: none;
+  width: 1.66666667rem;
+  height: 1.62962963rem;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.paymentcode .code_number input:last-child {
+  border-right: 1px solid #cccccc;
+}
+.mask {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: black;
+  opacity: 0.5;
+  z-index: 100;
+}

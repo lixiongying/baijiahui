@@ -1,0 +1,101 @@
+.header_title {
+  width: 100%;
+  height: 2.6666666666666665rem;
+  text-align: center;
+  line-height: 2.6666666666666665rem;
+  position: relative;
+  letter-spacing: 0.037037037037037035rem;
+  color: #2a2a2a;
+  font-size: 0.9629629629629629rem;
+  border-bottom: 2px solid #f5f5f5;
+  background: white;
+}
+.header_title span {
+  position: absolute;
+  width: 0.5185185185185185rem;
+  height: 0.8888888888888888rem;
+  top: 0.8888888888888888rem;
+  bottom: 0.8888888888888888rem;
+  left: 1.1481481481481481rem;
+}
+.header_title img {
+  width: 100%;
+  height: 100%;
+}
+.comment {
+  width: 100%;
+  padding: 0 0.37037037037037035rem;
+}
+.comment_item {
+  position: relative;
+  width: 100%;
+  height: 4.222222222222222rem;
+}
+.comment .comment_item .comment_one {
+  width: 1.1481481481481481rem;
+  height: 1.1481481481481481rem;
+  position: absolute;
+  left: 0.3888888888888889rem;
+  top: 0.37037037037037035rem;
+}
+.comment .comment_two {
+  width: 3.7037037037037037rem;
+  height: 0.7407407407407407rem;
+  position: relative;
+}
+.comment .comment_two div:nth-child(1) {
+  position: absolute;
+  left: 2.037037037037037rem;
+  top: 0.37037037037037035rem;
+}
+.comment .comment_two div:nth-child(2) {
+  position: absolute;
+  left: 3.462962962962963rem;
+  white-space: nowrap;
+  top: 0.2777777777777778rem;
+}
+.comment .comment_two img {
+  display: inline-block;
+  width: 0.6666666666666666rem;
+  height: 0.6296296296296297rem;
+  margin-left: 0.18518518518518517rem;
+}
+.comment .comment_three {
+  font-family: MicrosoftYaHei;
+  font-size: 0.6296296296296297rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  color: #787878;
+  position: absolute;
+  left: 2.037037037037037rem;
+  top: 1.8518518518518519rem;
+}
+.comment_four p {
+  font-size: 0.5555555555555556rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  color: #7b7a7a;
+  position: absolute;
+  left: 2.037037037037037rem;
+  top: 2.962962962962963rem;
+}
+.comment_four img {
+  width: 0.37037037037037035rem;
+  height: 0.37037037037037035rem;
+  position: absolute;
+  left: 5.12962962962963rem;
+  top: 3.3333333333333335rem;
+}
+.comment_five p {
+  position: absolute;
+  left: 15.74074074074074rem;
+  font-size: 0.5555555555555556rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  color: #979797;
+  top: 0.2777777777777778rem;
+}
+/*# sourceMappingURL=thegoodsevalute.css.map */

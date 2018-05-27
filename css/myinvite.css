@@ -1,0 +1,63 @@
+html,
+body {
+  background: #FFFFFF;
+}
+.main {
+  width: 100%;
+}
+.order {
+  width: 100%;
+  height: 2.6666666666666665rem;
+  position: relative;
+  text-align: center;
+  line-height: 2.6666666666666665rem;
+  font-size: 0.9629629629629629rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.037037037037037035rem;
+  color: #2a2a2a;
+  background-color: #e52323;
+  color: #ffffff;
+}
+.order span img {
+  font-family: MicrosoftYaHei;
+  font-size: 0.7407407407407407rem;
+  letter-spacing: 0.037037037037037035rem;
+  color: #ffffff;
+  position: absolute;
+  top: 30%;
+  left: 0.9814814814814815rem;
+  width: 0.5185185185185185rem;
+  height: 0.9074074074074074rem;
+}
+.center {
+  width: 100%;
+}
+.content {
+  width: 100%;
+}
+.content table {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.content table tr {
+  height: 1.8518518518518519rem;
+}
+.content table tr td {
+  font-family: MicrosoftYaHei;
+  font-size: 0.5555555555555556rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #787878;
+}
+.content table tr:first-child {
+  font-family: MicrosoftYaHei;
+  font-size: 0.6666666666666666rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #2a2a2a;
+}
+/*# sourceMappingURL=myinvite.css.map */

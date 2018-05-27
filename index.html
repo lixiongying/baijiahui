@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <!--<link rel="stylesheet" type="text/css" href="css/index.css"/>-->
+    <script src="js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="css/nav_table.css"/>
+</head>
+<body>
+	<nav class="mui-bar mui-bar-tab b">
+		    <a class="mui-tab-item mui-active " href="homepage/homepage.html" >
+		        <span class="nav_img1 img1"></span>
+		        <span class="mui-tab-label bot">首页</span>
+		    </a>
+		    <a class="mui-tab-item a2" href="classify/classify.html">
+		        <span class="nav_img1 img2"></span>
+		        <span class="mui-tab-label bot">分类</span>
+		    </a>
+		    <a class="mui-tab-item a3" href="shopcar/shopcar.html">
+		        <span class="nav_img1 img3"></span>
+		        <span class="mui-tab-label bot">购物车</span>
+		    </a>
+		     <a class="mui-tab-item a4" href="person/person.html">
+		        <span class="nav_img1 img4"></span>
+		        <span class="mui-tab-label bot">个人</span>
+		    </a>
+		</nav>	
+		<input type="hidden" name="" id="index" value="0" />
+</body>
+ <script src="js/mui.min.js"></script>
+ <script src="js/public.js" type="text/javascript" charset="utf-8"></script>
+ <script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	mui.plusReady(function(){
+
+		var subPages =['homepage/homepage.html','classify/classify.html','shopcar/shopcar.html','person/person.html'];
+		//获取当前显示窗口
+		var self = plus.webview.currentWebview();
+		
+		//定义子窗口打开的样式
+		
+		var subPageStyle = {
+			top:0,
+			bottom:'50px',
+		};
+		
+		//循环创建子窗口
+		for(var i =0;i<subPages.length;i++){
+			var sub = plus.webview.create(subPages[i],subPages[i],subPageStyle);
+			//将所有的盒子隐藏起来
+			sub.hide();
+			
+			//将创建好的窗口追加到主窗口中
+			self.append(sub);
+				
+		}
+		//默认显示第一个窗口
+		plus.webview.show(subPages[0]);
+	});
+
+//给a绑定事件
+
+    mui('.mui-bar').on("tap","a",function(e){
+	
+	//通过每个被点击的a标签去获取定义的href属性值 
+	var targetPage = this.getAttribute("href");	
+	//将对应的子页面显示出来  	
+	//show(子页面id,采用的动画名称,动画执行时间【单位毫秒】)
+	plus.webview.show(targetPage,"fade-in",100); 
+//	
+//	$('.b>a').on('tap',function(){//点击  
+//		$(this).children().css('color','#e9af29');//点击的那个变黄色  
+//		$(this).siblings().children().css('color','#adaeaa');//同胞的变灰色  
+//		var n=$(this).index();//点击的index值  	
+//		//分别是改变图片的地方，跟颜色一样，同胞变其他灰色图片，自个变黄色  
+//		if(n=='0'){  
+//		// plus.webview.getWebviewById('tab-home.html').reload();  
+//		$('.a1').attr('src','img/shouye_shouye2.png');  
+//		$('.a2').attr('src','img/shouye_fenlei1.png');  
+//		$('.a3').attr('src','img/shouye_geren1.png');  
+//		$('.a4').attr('src','img/shouye_geren1.png');  
+//		}  
+//		if(n=='1'){  
+//		  
+//		/*plus.webview.getWebviewById('tab-category.html').reload();*/  
+//		$('.a1').attr('src','img/shouye_shouye1.png');  
+//		$('.a2').attr('src','img/shouye_fenlei2.png');  
+//		$('.a3').attr('src','img/shouye_geren1.png');  
+//		$('.a4').attr('src','img/shouye_geren1.png');   
+//		}  
+//		if(n=='3'){  
+//		// plus.webview.getWebviewById('tab-cart.html').reload();  
+//		$('.a1').attr('src','img/shouye_shouye1.png');  
+//		$('.a2').attr('src','img/shouye_fenlei1.png');  
+//		$('.a3').attr('src','img/shouye_geren2.png');  
+//		$('.a4').attr('src','img/shouye_geren1.png');   
+//		  
+//		}  
+//		  
+//		if(n=='4'){  
+//		// plus.webview.getWebviewById('tab-me.html').reload();  
+//		$('.a1').attr('src','img/shouye_shouye1.png');  
+//		$('.a2').attr('src','img/shouye_fenlei1.png');  
+//		$('.a3').attr('src','img/shouye_geren1.png');  
+//		$('.a4').attr('src','img/shouye_geren2.png');  
+//		}  
+//});
+});
+
+    </script>
+</html>

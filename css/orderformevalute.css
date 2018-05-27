@@ -1,0 +1,198 @@
+.main {
+  width: 100%;
+}
+.order {
+  width: 100%;
+  height: 2.66666667rem;
+  position: relative;
+  text-align: center;
+  line-height: 2.66666667rem;
+  font-size: 0.88888889rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.03703704rem;
+  color: #2a2a2a;
+}
+.order_one {
+  width: 0.51851852rem;
+  height: 0.88888889rem;
+  position: absolute;
+  top: 0.88888889rem;
+  left: 0.85185185rem;
+}
+.evalute {
+  width: 100%;
+  height: 12.96296296rem;
+}
+.evalute .fruit {
+  width: 100%;
+  height: 3.33333333rem;
+  position: relative;
+  border-top: 0.25925926rem solid #f5f5f5;
+  background-color: #ffffff;
+}
+.evalute .fruit .fruit_one img {
+  width: 2.07407407rem;
+  height: 2.07407407rem;
+  position: absolute;
+  left: 0.77777778rem;
+  top: 0.37037037rem;
+}
+.evalute .fruit .fruit_two {
+  font-family: MicrosoftYaHei;
+  position: absolute;
+  left: 0.92592593rem;
+  font-size: 0.66666667rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  left: 3.27777778rem;
+  top: 0.55555556rem;
+  color: #2a2a2a;
+}
+.evalute .fruit .fruit_two p {
+  font-family: MicrosoftYaHei;
+  font-size: 0.66666667rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  color: #e52323;
+  height: 0;
+}
+.evalute .publicevalute {
+  width: 100%;
+  padding: 0 0.44444444rem;
+  height: 4.44444444rem;
+  position: relative;
+}
+#texta {
+  width: 19.11111111rem;
+  height: 4.44444444rem;
+  background-color: #ffffff;
+  border: solid 0.03703704rem #eaeaea;
+  font-size: 0.66666667rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  color: #7b7a7a;
+  padding: 0;
+}
+.evalute .picevalute img {
+  width: 1.66666667rem;
+  height: 1.48148148rem;
+  border-radius: 0.11111111rem;
+  position: absolute;
+  top: 7.03703704rem;
+  left: 0.92592593rem;
+}
+.evalute .publicevalute .picevaluteone p {
+  font-family: MicrosoftYaHei;
+  font-size: 0.66666667rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  color: #2a2a2a;
+  position: absolute;
+  left: 0.55555556rem;
+  padding: 0;
+}
+.evalute .publicevalute .picevaluteone span {
+  font-family: MicrosoftYaHei;
+  font-size: 0.55555556rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  color: #787878;
+  position: absolute;
+  left: 5.55555556rem;
+}
+.evalute .shopevalute {
+  position: relative;
+}
+.evalute .shopevalute .shopevalute_item {
+  margin-top: 4.62962963rem;
+  width: 100%;
+  height: 3.7037037rem;
+  background: #f5f5f5;
+}
+.evalute .shopevalute .shopevalute_item p {
+  font-family: MicrosoftYaHei;
+  font-size: 0.74074074rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.03703704rem;
+  color: #2a2a2a;
+  position: absolute;
+  left: 0.55555556rem;
+  top: 2.22222222rem;
+}
+.evalute .shopevalute .shopevalute_descrie {
+  width: 100%;
+  height: 2.77777778rem;
+  position: relative;
+}
+.evalute .shopevalute .shopevalute_descrie .star {
+  position: absolute;
+  left: 4.25925926rem;
+  top: 0.55555556rem;
+}
+.evalute .shopevalute .shopevalute_descrie img {
+  width: 0.85185185rem;
+  height: 0.85185185rem;
+  display: inline;
+  margin-left: 0.18518519rem;
+}
+.evalute .shopevalute .shopevalute_descrie p {
+  font-family: MicrosoftYaHei;
+  font-size: 0.7037037rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  color: #2a2a2a;
+  position: absolute;
+  left: 0.55555556rem;
+  top: 0.74074074rem;
+}
+.main .publish {
+  width: 100%;
+  height: 2.59259259rem;
+  background-color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.main .publish .publish_one img {
+  width: 0.66666667rem;
+  height: 0.64814815rem;
+  position: absolute;
+  left: 0.44444444rem;
+  top: 1.11111111rem;
+}
+.main .publish_one p {
+  font-family: MicrosoftYaHei;
+  font-size: 0.66666667rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  color: #7b7a7a;
+  position: absolute;
+  left: 1.48148148rem;
+  top: 0.74074074rem;
+}
+.main .publish_two {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 5.81481481rem;
+  height: 2.22222222rem;
+  background-color: #e52323;
+  font-family: MicrosoftYaHei;
+  font-size: 0.85185185rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 2.22222222rem;
+  text-align: center;
+  letter-spacing: 0.03703704rem;
+  color: #ffffff;
+  top: 0.18518519rem;
+}

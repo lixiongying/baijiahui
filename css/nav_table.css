@@ -1,0 +1,68 @@
+.nav_img1 {
+  width: 0.44444444rem;
+  height: 0.44444444rem;
+  margin: 0 auto;
+  margin-top: 0.03703704rem;
+  display: inline-block;
+}
+.mui-bar-tab .mui-tab-item.mui-active {
+  color: #1482e6;
+}
+.mui-tab-item {
+  overflow: hidden;
+  line-height: normal;
+}
+.mui-bar-tab .mui-tab-item.mui-active {
+  color: #e63c3c;
+}
+.mui-bar {
+  /*box-shadow:initial;*/
+  background: #fff;
+}
+.mui-bar .mui-tab-item .nav_img1 {
+  width: 1.11111111rem;
+  height: 1.11111111rem;
+}
+.mui-bar .mui-tab-item .bot {
+  font-size: 0.59259259rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  display: block;
+  width: 100%;
+  height: auto;
+  line-height: normal;
+  text-align: center;
+}
+.mui-tab-item .img1 {
+  background: url(../img/home.png) no-repeat;
+  background-size: 100% 100% ;
+}
+.mui-tab-item .img2 {
+  background: url(../img/shop.png) no-repeat;
+  background-size: 100% 100% ;
+}
+.mui-tab-item .img3 {
+  background: url(../img/invite.png) no-repeat;
+  background-size: 100% 100% ;
+}
+.mui-tab-item .img4 {
+  background: url(../img/myself.png) no-repeat;
+  background-size: 100% 100% ;
+}
+.mui-tab-item.mui-active .img1 {
+  background: url(../img/home1.png) no-repeat;
+  background-size: 100% 100% ;
+}
+.mui-tab-item.mui-active .img2 {
+  background: url(../img/shop1.png) no-repeat;
+  background-size: 100% 100% ;
+}
+.mui-tab-item.mui-active .img3 {
+  background: url(../img/invite1.png) no-repeat;
+  background-size: 100% 100% ;
+}
+.mui-tab-item.mui-active .img4 {
+  background: url(../img/myself1.png) no-repeat;
+  background-size: 100% 100% ;
+}

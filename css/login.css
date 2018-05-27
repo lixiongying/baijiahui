@@ -1,0 +1,166 @@
+body,
+html {
+  background: #ffffff;
+}
+.header_title {
+  width: 100%;
+  height: 2.66666667rem;
+  text-align: center;
+  line-height: 2.66666667rem;
+  position: relative;
+  letter-spacing: 0.03703704rem;
+  color: #2a2a2a;
+  font-size: 0.96296296rem;
+  border-bottom: 2px solid #f5f5f5;
+}
+.header_title span {
+  position: absolute;
+  width: 0.51851852rem;
+  height: 0.88888889rem;
+  top: 0.88888889rem;
+  bottom: 0.88888889rem;
+  left: 1.14814815rem;
+}
+.header_title img {
+  width: 100%;
+  height: 100%;
+}
+.login_input {
+  width: 100%;
+  height: auto;
+}
+.login_li {
+  width: 100%;
+  position: relative;
+  height: 2.22222222rem;
+  background: white;
+  margin-bottom: 0.09259259rem;
+}
+.line_login {
+  width: 16.66666667rem;
+  height: 0.07407407rem;
+  background-color: #f5f5f5;
+  margin-left: 1.66666667rem;
+}
+.input_input {
+  width: 7.03703704rem;
+  position: absolute;
+  float: right;
+  left: 3.09259259rem;
+  top: 25%;
+}
+.input_input input {
+  border: none;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  font-size: 0.7037037rem;
+  line-height: 0.92592593rem;
+  letter-spacing: 0.11111111rem;
+  color: #7b7a7a;
+}
+.inputimg {
+  width: 0.75925926rem;
+  height: 1.18518519rem;
+  position: absolute;
+  left: 1.66666667rem;
+  top: 25%;
+}
+.inputimg img {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+.weixin {
+  width: 100%;
+  height: 2.22222222rem;
+  background: white;
+}
+.weixin p {
+  width: 100%;
+  position: relative;
+  margin: 0;
+  vertical-align: middle;
+  line-height: 2.22222222rem;
+}
+.weixin .register {
+  letter-spacing: 0.11111111rem;
+  color: #e52323;
+  margin-left: 1.64814815rem;
+  cursor: pointer;
+}
+.weixin .forgetcode {
+  position: absolute;
+  right: 1.2962963rem;
+  float: right;
+  cursor: pointer;
+  color: #2a2a2a;
+}
+.weixin img {
+  position: absolute;
+  width: 0.7037037rem;
+  height: 0.85185185rem;
+  float: right;
+  top: 30%;
+  right: 4.81481481rem;
+  vertical-align: middle;
+}
+.complete {
+  background: white;
+}
+.complete input {
+  width: 16.66666667rem;
+  height: 2.07407407rem;
+  background-color: #e52323;
+  border-radius: 1.01851852rem;
+  font-size: 0.88888889rem;
+  letter-spacing: 0.03703704rem;
+  color: #ffffff;
+  margin-left: 1.66666667rem;
+  margin-top: 2.77777778rem;
+}
+.otherloginmethod .line {
+  flex-grow: 1;
+  height: 0.03703704rem;
+  background-color: #CCCCCC;
+}
+.otherloginmethod {
+  height: 0.74074074rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3.7037037rem;
+}
+.otherloginmethod p {
+  position: absolute;
+  left: 7.90740741rem;
+  width: 4.53703704rem;
+  height: 0.64814815rem;
+}
+.otherloginmethod .line_one {
+  position: absolute;
+  right: 0;
+  background: #CCCCCC;
+  height: 0.5px;
+  width: 7.40740741rem;
+}
+.wechatlogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.85185185rem;
+}
+.webchatimg {
+  width: 2.96296296rem;
+  height: 2.96296296rem;
+}
+.webchatimg img {
+  width: 100%;
+  height: 100%;
+}
+.webchatimg p {
+  font-size: 0.7037037rem;
+  letter-spacing: 1px;
+  color: #2a2a2a;
+}
