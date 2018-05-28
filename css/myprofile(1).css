@@ -7,76 +7,76 @@ img {
 }
 .order {
   width: 100%;
-  height: 2.66666667rem;
+  height: 2.6666666666666665rem;
   position: relative;
   text-align: center;
-  line-height: 2.66666667rem;
-  font-size: 0.88888889rem;
+  line-height: 2.6666666666666665rem;
+  font-size: 0.8888888888888888rem;
   font-weight: normal;
   font-stretch: normal;
-  letter-spacing: 0.03703704rem;
+  letter-spacing: 0.037037037037037035rem;
   color: #2a2a2a;
   background-color: #e52323;
   color: #ffffff;
 }
 .order span img {
   font-family: MicrosoftYaHei;
-  font-size: 0.74074074rem;
-  letter-spacing: 0.03703704rem;
+  font-size: 0.7407407407407407rem;
+  letter-spacing: 0.037037037037037035rem;
   color: #ffffff;
   position: absolute;
   top: 30%;
-  left: 0.98148148rem;
-  width: 0.51851852rem;
-  height: 0.90740741rem;
+  left: 0.9814814814814815rem;
+  width: 0.5185185185185185rem;
+  height: 0.9074074074074074rem;
 }
 .center {
   width: 100%;
 }
 .center .status {
   width: 100%;
-  height: 6.48148148rem;
+  height: 6.481481481481482rem;
   position: relative;
   background-color: #ffffff;
 }
 .center .status .status_img {
-  width: 4.46296296rem;
-  height: 6.48148148rem;
+  width: 4.462962962962963rem;
+  height: 6.481481481481482rem;
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
 }
 .center .status .status_img img {
-  width: 3.03703704rem;
-  height: 3.03703704rem;
+  width: 3.037037037037037rem;
+  height: 3.037037037037037rem;
 }
 .center .status .status_item {
-  width: 12.96296296rem;
-  height: 6.48148148rem;
+  width: 12.962962962962964rem;
+  height: 6.481481481481482rem;
   display: inline-block;
   position: absolute;
-  left: 5.55555556rem;
+  left: 5.555555555555555rem;
 }
 .center .status .status_item .item_one {
   position: absolute;
-  top: 1.05555556rem;
+  top: 1.0555555555555556rem;
   white-space: nowrap;
 }
 .center .status .status_item .item_one p {
   display: inline-block;
   font-family: MicrosoftYaHei;
-  font-size: 0.74074074rem;
+  font-size: 0.7407407407407407rem;
   font-weight: normal;
   font-stretch: normal;
-  letter-spacing: 0.03703704rem;
+  letter-spacing: 0.037037037037037035rem;
   color: #1a1a1a;
   position: absolute;
   top: 0;
 }
 .center .status .status_item .item_one p:first-child {
   font-family: MicrosoftYaHei;
-  font-size: 0.74074074rem;
+  font-size: 0.7407407407407407rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 2px;
@@ -84,69 +84,69 @@ img {
 }
 .center .status .status_item .item_one p:last-child {
   font-family: MicrosoftYaHei;
-  font-size: 0.74074074rem;
+  font-size: 0.7407407407407407rem;
   font-weight: normal;
-  margin-left: 3.7037037rem;
+  margin-left: 3.7037037037037037rem;
   font-stretch: normal;
-  letter-spacing: 0.03703704rem;
+  letter-spacing: 0.037037037037037035rem;
   color: #ffa000;
 }
 .center .status .status_item .item_two {
   font-family: MicrosoftYaHei;
-  font-size: 0.66666667rem;
+  font-size: 0.6666666666666666rem;
   font-weight: normal;
   font-stretch: normal;
   position: absolute;
-  top: 2.27777778rem;
+  top: 2.2777777777777777rem;
   letter-spacing: 1px;
   color: #7b7a7a;
 }
 .center .status .status_item .item_three {
   font-family: MicrosoftYaHei;
-  font-size: 0.66666667rem;
+  font-size: 0.6666666666666666rem;
   font-weight: normal;
   font-stretch: normal;
   position: absolute;
-  top: 3.51851852rem;
+  top: 3.5185185185185186rem;
   letter-spacing: 1px;
   color: #7b7a7a;
 }
 .center .status .status_item .item_four {
   font-family: MicrosoftYaHei;
-  font-size: 0.66666667rem;
+  font-size: 0.6666666666666666rem;
   font-weight: normal;
   font-stretch: normal;
   position: absolute;
-  top: 4.72222222rem;
+  top: 4.722222222222222rem;
   letter-spacing: 1px;
   color: #7b7a7a;
 }
 .center .logistics {
   width: 100%;
-  height: 6.48148148rem;
+  height: 6.481481481481482rem;
   position: relative;
-  margin-top: 0.37037037rem;
+  margin-top: 0.37037037037037035rem;
 }
 .center .logistics .logistics_one {
-  width: 7.40740741rem;
-  height: 6.48148148rem;
+  width: 7.407407407407407rem;
+  height: 6.481481481481482rem;
   float: left;
   text-align: center;
 }
 .center .logistics .logistics_one img {
-  width: 1.16666667rem;
-  height: 1.16666667rem;
+  width: 1.1666666666666667rem;
+  height: 1.1666666666666667rem;
 }
 .center .logistics .logistics_one .circle span {
-  width: 0.55555556rem;
-  height: 0.55555556rem;
+  width: 0.5555555555555556rem;
+  height: 0.5555555555555556rem;
   display: inline-block;
   background-color: #e52323;
   border-radius: 100%;
 }
 .center .logistics .logistics_one .sendstaus {
   font-family: MicrosoftYaHei;
-  font-size: 0.66666667rem;
+  font-size: 0.6666666666666666rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 1px;
@@ -154,49 +154,49 @@ img {
 }
 .center .logistics .logistics_one .time {
   font-family: MicrosoftYaHei;
-  font-size: 0.55555556rem;
+  font-size: 0.5555555555555556rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 1px;
   color: #e52323;
 }
 .center .logistics .logistics_two {
-  width: 7.40740741rem;
-  height: 6.48148148rem;
+  width: 7.407407407407407rem;
+  height: 6.481481481481482rem;
   float: right;
   text-align: center;
 }
 .center .logistics .logistics_two img {
-  width: 1.24074074rem;
-  height: 1.16666667rem;
+  width: 1.2407407407407407rem;
+  height: 1.1666666666666667rem;
 }
 .center .logistics .logistics_two .circle span {
-  width: 0.55555556rem;
-  height: 0.55555556rem;
+  width: 0.5555555555555556rem;
+  height: 0.5555555555555556rem;
   display: inline-block;
   background-color: #ffccc9;
   border-radius: 100%;
 }
 .center .logistics .logistics_two .sendstaus {
   font-family: MicrosoftYaHei;
-  font-size: 0.66666667rem;
+  font-size: 0.6666666666666666rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 1px;
   color: #787878;
 }
 .line {
-  width: 12.22222222rem;
+  width: 12.222222222222221rem;
   height: 1px;
   background: #ffccc9;
   position: absolute;
-  left: 3.88888889rem;
-  top: 1.94444444rem;
+  left: 3.888888888888889rem;
+  top: 1.9444444444444444rem;
 }
 .center .content .headportrait {
   width: 100%;
-  height: 3.2037037rem;
-  line-height: 3.2037037rem;
+  height: 3.2037037037037037rem;
+  line-height: 3.2037037037037037rem;
   background-color: #ffffff;
   position: relative;
 }
@@ -205,29 +205,29 @@ img {
 }
 .center .content .headportrait .head_title {
   float: left;
-  margin-left: 0.55555556rem;
+  margin-left: 0.5555555555555556rem;
 }
 .center .content .headportrait .head_pic {
-  width: 2.16666667rem;
-  height: 2.14814815rem;
-  line-height: 2.14814815rem;
+  width: 2.1666666666666665rem;
+  height: 2.1481481481481484rem;
+  line-height: 2.1481481481481484rem;
   text-align: center;
-  margin-top: 0.18518519rem;
+  margin-top: 0.18518518518518517rem;
   position: absolute;
-  right: 1.61111111rem;
-  top: 0.35185185rem;
+  right: 1.6111111111111112rem;
+  top: 0.35185185185185186rem;
 }
 .center .content .headportrait .head_next {
-  width: 0.40740741rem;
-  height: 0.77777778rem;
+  width: 0.4074074074074074rem;
+  height: 0.7777777777777778rem;
   position: absolute;
-  right: 0.66666667rem;
+  right: 0.6666666666666666rem;
   top: 0rem;
 }
 .center .content .nickname {
   width: 100%;
-  height: 3.2037037rem;
-  line-height: 3.2037037rem;
+  height: 3.2037037037037037rem;
+  line-height: 3.2037037037037037rem;
   background-color: #ffffff;
   position: relative;
 }
@@ -236,29 +236,29 @@ img {
 }
 .center .content .nickname .head_title {
   float: left;
-  margin-left: 0.55555556rem;
+  margin-left: 0.5555555555555556rem;
 }
 .center .content .nickname .head_pic {
-  width: 2.16666667rem;
-  height: 2.14814815rem;
-  line-height: 2.14814815rem;
+  width: 2.1666666666666665rem;
+  height: 2.1481481481481484rem;
+  line-height: 2.1481481481481484rem;
   text-align: center;
-  margin-top: 0.18518519rem;
+  margin-top: 0.18518518518518517rem;
   position: absolute;
-  right: 1.61111111rem;
-  top: 0.35185185rem;
+  right: 1.6111111111111112rem;
+  top: 0.35185185185185186rem;
 }
 .center .content .nickname .head_next {
-  width: 0.40740741rem;
-  height: 0.77777778rem;
+  width: 0.4074074074074074rem;
+  height: 0.7777777777777778rem;
   position: absolute;
-  right: 0.66666667rem;
+  right: 0.6666666666666666rem;
   top: 0rem;
 }
 .center .content .sex {
   width: 100%;
-  height: 3.2037037rem;
-  line-height: 3.2037037rem;
+  height: 3.2037037037037037rem;
+  line-height: 3.2037037037037037rem;
   background-color: #ffffff;
   position: relative;
 }
@@ -267,61 +267,61 @@ img {
 }
 .center .content .sex .head_title {
   float: left;
-  margin-left: 0.55555556rem;
+  margin-left: 0.5555555555555556rem;
 }
 .center .content .sex .head_pic {
-  width: 2.16666667rem;
-  height: 2.14814815rem;
-  line-height: 2.14814815rem;
+  width: 2.1666666666666665rem;
+  height: 2.1481481481481484rem;
+  line-height: 2.1481481481481484rem;
   text-align: right;
-  margin-top: 0.18518519rem;
+  margin-top: 0.18518518518518517rem;
   position: absolute;
-  right: 1.61111111rem;
-  top: 0.35185185rem;
+  right: 1.6111111111111112rem;
+  top: 0.35185185185185186rem;
 }
 .center .content .sex .head_next {
-  width: 0.40740741rem;
-  height: 0.77777778rem;
+  width: 0.4074074074074074rem;
+  height: 0.7777777777777778rem;
   position: absolute;
-  right: 0.66666667rem;
+  right: 0.6666666666666666rem;
   top: 0rem;
 }
 .center .content .phonenumber {
   width: 100%;
-  height: 3.2037037rem;
-  line-height: 3.2037037rem;
+  height: 3.2037037037037037rem;
+  line-height: 3.2037037037037037rem;
   background-color: #ffffff;
   position: relative;
-  margin-top: 0.55555556rem;
+  margin-top: 0.5555555555555556rem;
 }
 .center .content .phonenumbe div {
   float: right;
 }
 .center .content .phonenumber .head_title {
   float: left;
-  margin-left: 0.55555556rem;
+  margin-left: 0.5555555555555556rem;
 }
 .center .content .phonenumber .head_pic {
-  width: 7.53703704rem;
-  height: 2.14814815rem;
-  line-height: 2.14814815rem;
+  width: 7.537037037037037rem;
+  height: 2.1481481481481484rem;
+  line-height: 2.1481481481481484rem;
   text-align: right;
-  margin-top: 0.18518519rem;
+  margin-top: 0.18518518518518517rem;
   position: absolute;
-  right: 1.61111111rem;
-  top: 0.35185185rem;
+  right: 1.6111111111111112rem;
+  top: 0.35185185185185186rem;
 }
 .center .content .phonenumber .head_next {
-  width: 0.40740741rem;
-  height: 0.77777778rem;
+  width: 0.4074074074074074rem;
+  height: 0.7777777777777778rem;
   position: absolute;
-  right: 0.66666667rem;
+  right: 0.6666666666666666rem;
   top: 0rem;
 }
 .center .content .integral {
   width: 100%;
-  height: 3.2037037rem;
-  line-height: 3.2037037rem;
+  height: 3.2037037037037037rem;
+  line-height: 3.2037037037037037rem;
   background-color: #ffffff;
   position: relative;
 }
@@ -330,23 +330,23 @@ img {
 }
 .center .content .integral .head_title {
   float: left;
-  margin-left: 0.55555556rem;
+  margin-left: 0.5555555555555556rem;
 }
 .center .content .integral .head_pic {
-  width: 2.16666667rem;
-  height: 2.14814815rem;
-  line-height: 2.14814815rem;
+  width: 2.1666666666666665rem;
+  height: 2.1481481481481484rem;
+  line-height: 2.1481481481481484rem;
   text-align: center;
-  margin-top: 0.18518519rem;
+  margin-top: 0.18518518518518517rem;
   position: absolute;
-  right: 1.61111111rem;
-  top: 0.35185185rem;
+  right: 1.6111111111111112rem;
+  top: 0.35185185185185186rem;
 }
 .center .content .integral .head_next {
-  width: 0.40740741rem;
-  height: 0.77777778rem;
+  width: 0.4074074074074074rem;
+  height: 0.7777777777777778rem;
   position: absolute;
-  right: 0.66666667rem;
+  right: 0.6666666666666666rem;
   top: 0rem;
 }
 .mask {
@@ -363,26 +363,26 @@ img {
 }
 .changesex {
   position: fixed;
-  left: 1.40740741rem;
-  width: 17.18518519rem;
-  height: 5.55555556rem;
+  left: 1.4074074074074074rem;
+  width: 17.185185185185187rem;
+  height: 5.555555555555555rem;
   background-color: #ffffff;
-  border-radius: 0.25925926rem;
+  border-radius: 0.25925925925925924rem;
   border: solid 1px #cccccc;
   z-index: 101;
-  top: 14.81481481rem;
+  top: 14.814814814814815rem;
   display: none;
 }
 .changesex div {
   width: 100%;
-  height: 1.85185185rem;
+  height: 1.8518518518518519rem;
   text-align: center;
-  line-height: 1.85185185rem;
-  font-size: 0.62962963rem;
+  line-height: 1.8518518518518519rem;
+  font-size: 0.6296296296296297rem;
 }
 .changesex div:first-child {
   background: #F5F5F5;
-  font-size: 0.74074074rem;
+  font-size: 0.7407407407407407rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 0px;
@@ -390,125 +390,125 @@ img {
   position: relative;
 }
 .changesex div:last-child {
-  font-size: 0.62962963rem;
+  font-size: 0.6296296296296297rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 0px;
   color: #e52323;
 }
 .changesex div:first-child p {
-  font-size: 0.74074074rem;
+  font-size: 0.7407407407407407rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 0px;
   color: #e52323;
   display: inline-block;
   position: absolute;
-  right: 0.37037037rem;
+  right: 0.37037037037037035rem;
 }
 .changenumber {
-  width: 17.22222222rem;
-  height: 10.55555556rem;
+  width: 17.22222222222222rem;
+  height: 10.555555555555555rem;
   position: fixed;
-  left: 1.40740741rem;
-  height: 8.7037037rem;
+  left: 1.4074074074074074rem;
+  height: 8.703703703703704rem;
   z-index: 101;
   display: none;
 }
 .changenumber .numreplace {
-  height: 2.62962963rem;
+  height: 2.6296296296296298rem;
   width: 100%;
   background: #f5f5f5;
   font-family: MicrosoftYaHei;
-  font-size: 0.74074074rem;
+  font-size: 0.7407407407407407rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 0px;
   color: #2a2a2a;
   text-align: center;
-  line-height: 2.59259259rem;
+  line-height: 2.5925925925925926rem;
 }
 .changenumber .surealter {
   width: 100%;
-  height: 2.37037037rem;
+  height: 2.3703703703703702rem;
   background-color: #e52323;
   font-family: MicrosoftYaHei;
-  font-size: 0.85185185rem;
+  font-size: 0.8518518518518519rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 0px;
   color: #ffffff;
   text-align: center;
-  line-height: 2.22222222rem;
+  line-height: 2.2222222222222223rem;
 }
 .changenumber .phonenum {
   width: 100%;
-  height: 5.55555556rem;
+  height: 5.555555555555555rem;
   background: white;
 }
 .changenumber .phonenum .phonenumitem {
-  width: 17.18518519rem;
-  height: 1.48148148rem;
+  width: 17.185185185185187rem;
+  height: 1.4814814814814814rem;
   position: absolute;
-  top: 3.33333333rem;
-  left: 1.2962963rem;
+  top: 3.3333333333333335rem;
+  left: 1.2962962962962963rem;
 }
 .changenumber .phonenum div:first-child {
-  width: 1.11111111rem;
-  height: 1.2962963rem;
-  line-height: 1.2962963rem;
+  width: 1.1111111111111112rem;
+  height: 1.2962962962962963rem;
+  line-height: 1.2962962962962963rem;
   white-space: nowrap;
   display: inline;
   font-family: MicrosoftYaHei;
-  font-size: 0.59259259rem;
+  font-size: 0.5925925925925926rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 0px;
   color: #1f1f1f;
 }
 .changenumber .phonenum div:last-child {
-  width: 9.25925926rem;
-  height: 1.48148148rem;
+  width: 9.25925925925926rem;
+  height: 1.4814814814814814rem;
   display: inline;
 }
 .changenumber .phonenum div:last-child input {
   padding: 0;
   margin: 0;
-  width: 9.25925926rem;
-  height: 1.2962963rem;
+  width: 9.25925925925926rem;
+  height: 1.2962962962962963rem;
   font-family: MicrosoftYaHei;
-  font-size: 0.62962963rem;
+  font-size: 0.6296296296296297rem;
   font-weight: normal;
   font-stretch: normal;
-  padding-left: 1.11111111rem;
-  line-height: 1.2962963rem;
+  padding-left: 1.1111111111111112rem;
+  line-height: 1.2962962962962963rem;
   letter-spacing: 0px;
   color: #666666;
   position: absolute;
-  top: 0.37037037rem;
+  top: 0.37037037037037035rem;
   border: none;
 }
 .changenickname {
-  width: 17.18518519rem;
-  height: 5.33333333rem;
+  width: 17.185185185185187rem;
+  height: 5.333333333333333rem;
   background-color: #ffffff;
   position: fixed;
-  top: 12.96296296rem;
-  left: 1.40740741rem;
+  top: 12.962962962962964rem;
+  left: 1.4074074074074074rem;
   z-index: 101;
-  border-radius: 0.37037037rem 0.37037037rem 0.37037037rem 0.37037037rem;
+  border-radius: 0.37037037037037035rem 0.37037037037037035rem 0.37037037037037035rem 0.37037037037037035rem;
 }
 .changenickname .nickname {
   width: 100%;
-  margin-top: 0.18518519rem;
-  height: 2.22222222rem;
+  margin-top: 0.18518518518518517rem;
+  height: 2.2222222222222223rem;
   background: #F5F5F5;
   text-align: center;
   font-family: MicrosoftYaHei;
-  font-size: 0.74074074rem;
+  font-size: 0.7407407407407407rem;
   font-weight: normal;
   font-stretch: normal;
-  line-height: 2.22222222rem;
+  line-height: 2.2222222222222223rem;
   letter-spacing: 0px;
   color: #1f1f1f;
   position: relative;
@@ -518,17 +518,18 @@ img {
 }
 .changenickname .nickname p {
   font-family: MicrosoftYaHei;
-  font-size: 0.74074074rem;
+  font-size: 0.7407407407407407rem;
   font-weight: normal;
   font-stretch: normal;
   display: inline;
   letter-spacing: 0px;
   color: #e52323;
   position: absolute;
-  right: 0.55555556rem;
+  right: 0.5555555555555556rem;
 }
 .changenickname .nickname .input_input input {
-  height: 2.22222222rem;
-  padding-left: 1.11111111rem;
+  height: 2.2222222222222223rem;
+  padding-left: 1.1111111111111112rem;
   border: none;
 }
+/*# sourceMappingURL=myprofile.css.map */

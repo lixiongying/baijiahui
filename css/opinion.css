@@ -1,0 +1,120 @@
+html,
+body {
+  background: #F5F5F5;
+}
+.main {
+  width: 100%;
+}
+.order {
+  width: 100%;
+  height: 2.6666666666666665rem;
+  position: relative;
+  text-align: center;
+  line-height: 2.6666666666666665rem;
+  font-size: 0.9629629629629629rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.037037037037037035rem;
+  color: #2a2a2a;
+  background-color: #e52323;
+  color: #ffffff;
+}
+.order span img {
+  font-family: MicrosoftYaHei;
+  font-size: 0.7407407407407407rem;
+  letter-spacing: 0.037037037037037035rem;
+  color: #ffffff;
+  position: absolute;
+  top: 30%;
+  left: 0.9814814814814815rem;
+  width: 0.5185185185185185rem;
+  height: 0.9074074074074074rem;
+}
+.order p {
+  font-family: MicrosoftYaHei;
+  font-size: 0.7407407407407407rem;
+  font-weight: normal;
+  font-stretch: normal;
+  position: absolute;
+  right: 0.5555555555555556rem;
+  top: 0;
+  letter-spacing: 0.037037037037037035rem;
+  color: #ffffff;
+}
+.center {
+  width: 100%;
+}
+.content {
+  width: 100%;
+}
+.content .opinion {
+  width: 100%;
+  height: 14.814814814814815rem;
+}
+.content .opinion .opinion_one {
+  width: 100%;
+  height: 11.481481481481481rem;
+  background-color: #ffffff;
+}
+.content .opinion .opinion_one textarea {
+  width: 100%;
+  height: 100%;
+  font-family: MicrosoftYaHei;
+  font-size: 0.7777777777777778rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.037037037037037035rem;
+  color: #9d9d9d;
+  border: none;
+}
+.content .opinion .opinion_two {
+  height: 2.7777777777777777rem;
+  width: 100%;
+  border-top: 4px solid #F5F5F5;
+  background-color: #ffffff;
+}
+.content .opinion .opinion_two .contact {
+  font-family: MicrosoftYaHei;
+  font-size: 0.7777777777777778rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.037037037037037035rem;
+  color: #2a2a2a;
+  display: inline-block;
+  width: 7.962962962962963rem;
+  height: 2.7777777777777777rem;
+  line-height: 2.7777777777777777rem;
+  white-space: nowrap;
+  margin-left: 0.7407407407407407rem;
+}
+.content .opinion .opinion_two .input_input {
+  display: inline-block;
+  width: 10.185185185185185rem;
+  height: 2.7777777777777777rem;
+  float: right;
+  margin-right: 0.5555555555555556rem;
+}
+.content .opinion .opinion_two .input_input input {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+.submit {
+  width: 14.62962962962963rem;
+  height: 2.074074074074074rem;
+  background-color: #e52323;
+  border-radius: 0.5925925925925926rem;
+  text-align: center;
+  line-height: 2.074074074074074rem;
+  font-family: MicrosoftYaHei;
+  font-size: 0.8888888888888888rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.037037037037037035rem;
+  color: #ffffff;
+  margin-left: 2.6296296296296298rem;
+  margin-top: 6.481481481481482rem;
+}
+/*# sourceMappingURL=opinion.css.map */

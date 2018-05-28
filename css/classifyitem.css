@@ -7,40 +7,40 @@ p {
 }
 .classify_title {
   width: 100%;
-  height: 2.6666666666666665rem;
+  height: 2.66666667rem;
   position: relative;
   text-align: center;
-  line-height: 2.6666666666666665rem;
-  font-size: 0.8888888888888888rem;
+  line-height: 2.66666667rem;
+  font-size: 0.88888889rem;
   font-weight: normal;
   font-stretch: normal;
-  letter-spacing: 0.037037037037037035rem;
+  letter-spacing: 0.03703704rem;
   color: #2a2a2a;
   background-color: #ffffff;
 }
 .classify_title img {
-  width: 0.5185185185185185rem;
-  height: 0.8888888888888888rem;
+  width: 0.51851852rem;
+  height: 0.88888889rem;
   position: absolute;
-  left: 0.8518518518518519rem;
-  top: 0.8888888888888888rem;
+  left: 0.85185185rem;
+  top: 0.88888889rem;
 }
 .center {
   width: 100%;
 }
 .center .fruit_item .integ_ul {
-  width: 4.722222222222222rem;
+  width: 4.72222222rem;
 }
 .center .fruit_item .integ_ul .integ_back {
   background: white;
 }
 .center .fruit_item .integ_ul li {
-  width: 4.722222222222222rem;
-  height: 2.5925925925925926rem;
+  width: 4.72222222rem;
+  height: 2.59259259rem;
   text-align: center;
-  line-height: 2.5925925925925926rem;
+  line-height: 2.59259259rem;
   font-family: MicrosoftYaHei;
-  font-size: 0.6666666666666666rem;
+  font-size: 0.66666667rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 1px;
@@ -51,29 +51,29 @@ p {
   background: white;
 }
 .center .fruit_item .integ_right .recommend {
-  margin-top: 0.18518518518518517rem;
-  width: 15.185185185185185rem;
-  height: 6.037037037037037rem;
+  margin-top: 0.18518519rem;
+  width: 15.18518519rem;
+  height: 6.03703704rem;
   background-color: #ffffff;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .center .fruit_item .integ_right .recommend .recommend_fruit {
-  width: 3.6296296296296298rem;
-  height: 3.6296296296296298rem;
+  width: 3.62962963rem;
+  height: 3.62962963rem;
   text-align: center;
-  padding-top: 1.0185185185185186rem 0;
-  margin-left: 0.9259259259259259rem;
+  padding-top: 1.01851852rem 0;
+  margin-left: 0.92592593rem;
 }
 .center .fruit_item .integ_right .recommend .recommend_fruit img {
   width: 70%;
   height: auto;
 }
 .center .fruit_item .integ_right .recommend .addshopcar {
-  width: 1.1481481481481481rem;
-  height: 1.1481481481481481rem;
-  margin-right: 0.5555555555555556rem;
+  width: 1.14814815rem;
+  height: 1.14814815rem;
+  margin-right: 0.55555556rem;
 }
 .center .fruit_item .integ_right .recommend .addshopcar img {
   width: 100%;
@@ -81,70 +81,70 @@ p {
 }
 .center .fruit_item .integ_right .recommend_item {
   position: relative;
-  margin-left: -1.8518518518518519rem;
+  margin-left: -1.85185185rem;
   padding: 0;
-  height: 5.185185185185185rem;
+  height: 5.18518519rem;
 }
 .center .fruit_item .integ_right .recommend .recommend_item .recommend_cate {
-  height: 3.3333333333333335rem;
-  width: 7.407407407407407rem;
+  height: 3.33333333rem;
+  width: 7.40740741rem;
   position: relative;
 }
 .center .fruit_item .integ_right .recommend .recommend_item .recommend_cate div:first-child {
-  font-size: 0.6666666666666666rem;
+  font-size: 0.66666667rem;
   letter-spacing: 1px;
   color: #2a2a2a;
   padding: 0;
   margin: 0;
-  height: 0.7407407407407407rem;
-  line-height: 0.7407407407407407rem;
+  height: 0.74074074rem;
+  line-height: 0.74074074rem;
   white-space: nowrap;
 }
 .center .fruit_item .integ_right .recommend .recommend_item .recommend_cate div:nth-child(2) {
-  font-size: 0.5555555555555556rem;
+  font-size: 0.55555556rem;
   letter-spacing: 1px;
   color: #787878;
   padding: 0;
   margin: 0;
   position: absolute;
   left: 0;
-  height: 0.5740740740740741rem;
-  line-height: 0.5740740740740741rem;
+  height: 0.57407407rem;
+  line-height: 0.57407407rem;
   white-space: nowrap;
-  top: 1.2962962962962963rem;
+  top: 1.2962963rem;
 }
 .center .fruit_item .integ_right .recommend .recommend_item div:last-child img {
-  width: 0.6666666666666666rem;
-  height: 0.6666666666666666rem;
+  width: 0.66666667rem;
+  height: 0.66666667rem;
   position: absolute;
   left: 0;
-  top: 2.314814814814815rem;
+  top: 2.31481481rem;
 }
 .center .fruit_item .integ_right .recommend .recommend_item .recommend_cate div:last-child {
-  width: 4.2592592592592595rem;
-  height: 0.5740740740740741rem;
-  line-height: 0.5740740740740741rem;
+  width: 4.25925926rem;
+  height: 0.57407407rem;
+  line-height: 0.57407407rem;
 }
 .center .fruit_item .integ_right .recommend .recommend_item .recommend_cate div:last-child p {
   position: absolute;
-  font-size: 0.5555555555555556rem;
+  font-size: 0.55555556rem;
   font-stretch: normal;
-  letter-spacing: 0.018518518518518517rem;
+  letter-spacing: 0.01851852rem;
   color: #2a2a2a;
   font-family: MicrosoftYaHei;
-  top: 2.4074074074074074rem;
-  left: 0.6481481481481481rem;
+  top: 2.40740741rem;
+  left: 0.64814815rem;
 }
 .center .fruit_item .integ_right .recommend .recommend_item .recommend_price {
   position: relative;
-  width: 5.555555555555555rem;
-  height: 2.2222222222222223rem;
+  width: 5.55555556rem;
+  height: 2.22222222rem;
 }
 .center .fruit_item .integ_right .recommend .recommend_item .recommend_price div:first-child {
-  font-size: 0.6296296296296297rem;
+  font-size: 0.62962963rem;
   letter-spacing: 1px;
-  height: 0.5185185185185185rem;
-  line-height: 0.5185185185185185rem;
+  height: 0.51851852rem;
+  line-height: 0.51851852rem;
   color: #787878;
   padding: 0;
   margin: 0;
@@ -152,28 +152,27 @@ p {
 .center .fruit_item .integ_right .recommend .recommend_item .recommend_price div:last-child {
   padding: 0;
   margin: 0;
-  height: 0.5925925925925926rem;
-  line-height: 0.5925925925925926rem;
+  height: 0.59259259rem;
+  line-height: 0.59259259rem;
   font-family: MicrosoftYaHei;
-  font-size: 0.7407407407407407rem;
+  font-size: 0.74074074rem;
   font-weight: normal;
   font-stretch: normal;
-  margin-top: 0.37037037037037035rem;
-  letter-spacing: 0.037037037037037035rem;
+  margin-top: 0.37037037rem;
+  letter-spacing: 0.03703704rem;
   color: #e52323;
 }
 #oldprice {
-  width: 3.0555555555555554rem;
-  height: 0.09259259259259259rem;
+  width: 3.05555556rem;
+  height: 0.09259259rem;
   background: gray;
   display: block;
   position: absolute;
-  top: 0.18518518518518517rem;
+  top: 0.18518519rem;
 }
 .center .fruit_item .integ_right .recommend .recommend_item .memberprice div {
   position: absolute;
-  left: 0.9259259259259259rem;
+  left: 0.92592593rem;
   top: 0;
-  height: 0.9259259259259259rem;
+  height: 0.92592593rem;
 }
-/*# sourceMappingURL=classifyitem.css.map */

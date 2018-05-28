@@ -7,28 +7,28 @@ img {
 }
 .order {
   width: 100%;
-  height: 2.6666666666666665rem;
+  height: 2.66666667rem;
   position: relative;
   text-align: center;
-  line-height: 2.6666666666666665rem;
-  font-size: 0.8888888888888888rem;
+  line-height: 2.66666667rem;
+  font-size: 0.88888889rem;
   font-weight: normal;
   font-stretch: normal;
-  letter-spacing: 0.037037037037037035rem;
+  letter-spacing: 0.03703704rem;
   color: #2a2a2a;
   background-color: #e52323;
   color: #ffffff;
 }
 .order span img {
   font-family: MicrosoftYaHei;
-  font-size: 0.7407407407407407rem;
-  letter-spacing: 0.037037037037037035rem;
+  font-size: 0.74074074rem;
+  letter-spacing: 0.03703704rem;
   color: #ffffff;
   position: absolute;
   top: 30%;
-  left: 0.9814814814814815rem;
-  width: 0.5185185185185185rem;
-  height: 0.9074074074074074rem;
+  left: 0.98148148rem;
+  width: 0.51851852rem;
+  height: 0.90740741rem;
 }
 .center {
   width: 100%;
@@ -38,38 +38,37 @@ img {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 2.6666666666666665rem;
+  height: 2.66666667rem;
   background-color: #ffffff;
 }
 .service input {
-  width: 11.11111111111111rem;
-  height: 2.2222222222222223rem;
+  width: 11.11111111rem;
+  height: 2.22222222rem;
   border: none;
   border-bottom: 1px solid grey;
-  line-height: 2.7777777777777777rem;
+  line-height: 2.77777778rem;
   float: left;
   padding: 0;
   margin: 0;
-  margin-left: 2.962962962962963rem;
+  margin-left: 2.96296296rem;
 }
 .service .face {
-  width: 1.5555555555555556rem;
-  height: 1.5555555555555556rem;
+  width: 1.55555556rem;
+  height: 1.55555556rem;
   float: left;
   position: absolute;
-  right: 3.1481481481481484rem;
-  top: 0.5555555555555556rem;
+  right: 3.14814815rem;
+  top: 0.55555556rem;
 }
 .service .add {
-  width: 1.5555555555555556rem;
-  height: 1.5555555555555556rem;
+  width: 1.55555556rem;
+  height: 1.55555556rem;
   float: left;
   position: absolute;
-  right: 0.8518518518518519rem;
-  top: 0.5555555555555556rem;
+  right: 0.85185185rem;
+  top: 0.55555556rem;
 }
 .service .add img {
   border: 1px solid gray;
   border-radius: 100% 100% 100% 100%;
 }
-/*# sourceMappingURL=service.css.map */

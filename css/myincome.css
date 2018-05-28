@@ -7,38 +7,38 @@ body {
 }
 .order {
   width: 100%;
-  height: 2.6666666666666665rem;
+  height: 2.66666667rem;
   position: relative;
   text-align: center;
-  line-height: 2.6666666666666665rem;
-  font-size: 0.9629629629629629rem;
+  line-height: 2.66666667rem;
+  font-size: 0.96296296rem;
   font-weight: normal;
   font-stretch: normal;
-  letter-spacing: 0.037037037037037035rem;
+  letter-spacing: 0.03703704rem;
   color: #2a2a2a;
   background-color: #e52323;
   color: #ffffff;
 }
 .order span img {
   font-family: MicrosoftYaHei;
-  font-size: 0.7407407407407407rem;
-  letter-spacing: 0.037037037037037035rem;
+  font-size: 0.74074074rem;
+  letter-spacing: 0.03703704rem;
   color: #ffffff;
   position: absolute;
   top: 30%;
-  left: 0.9814814814814815rem;
-  width: 0.5185185185185185rem;
-  height: 0.9074074074074074rem;
+  left: 0.98148148rem;
+  width: 0.51851852rem;
+  height: 0.90740741rem;
 }
 .order p {
   font-family: MicrosoftYaHei;
-  font-size: 0.7407407407407407rem;
+  font-size: 0.74074074rem;
   font-weight: normal;
   font-stretch: normal;
   position: absolute;
-  right: 0.5555555555555556rem;
+  right: 0.55555556rem;
   top: 0;
-  letter-spacing: 0.037037037037037035rem;
+  letter-spacing: 0.03703704rem;
   color: #ffffff;
 }
 .center {
@@ -49,53 +49,53 @@ body {
 }
 .content .pic {
   width: 100%;
-  height: 9.537037037037036rem;
+  height: 9.53703704rem;
 }
 .content .item {
   width: 100%;
 }
 .content .item .invite {
   width: 100%;
-  height: 2.962962962962963rem;
+  height: 2.96296296rem;
   text-align: center;
   background-color: #ffffff;
   border-bottom: 4px solid #F5F5F5;
 }
 .content .item .invite div:first-child {
   font-family: PingFang-SC-Medium;
-  font-size: 0.8148148148148148rem;
+  font-size: 0.81481481rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 0px;
   color: #1f1f1f;
-  margin-top: 0.5555555555555556rem;
+  margin-top: 0.55555556rem;
 }
 .content .item .invite div:last-child {
   font-family: PingFang-SC-Medium;
-  font-size: 0.9074074074074074rem;
+  font-size: 0.90740741rem;
   font-weight: normal;
   font-stretch: normal;
-  margin-top: 0.18518518518518517rem;
+  margin-top: 0.18518519rem;
   letter-spacing: 0px;
   color: #f5230c;
 }
 .content .item .share {
   width: 100%;
-  height: 12.962962962962964rem;
-  margin-top: 0.37037037037037035rem;
+  height: 12.96296296rem;
+  margin-top: 0.37037037rem;
 }
 .content .item .share .share_title {
   width: 100%;
-  height: 1.2962962962962963rem;
-  line-height: 1.2962962962962963rem;
+  height: 1.2962963rem;
+  line-height: 1.2962963rem;
   text-align: center;
   font-family: MicrosoftYaHei;
-  font-size: 0.8888888888888888rem;
+  font-size: 0.88888889rem;
   font-weight: normal;
   font-stretch: normal;
-  letter-spacing: 0.037037037037037035rem;
+  letter-spacing: 0.03703704rem;
   color: #2a2a2a;
-  margin-bottom: 0.5555555555555556rem;
+  margin-bottom: 0.55555556rem;
 }
 .content .item .share .share_item {
   width: 100%;
@@ -104,27 +104,26 @@ body {
   width: 25%;
   float: left;
   text-align: center;
-  margin-bottom: 0.9259259259259259rem;
+  margin-bottom: 0.92592593rem;
 }
 .content .item .share .share_item div img {
-  width: 2.962962962962963rem;
-  height: 2.962962962962963rem;
-  margin-left: 1.0185185185185186rem;
-  margin-bottom: 0.18518518518518517rem;
+  width: 2.96296296rem;
+  height: 2.96296296rem;
+  margin-left: 1.01851852rem;
+  margin-bottom: 0.18518519rem;
 }
 .cancelinvite {
-  width: 6.481481481481482rem;
-  height: 1.8518518518518519rem;
-  border-radius: 0.46296296296296297rem;
-  border: solid 0.037037037037037035rem #7b7a7a;
-  line-height: 1.8518518518518519rem;
+  width: 6.48148148rem;
+  height: 1.85185185rem;
+  border-radius: 0.46296296rem;
+  border: solid 0.03703704rem #7b7a7a;
+  line-height: 1.85185185rem;
   font-family: MicrosoftYaHei;
-  font-size: 0.8888888888888888rem;
+  font-size: 0.88888889rem;
   font-weight: normal;
   font-stretch: normal;
   text-align: center;
-  letter-spacing: 0.037037037037037035rem;
+  letter-spacing: 0.03703704rem;
   color: #7b7a7a;
-  margin-left: 6.722222222222222rem;
+  margin-left: 6.72222222rem;
 }
-/*# sourceMappingURL=myincome.css.map */

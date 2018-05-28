@@ -6,56 +6,56 @@ body {
 }
 .order {
   width: 100%;
-  height: 2.6666666666666665rem;
+  height: 2.66666667rem;
   position: relative;
   text-align: center;
-  line-height: 2.6666666666666665rem;
-  font-size: 0.8888888888888888rem;
+  line-height: 2.66666667rem;
+  font-size: 0.88888889rem;
   font-weight: normal;
   font-stretch: normal;
-  letter-spacing: 0.037037037037037035rem;
+  letter-spacing: 0.03703704rem;
   color: #2a2a2a;
   background-color: #e52323;
   color: #ffffff;
 }
 .order span img {
   font-family: MicrosoftYaHei;
-  font-size: 0.7407407407407407rem;
-  letter-spacing: 0.037037037037037035rem;
+  font-size: 0.74074074rem;
+  letter-spacing: 0.03703704rem;
   color: #ffffff;
   position: absolute;
   top: 30%;
-  left: 0.9814814814814815rem;
-  width: 0.5185185185185185rem;
-  height: 0.9074074074074074rem;
+  left: 0.98148148rem;
+  width: 0.51851852rem;
+  height: 0.90740741rem;
 }
 .center {
   width: 100%;
 }
 .center .payfor .payfor_success {
   width: 100%;
-  height: 9.25925925925926rem;
+  height: 9.25925926rem;
   text-align: center;
   position: relative;
 }
 .center .payfor .payfor_success img {
-  width: 2.9814814814814814rem;
-  height: 2.9814814814814814rem;
+  width: 2.98148148rem;
+  height: 2.98148148rem;
   position: absolute;
-  left: 8.722222222222221rem;
-  top: 2.7777777777777777rem;
+  left: 8.72222222rem;
+  top: 2.77777778rem;
 }
 .center .payfor .payfor_success p {
   position: absolute;
-  left: 8.722222222222221rem;
-  top: 6.481481481481482rem;
+  left: 8.72222222rem;
+  top: 6.48148148rem;
 }
 .center .payfor .payformethod {
   width: 100%;
-  height: 0.9259259259259259rem;
+  height: 0.92592593rem;
   text-align: center;
   font-family: MicrosoftYaHei;
-  font-size: 0.7407407407407407rem;
+  font-size: 0.74074074rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 0px;
@@ -64,7 +64,7 @@ body {
 .center .payfor .payformethod p {
   display: inline-block;
   font-family: MicrosoftYaHei;
-  font-size: 0.7407407407407407rem;
+  font-size: 0.74074074rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 0px;
@@ -72,20 +72,20 @@ body {
 }
 .center .payfor .payfornumber {
   width: 100%;
-  height: 0.9259259259259259rem;
+  height: 0.92592593rem;
   text-align: center;
   font-family: MicrosoftYaHei;
-  font-size: 0.7407407407407407rem;
+  font-size: 0.74074074rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 0px;
   color: #666666;
-  margin-top: 0.37037037037037035rem;
+  margin-top: 0.37037037rem;
 }
 .center .payfor .payfornumber p {
   display: inline-block;
   font-family: MicrosoftYaHei;
-  font-size: 0.7407407407407407rem;
+  font-size: 0.74074074rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 0px;
@@ -93,20 +93,20 @@ body {
 }
 .center .payfor .Deductionintegral {
   width: 100%;
-  height: 0.9259259259259259rem;
+  height: 0.92592593rem;
   text-align: center;
   font-family: MicrosoftYaHei;
-  font-size: 0.7407407407407407rem;
+  font-size: 0.74074074rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 0px;
   color: #666666;
-  margin-top: 0.37037037037037035rem;
+  margin-top: 0.37037037rem;
 }
 .center .payfor .Deductionintegral p {
   display: inline-block;
   font-family: MicrosoftYaHei;
-  font-size: 0.7407407407407407rem;
+  font-size: 0.74074074rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 0px;
@@ -114,39 +114,38 @@ body {
 }
 .center .payfor .getintegral {
   width: 100%;
-  height: 0.9259259259259259rem;
+  height: 0.92592593rem;
   text-align: center;
   font-family: MicrosoftYaHei;
-  font-size: 0.7407407407407407rem;
+  font-size: 0.74074074rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 0px;
   color: #666666;
-  margin-top: 0.37037037037037035rem;
+  margin-top: 0.37037037rem;
 }
 .center .payfor .getintegral p {
   display: inline-block;
   font-family: MicrosoftYaHei;
-  font-size: 0.7407407407407407rem;
+  font-size: 0.74074074rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 0px;
   color: #e52323;
 }
 .return {
-  width: 9.62962962962963rem;
-  height: 1.7407407407407407rem;
+  width: 9.62962963rem;
+  height: 1.74074074rem;
   background-color: #ffffff;
-  border-radius: 0.25925925925925924rem;
+  border-radius: 0.25925926rem;
   border: solid 2px #cccccc;
-  margin-top: 3.7037037037037037rem;
-  margin-left: 5.185185185185185rem;
+  margin-top: 3.7037037rem;
+  margin-left: 5.18518519rem;
   text-align: center;
-  line-height: 1.7407407407407407rem;
-  font-size: 0.7407407407407407rem;
+  line-height: 1.74074074rem;
+  font-size: 0.74074074rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 0px;
   color: #1f1f1f;
 }
-/*# sourceMappingURL=payforsuccess.css.map */

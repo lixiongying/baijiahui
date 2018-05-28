@@ -3,46 +3,46 @@
 }
 .order {
   width: 100%;
-  height: 2.6666666666666665rem;
+  height: 2.66666667rem;
   position: relative;
   text-align: center;
-  line-height: 2.6666666666666665rem;
-  font-size: 0.8888888888888888rem;
+  line-height: 2.66666667rem;
+  font-size: 0.88888889rem;
   font-weight: normal;
   font-stretch: normal;
-  letter-spacing: 0.037037037037037035rem;
+  letter-spacing: 0.03703704rem;
   color: #2a2a2a;
 }
 .order_one {
-  width: 0.5185185185185185rem;
-  height: 0.8888888888888888rem;
+  width: 0.51851852rem;
+  height: 0.88888889rem;
   position: absolute;
-  top: 0.8888888888888888rem;
-  left: 0.8518518518518519rem;
+  top: 0.88888889rem;
+  left: 0.85185185rem;
 }
 .form_img {
-  height: 5.555555555555555rem;
+  height: 5.55555556rem;
 }
 .takegoods {
   width: 100%;
-  height: 4.444444444444445rem;
+  height: 4.44444444rem;
   position: relative;
 }
 .takegoods .takegoods_person {
   width: 100%;
 }
 .takegoods .takegoods_person img {
-  width: 0.7962962962962963rem;
-  height: 0.8148148148148148rem;
+  width: 0.7962963rem;
+  height: 0.81481481rem;
   position: absolute;
-  left: 0.48148148148148145rem;
-  top: 0.6481481481481481rem;
+  left: 0.48148148rem;
+  top: 0.64814815rem;
 }
 .takegoods .takegoods_person span {
   position: absolute;
-  left: 1.6111111111111112rem;
-  top: 0.5185185185185185rem;
-  font-size: 0.7037037037037037rem;
+  left: 1.61111111rem;
+  top: 0.51851852rem;
+  font-size: 0.7037037rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 1px;
@@ -51,22 +51,22 @@
 .takegoods .takegoods_person p {
   white-space: nowrap;
   position: absolute;
-  right: 0.5740740740740741rem;
-  top: 0.5185185185185185rem;
+  right: 0.57407407rem;
+  top: 0.51851852rem;
 }
 .takegoods_address img {
-  width: 0.7962962962962963rem;
-  height: 0.8148148148148148rem;
+  width: 0.7962963rem;
+  height: 0.81481481rem;
   position: absolute;
-  left: 0.48148148148148145rem;
-  top: 2.2962962962962963rem;
+  left: 0.48148148rem;
+  top: 2.2962963rem;
 }
 .takegoods_address p {
   white-space: nowrap;
   position: absolute;
-  left: 1.6111111111111112rem;
-  top: 2.111111111111111rem;
-  font-size: 0.7037037037037037rem;
+  left: 1.61111111rem;
+  top: 2.11111111rem;
+  font-size: 0.7037037rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 1px;
@@ -74,21 +74,21 @@
 }
 .form_item {
   position: relative;
-  margin-top: 0.5555555555555556rem;
-  height: 10.555555555555555rem;
-  border-top: 0.24074074074074073rem solid #f5f5f5;
+  margin-top: 0.55555556rem;
+  height: 10.55555556rem;
+  border-top: 0.24074074rem solid #f5f5f5;
 }
 .form_item img {
-  width: 4.814814814814815rem;
-  height: 4.814814814814815rem;
-  padding: 0.37037037037037035rem 0 0.37037037037037035rem 0.6666666666666666rem;
+  width: 4.81481481rem;
+  height: 4.81481481rem;
+  padding: 0.37037037rem 0 0.37037037rem 0.66666667rem;
 }
 .form_item_two .numeber {
   position: absolute;
-  right: -7.037037037037037rem;
-  top: 0.018518518518518517rem;
+  right: -7.03703704rem;
+  top: 0.01851852rem;
   font-family: MicrosoftYaHei;
-  font-size: 0.5555555555555556rem;
+  font-size: 0.55555556rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 1px;
@@ -100,139 +100,138 @@
   letter-spacing: 1px;
   color: #2a2a2a;
   position: absolute;
-  left: 6.055555555555555rem;
-  top: 0.7962962962962963rem;
+  left: 6.05555556rem;
+  top: 0.7962963rem;
 }
 .form_item .form_item_two span {
   display: block;
   position: absolute;
-  left: 6.055555555555555rem;
-  top: 3.1666666666666665rem;
-  font-size: 0.5555555555555556rem;
+  left: 6.05555556rem;
+  top: 3.16666667rem;
+  font-size: 0.55555556rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 1px;
   color: #787878;
 }
 .form_item_two .price_newprice {
-  font-size: 0.7407407407407407rem;
+  font-size: 0.74074074rem;
   font-weight: normal;
   font-stretch: normal;
-  letter-spacing: 0.037037037037037035rem;
+  letter-spacing: 0.03703704rem;
   color: red;
   position: absolute;
-  left: 6.055555555555555rem;
-  top: 4.277777777777778rem;
+  left: 6.05555556rem;
+  top: 4.27777778rem;
 }
 .form_item_two .old_price {
-  font-size: 0.5555555555555556rem;
+  font-size: 0.55555556rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 1px;
   color: #787878;
   position: absolute;
-  left: 9.38888888888889rem;
-  top: 4.351851851851852rem;
+  left: 9.38888889rem;
+  top: 4.35185185rem;
 }
 .form_item_two .line {
-  width: 2.5185185185185186rem;
-  height: 0.037037037037037035rem;
+  width: 2.51851852rem;
+  height: 0.03703704rem;
   background: gray;
   position: absolute;
   top: 0.5rem;
 }
 .form_item_three {
   font-family: MicrosoftYaHei;
-  font-size: 0.5925925925925926rem;
+  font-size: 0.59259259rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 1px;
   color: #7b7a7a;
   position: absolute;
-  right: 0.6851851851851852rem;
-  top: 6.2407407407407405rem;
+  right: 0.68518519rem;
+  top: 6.24074074rem;
 }
 .linee {
   position: absolute;
   width: 20rem;
-  height: 0.24074074074074073rem;
+  height: 0.24074074rem;
   background: #f5f5f5;
-  top: 7.592592592592593rem;
+  top: 7.59259259rem;
 }
 .form_item_four .number p {
   font-family: MicrosoftYaHei;
-  font-size: 0.5555555555555556rem;
+  font-size: 0.55555556rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 1px;
   color: #7b7a7a;
   position: absolute;
-  top: 8.185185185185185rem;
-  left: 0.5555555555555556rem;
+  top: 8.18518519rem;
+  left: 0.55555556rem;
 }
 .form_item_four .number span {
   font-family: MicrosoftYaHei;
-  font-size: 0.5925925925925926rem;
+  font-size: 0.59259259rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 1px;
   color: #ffa000;
   position: absolute;
-  top: 8.185185185185185rem;
-  right: 0.5555555555555556rem;
+  top: 8.18518519rem;
+  right: 0.55555556rem;
 }
 .form_item_four .time {
   font-family: MicrosoftYaHei;
-  font-size: 0.5555555555555556rem;
+  font-size: 0.55555556rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 1px;
   position: absolute;
   color: #7b7a7a;
-  top: 9.11111111111111rem;
-  left: 0.5555555555555556rem;
+  top: 9.11111111rem;
+  left: 0.55555556rem;
 }
 .form_btn {
   width: 100%;
-  height: 2.2222222222222223rem;
+  height: 2.22222222rem;
   background-color: #ffffff;
-  border: solid 0.037037037037037035rem #f6f6f6;
+  border: solid 0.03703704rem #f6f6f6;
   position: fixed;
   bottom: 0;
   left: 0;
 }
 .form_btn .form_btn_one {
   text-align: center;
-  width: 3.3518518518518516rem;
-  height: 1.2592592592592593rem;
+  width: 3.35185185rem;
+  height: 1.25925926rem;
   background-color: #f6f6f6;
-  border-radius: 0.18518518518518517rem;
+  border-radius: 0.18518519rem;
   font-family: MicrosoftYaHei;
-  font-size: 0.6666666666666666rem;
+  font-size: 0.66666667rem;
   font-weight: normal;
   font-stretch: normal;
-  line-height: 1.2592592592592593rem;
+  line-height: 1.25925926rem;
   letter-spacing: 1px;
   color: #1a1a1a;
   position: absolute;
-  left: 12.222222222222221rem;
-  top: 0.3888888888888889rem;
+  left: 12.22222222rem;
+  top: 0.38888889rem;
 }
 .form_btn .form_btn_two {
   text-align: center;
-  width: 3.3518518518518516rem;
-  height: 1.2592592592592593rem;
+  width: 3.35185185rem;
+  height: 1.25925926rem;
   background-color: #e52323;
-  border-radius: 0.18518518518518517rem;
+  border-radius: 0.18518519rem;
   font-family: MicrosoftYaHei;
-  font-size: 0.6666666666666666rem;
+  font-size: 0.66666667rem;
   font-weight: normal;
   font-stretch: normal;
-  line-height: 1.2592592592592593rem;
+  line-height: 1.25925926rem;
   letter-spacing: 1px;
   color: #ffffff;
   position: absolute;
-  left: 15.981481481481481rem;
-  top: 0.3888888888888889rem;
+  left: 15.98148148rem;
+  top: 0.38888889rem;
 }
-/*# sourceMappingURL=orderformtwo.css.map */

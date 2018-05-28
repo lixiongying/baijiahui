@@ -3,35 +3,35 @@
 }
 .order {
   width: 100%;
-  height: 2.6666666666666665rem;
+  height: 2.66666667rem;
   position: relative;
   text-align: center;
-  line-height: 2.6666666666666665rem;
-  font-size: 0.8888888888888888rem;
+  line-height: 2.66666667rem;
+  font-size: 0.88888889rem;
   font-weight: normal;
   font-stretch: normal;
-  letter-spacing: 0.037037037037037035rem;
+  letter-spacing: 0.03703704rem;
   color: #2a2a2a;
   background-color: #e52323;
   color: #ffffff;
 }
 .order span img {
   font-family: MicrosoftYaHei;
-  font-size: 0.7407407407407407rem;
-  letter-spacing: 0.037037037037037035rem;
+  font-size: 0.74074074rem;
+  letter-spacing: 0.03703704rem;
   color: #ffffff;
   position: absolute;
   top: 30%;
-  left: 0.9814814814814815rem;
-  width: 0.5185185185185185rem;
-  height: 0.9074074074074074rem;
+  left: 0.98148148rem;
+  width: 0.51851852rem;
+  height: 0.90740741rem;
 }
 .center {
   width: 100%;
 }
 .center .income {
   width: 100%;
-  height: 1.8518518518518519rem;
+  height: 1.85185185rem;
   background-color: #ffffff;
 }
 .center .incomecontent {
@@ -39,15 +39,15 @@
 }
 .center .income ul {
   width: 100%;
-  height: 1.8518518518518519rem;
+  height: 1.85185185rem;
 }
 .center .income ul li {
   float: left;
   font-family: MicrosoftYaHei;
-  font-size: 0.7407407407407407rem;
+  font-size: 0.74074074rem;
   font-weight: normal;
   font-stretch: normal;
-  letter-spacing: 0.07407407407407407rem;
+  letter-spacing: 0.07407407rem;
   color: #2a2a2a;
 }
 .center .income ul li.incomewithdrawal {
@@ -57,28 +57,28 @@
   position: relative;
 }
 .center .income ul span.li_span {
-  width: 1.0740740740740742rem;
-  height: 0.14814814814814814rem;
+  width: 1.07407407rem;
+  height: 0.14814815rem;
   background-color: #2a2a2a;
-  border-radius: 0.07407407407407407rem;
+  border-radius: 0.07407407rem;
   position: absolute;
   display: block;
   bottom: 0rem;
-  left: 4.462962962962963rem;
+  left: 4.46296296rem;
 }
 .center .income ul .incomerecode span {
   display: none;
 }
 .center .income ul li.incomewithdrawal {
   width: 50%;
-  height: 1.8518518518518519rem;
-  line-height: 1.8518518518518519rem;
+  height: 1.85185185rem;
+  line-height: 1.85185185rem;
   text-align: center;
 }
 .center .income ul li.incomerecode {
   width: 50%;
-  height: 1.8518518518518519rem;
-  line-height: 1.8518518518518519rem;
+  height: 1.85185185rem;
+  line-height: 1.85185185rem;
   text-align: center;
 }
 .center .withdrawal {
@@ -86,279 +86,279 @@
 }
 .center .withdrawal .canbalance {
   width: 100%;
-  height: 2.2222222222222223rem;
+  height: 2.22222222rem;
   background: #F5F5F5;
   position: relative;
 }
 .center .withdrawal .canbalance .canbalance_pic {
-  width: 0.7037037037037037rem;
-  height: 0.7037037037037037rem;
+  width: 0.7037037rem;
+  height: 0.7037037rem;
   position: absolute;
-  left: 0.4444444444444444rem;
-  bottom: 0.37037037037037035rem;
+  left: 0.44444444rem;
+  bottom: 0.37037037rem;
 }
 .center .withdrawal .canbalance .canbalance_num {
   background: none;
   float: left;
-  width: 6.074074074074074rem;
+  width: 6.07407407rem;
   white-space: nowrap;
-  height: 0.6481481481481481rem;
+  height: 0.64814815rem;
   font-family: MicrosoftYaHei;
-  font-size: 0.6666666666666666rem;
+  font-size: 0.66666667rem;
   font-weight: normal;
   font-stretch: normal;
-  line-height: 0.6481481481481481rem;
+  line-height: 0.64814815rem;
   letter-spacing: 0px;
   color: #2a2a2a;
   position: absolute;
-  left: 1.7962962962962963rem;
-  bottom: 0.37037037037037035rem;
+  left: 1.7962963rem;
+  bottom: 0.37037037rem;
 }
 .center .withdrawal .canbalance .canbalance_num span {
   color: red;
 }
 .center .withdrawal .withdrawalto {
   width: 100%;
-  height: 2.2222222222222223rem;
+  height: 2.22222222rem;
   background-color: #ffffff;
   position: relative;
 }
 .center .withdrawal .withdrawalto .withdrawalwhere {
-  width: 2.5925925925925926rem;
-  height: 2.2222222222222223rem;
+  width: 2.59259259rem;
+  height: 2.22222222rem;
   font-family: MicrosoftYaHei;
-  font-size: 0.6666666666666666rem;
+  font-size: 0.66666667rem;
   font-weight: normal;
   font-stretch: normal;
-  line-height: 2.2222222222222223rem;
+  line-height: 2.22222222rem;
   letter-spacing: 0px;
   color: #2a2a2a;
   text-align: center;
   white-space: nowrap;
-  margin-left: 0.4444444444444444rem;
+  margin-left: 0.44444444rem;
   float: left;
 }
 .center .withdrawal .withdrawalto .withdrawal_input {
-  width: 11.11111111111111rem;
-  height: 2.2222222222222223rem;
+  width: 11.11111111rem;
+  height: 2.22222222rem;
   float: left;
   background: none;
 }
 .center .withdrawal .withdrawalto .withdrawal_input input {
-  width: 11.11111111111111rem;
-  height: 2.2222222222222223rem;
+  width: 11.11111111rem;
+  height: 2.22222222rem;
   padding: 0;
   margin: 0;
   font-family: MicrosoftYaHei;
-  font-size: 0.6666666666666666rem;
+  font-size: 0.66666667rem;
   font-weight: normal;
-  line-height: 2.2222222222222223rem;
+  line-height: 2.22222222rem;
   font-stretch: normal;
   letter-spacing: 0px;
   color: #787878;
-  padding-left: 0.9259259259259259rem;
+  padding-left: 0.92592593rem;
 }
 .center .withdrawal .money {
   width: 100%;
-  height: 2.2222222222222223rem;
+  height: 2.22222222rem;
   background-color: #ffffff;
   position: relative;
 }
 .center .withdrawal .money .moneynum {
-  width: 2.5925925925925926rem;
-  height: 2.2222222222222223rem;
+  width: 2.59259259rem;
+  height: 2.22222222rem;
   font-family: MicrosoftYaHei;
-  font-size: 0.6666666666666666rem;
+  font-size: 0.66666667rem;
   font-weight: normal;
   font-stretch: normal;
-  line-height: 2.2222222222222223rem;
+  line-height: 2.22222222rem;
   letter-spacing: 0px;
   color: #2a2a2a;
   text-align: center;
   white-space: nowrap;
-  margin-left: 0.4444444444444444rem;
+  margin-left: 0.44444444rem;
   float: left;
 }
 .center .withdrawal .money .money_input {
-  width: 11.11111111111111rem;
-  height: 2.2222222222222223rem;
+  width: 11.11111111rem;
+  height: 2.22222222rem;
   float: left;
   background: none;
 }
 .center .withdrawal .money .money_input input {
-  width: 11.11111111111111rem;
-  height: 2.2222222222222223rem;
+  width: 11.11111111rem;
+  height: 2.22222222rem;
   padding: 0;
   margin: 0;
   font-family: MicrosoftYaHei;
-  font-size: 0.6666666666666666rem;
+  font-size: 0.66666667rem;
   font-weight: normal;
-  line-height: 2.2222222222222223rem;
+  line-height: 2.22222222rem;
   font-stretch: normal;
   letter-spacing: 0px;
   color: #787878;
-  padding-left: 0.9259259259259259rem;
+  padding-left: 0.92592593rem;
 }
 .center .withdrawal .code {
   width: 100%;
-  height: 2.2222222222222223rem;
+  height: 2.22222222rem;
   background-color: #ffffff;
   position: relative;
 }
 .center .withdrawal .code .codenum {
-  width: 2.5925925925925926rem;
-  height: 2.2222222222222223rem;
+  width: 2.59259259rem;
+  height: 2.22222222rem;
   font-family: MicrosoftYaHei;
-  font-size: 0.6666666666666666rem;
+  font-size: 0.66666667rem;
   font-weight: normal;
   font-stretch: normal;
-  line-height: 2.2222222222222223rem;
+  line-height: 2.22222222rem;
   letter-spacing: 0px;
   color: #2a2a2a;
   text-align: center;
   white-space: nowrap;
-  margin-left: 0.4444444444444444rem;
+  margin-left: 0.44444444rem;
   float: left;
 }
 .center .withdrawal .code .code_input {
-  width: 11.11111111111111rem;
-  height: 2.2222222222222223rem;
+  width: 11.11111111rem;
+  height: 2.22222222rem;
   float: left;
   background: none;
 }
 .center .withdrawal .code .code_input input {
-  width: 11.11111111111111rem;
-  height: 2.2222222222222223rem;
+  width: 11.11111111rem;
+  height: 2.22222222rem;
   padding: 0;
   margin: 0;
   font-family: MicrosoftYaHei;
-  font-size: 0.6666666666666666rem;
+  font-size: 0.66666667rem;
   font-weight: normal;
-  line-height: 2.2222222222222223rem;
+  line-height: 2.22222222rem;
   font-stretch: normal;
   letter-spacing: 0px;
   color: #787878;
-  padding-left: 0.9259259259259259rem;
+  padding-left: 0.92592593rem;
 }
 .center .withdrawal .code .forgetcode {
   width: 70px;
-  height: 2.2222222222222223rem;
+  height: 2.22222222rem;
   font-family: MicrosoftYaHei;
-  font-size: 0.6666666666666666rem;
+  font-size: 0.66666667rem;
   font-weight: normal;
   font-stretch: normal;
-  line-height: 2.2222222222222223rem;
+  line-height: 2.22222222rem;
   letter-spacing: 0px;
   color: #1f1f1f;
   float: right;
 }
 .applyfor {
-  width: 19.11111111111111rem;
-  height: 1.8518518518518519rem;
+  width: 19.11111111rem;
+  height: 1.85185185rem;
   background-color: #e52323;
-  border-radius: 0.1111111111111111rem;
-  line-height: 1.8518518518518519rem;
+  border-radius: 0.11111111rem;
+  line-height: 1.85185185rem;
   text-align: center;
   font-family: MicrosoftYaHei;
-  font-size: 0.7407407407407407rem;
+  font-size: 0.74074074rem;
   font-weight: normal;
   font-stretch: normal;
   color: #ffffff;
-  margin-top: 3.7037037037037037rem;
-  margin-left: 0.4444444444444444rem;
+  margin-top: 3.7037037rem;
+  margin-left: 0.44444444rem;
 }
 .recode {
   width: 100%;
-  padding: 0 0.42592592592592593rem;
+  padding: 0 0.42592593rem;
   background-color: #ffffff;
   display: none;
 }
 .recode .recode_content {
   width: 100%;
-  height: 7.407407407407407rem;
+  height: 7.40740741rem;
   background-color: #ffffff;
   border-radius: 10px;
   border-top: 3px solid #f5f5f5;
 }
 .recode .recode_content .money {
   width: 100%;
-  height: 1.8518518518518519rem;
+  height: 1.85185185rem;
 }
 .recode .recode_content .money div:first-child {
-  width: 1.8518518518518519rem;
-  height: 1.8518518518518519rem;
-  line-height: 1.8518518518518519rem;
-  font-size: 0.6666666666666666rem;
+  width: 1.85185185rem;
+  height: 1.85185185rem;
+  line-height: 1.85185185rem;
+  font-size: 0.66666667rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 0px;
   color: #2a2a2a;
   float: left;
-  margin-left: 0.37037037037037035rem;
+  margin-left: 0.37037037rem;
 }
 .recode .recode_content .money div:last-child {
-  width: 1.8518518518518519rem;
-  height: 1.8518518518518519rem;
-  line-height: 1.8518518518518519rem;
-  font-size: 0.6666666666666666rem;
+  width: 1.85185185rem;
+  height: 1.85185185rem;
+  line-height: 1.85185185rem;
+  font-size: 0.66666667rem;
   font-family: MicrosoftYaHei;
   font-weight: normal;
   font-stretch: normal;
   float: right;
   letter-spacing: 0px;
   color: #e52323;
-  margin-right: 0.37037037037037035rem;
+  margin-right: 0.37037037rem;
 }
 .recode .recode_content .type {
   width: 100%;
-  height: 1.8518518518518519rem;
+  height: 1.85185185rem;
 }
 .recode .recode_content .type div:first-child {
-  width: 1.8518518518518519rem;
-  height: 1.8518518518518519rem;
-  line-height: 1.8518518518518519rem;
-  font-size: 0.6666666666666666rem;
+  width: 1.85185185rem;
+  height: 1.85185185rem;
+  line-height: 1.85185185rem;
+  font-size: 0.66666667rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 0px;
   color: #2a2a2a;
   float: left;
-  margin-left: 0.37037037037037035rem;
+  margin-left: 0.37037037rem;
 }
 .recode .recode_content .type div:last-child {
-  width: 1.8518518518518519rem;
-  height: 1.8518518518518519rem;
-  line-height: 1.8518518518518519rem;
-  font-size: 0.6666666666666666rem;
+  width: 1.85185185rem;
+  height: 1.85185185rem;
+  line-height: 1.85185185rem;
+  font-size: 0.66666667rem;
   font-family: MicrosoftYaHei;
   font-weight: normal;
   font-stretch: normal;
   float: right;
   letter-spacing: 0px;
   color: #787878;
-  margin-right: 0.37037037037037035rem;
+  margin-right: 0.37037037rem;
 }
 .recode .recode_content .time {
   width: 100%;
-  height: 1.8518518518518519rem;
+  height: 1.85185185rem;
 }
 .recode .recode_content .time div:first-child {
-  width: 1.8518518518518519rem;
-  height: 1.8518518518518519rem;
-  line-height: 1.8518518518518519rem;
-  font-size: 0.6666666666666666rem;
+  width: 1.85185185rem;
+  height: 1.85185185rem;
+  line-height: 1.85185185rem;
+  font-size: 0.66666667rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 0px;
   color: #2a2a2a;
   float: left;
-  margin-left: 0.37037037037037035rem;
+  margin-left: 0.37037037rem;
 }
 .recode .recode_content .time div:last-child {
-  width: 7.407407407407407rem;
-  height: 1.8518518518518519rem;
-  line-height: 1.8518518518518519rem;
-  font-size: 0.6666666666666666rem;
+  width: 7.40740741rem;
+  height: 1.85185185rem;
+  line-height: 1.85185185rem;
+  font-size: 0.66666667rem;
   font-family: MicrosoftYaHei;
   font-weight: normal;
   font-stretch: normal;
@@ -366,36 +366,35 @@
   letter-spacing: 0px;
   color: #787878;
   text-align: right;
-  margin-right: 0.37037037037037035rem;
+  margin-right: 0.37037037rem;
 }
 .recode .recode_content .deal {
   width: 100%;
-  height: 1.8518518518518519rem;
+  height: 1.85185185rem;
 }
 .recode .recode_content .deal div:first-child {
-  width: 3.7037037037037037rem;
-  height: 1.8518518518518519rem;
-  line-height: 1.8518518518518519rem;
-  font-size: 0.6666666666666666rem;
+  width: 3.7037037rem;
+  height: 1.85185185rem;
+  line-height: 1.85185185rem;
+  font-size: 0.66666667rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 0px;
   color: #2a2a2a;
   float: left;
-  margin-left: 0.37037037037037035rem;
+  margin-left: 0.37037037rem;
 }
 .recode .recode_content .deal div:last-child {
-  width: 7.407407407407407rem;
-  height: 1.8518518518518519rem;
-  line-height: 1.8518518518518519rem;
-  font-size: 0.6666666666666666rem;
+  width: 7.40740741rem;
+  height: 1.85185185rem;
+  line-height: 1.85185185rem;
+  font-size: 0.66666667rem;
   font-family: MicrosoftYaHei;
   font-weight: normal;
   font-stretch: normal;
   float: right;
   letter-spacing: 0px;
   color: #787878;
-  margin-right: 0.37037037037037035rem;
+  margin-right: 0.37037037rem;
   text-align: right;
 }
-/*# sourceMappingURL=deposit.css.map */

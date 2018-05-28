@@ -7,28 +7,28 @@ body {
 }
 .order {
   width: 100%;
-  height: 2.6666666666666665rem;
+  height: 2.66666667rem;
   position: relative;
   text-align: center;
-  line-height: 2.6666666666666665rem;
-  font-size: 0.8888888888888888rem;
+  line-height: 2.66666667rem;
+  font-size: 0.88888889rem;
   font-weight: normal;
   font-stretch: normal;
-  letter-spacing: 0.037037037037037035rem;
+  letter-spacing: 0.03703704rem;
   background-color: #FFFFFF;
   color: #2a2a2a;
   border-bottom: 1px solid gainsboro;
 }
 .order span img {
   font-family: MicrosoftYaHei;
-  font-size: 0.7407407407407407rem;
-  letter-spacing: 0.037037037037037035rem;
+  font-size: 0.74074074rem;
+  letter-spacing: 0.03703704rem;
   color: #ffffff;
   position: absolute;
   top: 30%;
-  left: 0.9814814814814815rem;
-  width: 0.5185185185185185rem;
-  height: 0.9074074074074074rem;
+  left: 0.98148148rem;
+  width: 0.51851852rem;
+  height: 0.90740741rem;
 }
 .center {
   width: 100%;
@@ -38,18 +38,18 @@ body {
 }
 .content .points {
   width: 100%;
-  height: 3.7037037037037037rem;
-  margin-top: 1.8518518518518519rem;
+  height: 3.7037037rem;
+  margin-top: 1.85185185rem;
   background-color: #ffffff;
   text-align: center;
 }
 .content .todaypoint {
   width: 100%;
-  height: 4.444444444444445rem;
+  height: 4.44444444rem;
 }
 .content .todaypoint_one {
   width: 100%;
-  height: 2.2222222222222223rem;
+  height: 2.22222222rem;
   background: #F5F5F5;
   position: relative;
 }
@@ -57,22 +57,22 @@ body {
   position: absolute;
   padding: 0;
   margin: 0;
-  bottom: 0.37037037037037035rem;
-  left: 0.5555555555555556rem;
+  bottom: 0.37037037rem;
+  left: 0.55555556rem;
 }
 .content .todaypoint_two {
   width: 100%;
-  height: 2.2222222222222223rem;
-  line-height: 2.2222222222222223rem;
+  height: 2.22222222rem;
+  line-height: 2.22222222rem;
   position: relative;
 }
 .content .todaypoint_two p {
   display: inline;
   text-align: left;
   position: absolute;
-  left: 0.5555555555555556rem;
+  left: 0.55555556rem;
   font-family: MicrosoftYaHei;
-  font-size: 0.7037037037037037rem;
+  font-size: 0.7037037rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 1px;
@@ -83,24 +83,24 @@ body {
   position: absolute;
   text-align: right;
   font-family: MicrosoftYaHei;
-  font-size: 0.5555555555555556rem;
+  font-size: 0.55555556rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 0px;
   color: #787878;
-  right: 0.37037037037037035rem;
+  right: 0.37037037rem;
 }
 .content .points p:first-child {
   font-family: MicrosoftYaHei;
-  font-size: 1.6481481481481481rem;
+  font-size: 1.64814815rem;
   font-weight: normal;
   font-stretch: normal;
-  letter-spacing: 0.07407407407407407rem;
+  letter-spacing: 0.07407407rem;
   color: #e52323;
 }
 .content .points p:last-child {
   font-family: MicrosoftYaHei;
-  font-size: 0.6296296296296297rem;
+  font-size: 0.62962963rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 1px;
@@ -108,11 +108,11 @@ body {
 }
 .content .cumulativepoint {
   width: 100%;
-  height: 4.444444444444445rem;
+  height: 4.44444444rem;
 }
 .content .cumulativepoint .todaypoint_one {
   width: 100%;
-  height: 2.2222222222222223rem;
+  height: 2.22222222rem;
   background: #F5F5F5;
   position: relative;
 }
@@ -120,22 +120,22 @@ body {
   position: absolute;
   padding: 0;
   margin: 0;
-  bottom: 0.37037037037037035rem;
-  left: 0.5555555555555556rem;
+  bottom: 0.37037037rem;
+  left: 0.55555556rem;
 }
 .content .cumulativepoint .todaypoint_two {
   width: 100%;
-  height: 2.2222222222222223rem;
-  line-height: 2.2222222222222223rem;
+  height: 2.22222222rem;
+  line-height: 2.22222222rem;
   position: relative;
 }
 .content .cumulativepoint .todaypoint_two p {
   display: inline;
   text-align: left;
   position: absolute;
-  left: 0.5555555555555556rem;
+  left: 0.55555556rem;
   font-family: MicrosoftYaHei;
-  font-size: 0.7037037037037037rem;
+  font-size: 0.7037037rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 1px;
@@ -146,27 +146,26 @@ body {
   position: absolute;
   text-align: right;
   font-family: MicrosoftYaHei;
-  font-size: 0.5555555555555556rem;
+  font-size: 0.55555556rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 0px;
   color: #787878;
-  right: 0.37037037037037035rem;
+  right: 0.37037037rem;
 }
 .content .cumulativepoint .points p:first-child {
   font-family: MicrosoftYaHei;
-  font-size: 1.6481481481481481rem;
+  font-size: 1.64814815rem;
   font-weight: normal;
   font-stretch: normal;
-  letter-spacing: 0.07407407407407407rem;
+  letter-spacing: 0.07407407rem;
   color: #e52323;
 }
 .content .cumulativepoint .points p:last-child {
   font-family: MicrosoftYaHei;
-  font-size: 0.6296296296296297rem;
+  font-size: 0.62962963rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 1px;
   color: #2a2a2a;
 }
-/*# sourceMappingURL=myintegral.css.map */

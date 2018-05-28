@@ -3,24 +3,24 @@
 }
 .order {
   width: 100%;
-  height: 2.6666666666666665rem;
+  height: 2.66666667rem;
   position: relative;
   text-align: center;
-  line-height: 2.6666666666666665rem;
-  font-size: 0.8888888888888888rem;
+  line-height: 2.66666667rem;
+  font-size: 0.88888889rem;
   font-weight: normal;
   font-stretch: normal;
-  letter-spacing: 0.037037037037037035rem;
+  letter-spacing: 0.03703704rem;
   color: #2a2a2a;
   background-color: #e52323;
   color: #ffffff;
 }
 .order_title {
-  width: 0.5185185185185185rem;
-  height: 0.8888888888888888rem;
+  width: 0.51851852rem;
+  height: 0.88888889rem;
   position: absolute;
-  top: 0.8888888888888888rem;
-  left: 0.8518518518518519rem;
+  top: 0.88888889rem;
+  left: 0.85185185rem;
   background: none;
 }
 .order_title i {
@@ -28,40 +28,40 @@
   background-size: 100% 100%;
   background-position: center center;
   display: block;
-  width: 0.5185185185185185rem;
-  height: 0.8888888888888888rem;
+  width: 0.51851852rem;
+  height: 0.88888889rem;
 }
 .order img {
   background: none;
 }
 .order span {
   font-family: MicrosoftYaHei;
-  font-size: 0.7407407407407407rem;
-  letter-spacing: 0.037037037037037035rem;
+  font-size: 0.74074074rem;
+  letter-spacing: 0.03703704rem;
   color: #ffffff;
   position: absolute;
   top: 0;
-  right: 0.9814814814814815rem;
+  right: 0.98148148rem;
 }
 .order_main {
   position: relative;
   width: 100%;
 }
 .form_item {
-  height: 6.851851851851852rem;
-  border-top: 0.24074074074074073rem solid #f5f5f5;
+  height: 6.85185185rem;
+  border-top: 0.24074074rem solid #f5f5f5;
 }
 .form_item img {
-  width: 4.814814814814815rem;
-  height: 4.814814814814815rem;
-  padding: 0.37037037037037035rem 0 0.37037037037037035rem 0.6666666666666666rem;
+  width: 4.81481481rem;
+  height: 4.81481481rem;
+  padding: 0.37037037rem 0 0.37037037rem 0.66666667rem;
 }
 .form_item_two .numeber {
   position: absolute;
-  right: -7.037037037037037rem;
-  top: 0.018518518518518517rem;
+  right: -7.03703704rem;
+  top: 0.01851852rem;
   font-family: MicrosoftYaHei;
-  font-size: 0.5555555555555556rem;
+  font-size: 0.55555556rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 1px;
@@ -73,45 +73,44 @@
   letter-spacing: 1px;
   color: #2a2a2a;
   position: absolute;
-  left: 6.055555555555555rem;
-  top: 0.7962962962962963rem;
+  left: 6.05555556rem;
+  top: 0.7962963rem;
 }
 .form_item .form_item_two span {
   display: block;
   position: absolute;
-  left: 6.055555555555555rem;
-  top: 3.1666666666666665rem;
-  font-size: 0.5555555555555556rem;
+  left: 6.05555556rem;
+  top: 3.16666667rem;
+  font-size: 0.55555556rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 1px;
   color: #787878;
 }
 .form_item_two .price_newprice {
-  font-size: 0.7407407407407407rem;
+  font-size: 0.74074074rem;
   font-weight: normal;
   font-stretch: normal;
-  letter-spacing: 0.037037037037037035rem;
+  letter-spacing: 0.03703704rem;
   color: red;
   position: absolute;
-  left: 6.055555555555555rem;
-  top: 4.444444444444445rem;
+  left: 6.05555556rem;
+  top: 4.44444444rem;
 }
 .form_item_two .old_price {
-  font-size: 0.5555555555555556rem;
+  font-size: 0.55555556rem;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 1px;
   color: #787878;
   position: absolute;
-  left: 9.38888888888889rem;
-  top: 4.351851851851852rem;
+  left: 9.38888889rem;
+  top: 4.35185185rem;
 }
 .form_item_two .line {
-  width: 2.5185185185185186rem;
-  height: 0.037037037037037035rem;
+  width: 2.51851852rem;
+  height: 0.03703704rem;
   background: gray;
   position: absolute;
   top: 0.5rem;
 }
-/*# sourceMappingURL=mycollect.css.map */
