@@ -20,8 +20,8 @@
 				<!--头部导航栏-->
 				<div class="order">					
 						实体门店
-					<span><a href=""><img src="../img/back.png" alt="" /></a></span>
-					<div class="shopenter">
+					<span class="mui-action-back"><a href=""><img src="../img/back.png" alt="" /></a></span>
+					<div class="shopenter" id="shopenter">
 						店铺入驻
 					</div>
 				</div>					
@@ -56,8 +56,15 @@
 	                    </div>
 					</div>
 				</div>				
-		</div>	
+		   </div>	
 		
 	</body>
-	
+	<script type="text/javascript">
+		document.getElementById('shopenter').addEventListener('tap',function(){
+	    	mui.openWindow({
+	    		url:"shopregister.html",
+	    		id:"shopregister.html",
+	    	})
+	    })
+	</script>
 </html>

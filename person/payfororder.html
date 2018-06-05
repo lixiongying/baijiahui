@@ -6,23 +6,23 @@
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,minimum-scale=1.0">
-		<title>开通会员</title>
+		<title>支付订单</title>
 		<link href="../css/mui.min.css" rel="stylesheet"/>
 		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
         <link rel="stylesheet" type="text/css" href="../css/payfororder.css"/>
         <script src="../js/mui.js" type="text/javascript" charset="utf-8"></script>
         <script src="../js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../js/payfororder.js" type="text/javascript" charset="utf-8"></script>
         <script src="../js/public.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body>
 		<div class="mui-content">
 			<div class="main">
 				<!--头部导航栏-->
-				<div class="order">
-					
-					支付订单			
-					<span><a href=""><img src="../img/back2.png" alt="" /></a></span>	
-				</div>	
+				<header class="mui-bar mui-bar-nav">
+					    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+					    <h1 class="mui-title">支付订单</h1>
+				</header>
 				
 				<div class="center">
 					<div class="payaccount">
@@ -35,11 +35,17 @@
 						</div>
 					</div>
 					
+					<div class="paymenber">
+						<div class="payaccount1">
+						
+						 开通会员：<span>￥66.00</span>
+					</div>
+					</div>
 					<div class="payfor">
 						<div class="payformethod">
 							<p>请选择支付方式：</p>		
 						</div>
-						<div class="extra_payfor">
+						<div class="extra_payfor payfor_item" onclick="changeImg(this)">
 							<div class="extra_payfor_one">
 								<img src="../img/zhifufangshi_yue.png"/>
 							</div>
@@ -48,16 +54,16 @@
 								<img src="../img/gouwuche_weixuanzhong.png"/>
 							</div>
 						</div>
-						<div class="webchat_payfor">
+						<div class="webchat_payfor payfor_item" onclick="changeImg(this)">
 							<div class="extra_payfor_one">
 								<img src="../img/zhifufangshi_weixin.png"/>
 							</div>
 							<p>微信支付</p>
 							<div class="extra_payfor_two">
-								<img src="../img/gouwuche_xuanzhong.png"/>
+								<img src="../img/gouwuche_xuanzhong.png"/ >
 							</div>
-						</div>
-						<div class="Alipay_payfor">
+						</div> 
+						<div class="Alipay_payfor payfor_item" onclick="changeImg(this)">
 							<div class="extra_payfor_one">
 								<img src="../img/zhifufangshi_zhifubao.png"/>
 							</div>
@@ -66,6 +72,7 @@
 								<img src="../img/gouwuche_weixuanzhong.png"/>
 							</div>
 						</div>
+						
 					</div>
 				
 					<div class="payforsure">
@@ -74,25 +81,89 @@
 					
 					<div class="paymentcode">
 						<div class="code_title">
-							<span>×</span>
+							<span class="codenone">×</span>
 							请输入支付密码
 						</div>
 						<div class="code_number">
+							<input maxlength="1" type="password" class="numone"/>
 							<input maxlength="1" type="password"/>
 							<input maxlength="1" type="password"/>
 							<input maxlength="1" type="password"/>
 							<input maxlength="1" type="password"/>
 							<input maxlength="1" type="password"/>
-							<input maxlength="1" type="password"/>
+							
+							<!--<ul class="mm_box">
+						      <li></li>
+						      <li></li>
+						      <li></li>
+						      <li></li>
+						      <li></li>
+						      <li></li>
+						    </ul>-->
 						</div>
 					</div>
 					
 					<div class="mask">
 						
 					</div>
+					
+					<!--<div class="numb_box">
+					    
+					    <ul class="nub_ggg">
+					      <li>1</li>
+					      <li>2</li>
+					      <li>3</li>
+					      <li>4</li>
+					      <li>5</li>
+					      <li>6</li>
+					      <li>7</li>
+					      <li>8</li>
+					      <li>9</li>
+					      <li class="none"><span></span></li>
+					      <li>0</li>
+					      <li class="del"><img src="../img/shangpinxiangqing_quxiao.png" ></li>
+					    </ul>
+					  </div>-->
 				</div>
 		</div>	
-		
+		 
 	</body>
+	<script type="text/javascript">
+		 $(function(){
+		    var ww=222222
+		    var $input=$('.code_number input');
+		   
+		    $('input').keyup(function(){		    	 		    	
+		        $(this).next().focus()		      
+		    })
+		    
+		   
+		    $('input').eq($('input').length-1).keyup(function(){
+		          var valed=''
+		          for(var i=0;i<$('input').length;i++){
+		            valed=valed+$('input').eq(i).val()
+		            
+		          }
+//		          Number() 函数把对象的值转换为数字。
+		          if(Number(valed)==ww){
+			            alert('输入正确');
+			            window.location.href="payforsuccess.html"
+		            }else{
+			            alert('密码错误，请重新输入');
+			            $('input').val("");
+	//		            $('input').eq(0).focus()
+			            $('.numone').focus()
+		            
+		           }
+		        }
+		    )
+		    
+		    $('.codenone').click(function(){
+		    	$input.val('');
+		    })
+        })
+
+
+	</script>
 	
 </html>

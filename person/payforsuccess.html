@@ -21,7 +21,7 @@
 				<div class="order">
 					
 					支付成功			
-					<span><a href=""><img src="../img/back2.png" alt="" /></a></span>	
+					<span><a href="" class="mui-action-back"><img src="../img/back2.png" alt="" /></a></span>	
 				</div>	
 				
 				<div class="center">
@@ -42,7 +42,7 @@
 						<div class="getintegral">
 							获得积分：<p>9.90</p>
 						</div>
-						<div class="return">
+						<div class="return" id="return">
 							返回首页
 						</div>
 					</div>
@@ -51,12 +51,12 @@
 		
 	</body>
 	<script type="text/javascript">
-//		document.getElementById("more").addEventListener('tap',function(){
-//			mui.openWindow({
-//				url:'myorder.html',
-//				
-//				id:'myorder.html'
-//			})
-//		})
+		document.getElementById("return").addEventListener('tap',function(){
+			mui.openWindow({
+				url:'../homepage/homepage.html',
+				
+				id:'../homepage/homepage.html'
+			})
+		})
 	</script>
 </html>

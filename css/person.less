@@ -3,6 +3,20 @@
     width: 100%;
   
 }
+.main .mui-bar a{
+    width: 51/@rem;
+    height: 49/@rem;
+    position: absolute;
+    top:25%;
+    right: 20/@rem;
+}
+.main .mui-bar img{
+    width: 51/@rem;
+    height: 49/@rem;
+    position: absolute;
+    top:10/@rem;
+    right: 20/@rem;
+}
 .order{
     width: 100%;
     height: 144/@rem;
@@ -23,11 +37,8 @@
     font-size: 40/@rem;
     letter-spacing: 2/@rem;
     color: #ffffff;
-    position: absolute;
-    top:30%;
-    right: 53/@rem;
-    width: 51/@rem;
-    height: 49/@rem;
+   
+    
 }
 
 
@@ -42,14 +53,40 @@
     width: 100%;
     height: 100%;
 }
-.person .person_login .login_img{
+.person .person_login .nologin{
+    background: url(../img/shouye_xinxianshuiguo.png) no-repeat;
+    background-size: 100%;
+    border-radius: 100%;
+}
+.pleaselogin{
+    width: 342/@rem;
+    height: 80/@rem;
+    background-color: #ffffff;
+    border-radius: 10/@rem;
+    font-family: MicrosoftYaHei;
+    font-size: 40/@rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 80/@rem;
+    letter-spacing: 2/@rem;
+    color: #e52323;
+    text-align: center;
+    position: absolute;
+    left: 385/@rem;
+    top: 75%;
+}
+.person .person_login .havelogin{
     width: 202/@rem;
     height: 202/@rem;
     background: none;
     position: absolute;
     left: 442/@rem;
     top: 50/@rem;
+    background: url(../img/t01e462d459da144398.jpg) no-repeat;
+    background-size: 100%;
+    border-radius: 100%;
 }
+
 .person .person_login .name{
     width: 503/@rem;
     height: 60/@rem;
@@ -119,7 +156,7 @@
     height: 44/@rem;
     float: left;
     position: absolute;
-    top: 32/@rem;
+    top:32/@rem;
     left: 51/@rem;
 }
 .person .myorder .myorder_one_two{
@@ -131,45 +168,46 @@
     color: #2a2a2a;
     width: 177/@rem;
     height: 42/@rem;
+    line-height:42/@rem;;
     float: left;
     white-space: nowrap;
     position: absolute;
     left: 127/@rem;
-    top: 25/@rem;
+    top: 32/@rem;
 }
-.person .myorder .myorder_one_three{  
-    font-family: MicrosoftYaHei;
+#more{
+    height: 100%;
+    width:150/@rem;
+    display: inline-block;
+    float: right;
+    line-height: 102/@rem;
     font-size: 36/@rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 1px;
-    color: #787878;
-    width: 72/@rem;
-    height: 35/@rem;
-    float: left;
-    white-space: nowrap;
-    position: absolute;
-    right: 90/@rem;
-    top: 25/@rem;
 }
+
 .person .myorder .myorder_one_four{
     width: 18/@rem;
     height: 32/@rem;
-      float: left;
-      position: absolute;
-      right: 44/@rem;
-      top: 40/@rem;
+    float: left;
+    position: absolute;
+    right: 44/@rem;
+    top: 35/@rem;
+    margin-left: 10/@rem;
 }
 .person .ordernav{
     width: 100%;
-    height: 150/@rem;
-
+    height: 160/@rem;
+    background: #ffffff;
+  padding-top: 20/@rem;
 }
 .person .ordernav div{
     width: 25%;
-   margin-top: 20/@rem;
+    margin-top: 20/@rem;
     float: left;
     text-align: center;
+    color: black;
 }
 
 .person .ordernav img{
@@ -182,6 +220,8 @@
 .person .item{
     width: 100%;
     height: 480/@rem;
+     background: #ffffff;
+     margin-top: 30/@rem;
 }
 .person .item div{
     height: 240/@rem;
@@ -192,13 +232,17 @@
     font-size: 42/@rem;
     font-weight: normal;
     font-stretch: normal;
-    letter-spacing: 2px;
-    color: #2a2a2a;
+    letter-spacing: 2/@rem;
+    color: black;
     padding-top: 50/@rem;
+}
+.person .item div a{
+    color: black;
 }
 .person .item div img{
     width: 46/@rem;
     height: 46/@rem;
     margin-left: 110/@rem;
     margin-bottom: 20/@rem;
+   
 }

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,minimum-scale=1.0">
+		<title>提交订单</title>
+		<link href="../css/mui.min.css" rel="stylesheet"/>
+		<!--<link rel="stylesheet" type="text/css" href="../css/reset.css"/>-->
+        <link rel="stylesheet" type="text/css" href="../css/submitorder.css"/>
+        <script src="../js/mui.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../js/public.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="mui-content">
+			<div class="main">
+				<!--头部导航栏-->
+				<div class="order">					
+					提交订单			
+					<span><a href=""><img src="../img/back2.png" alt="" /></a></span>	
+					
+				</div>	
+				
+				<div class="center">
+					<div class="address">
+						<div class="message">
+							<div class="name">
+								<img src="../img/tijaodingdan_lianxiren.png"/>
+								收货人
+							</div>
+							<div class="number">
+								黎雄鹰
+							</div>
+							<div class="phonenum">
+								18899756740
+							</div>
+						</div>
+						<div class="location">
+							<div class="place">
+								<img src="../img/tijiaodingdan_weizhi.png"/>
+								收货地址：天娱广场8808室
+							</div>
+							
+						</div>
+					</div>
+				
+					<div class="argument">
+						
+						<div class="argument_img">
+							<img src="../img/shouye_xinxianshuiguo.png"/>
+						</div>
+						<div class="argument_item">
+							<div class="item_one">
+								云南树莓 125g/袋
+							</div>
+							<div class="item_two">
+								规格：125g/袋
+							</div>
+							<div class="item_three">
+								￥98.00
+								<span>x1</span>
+							</div>
+						</div>
+					</div>
+				
+					<div class="withraw">
+						<div class="withraw_num">
+							可用100积分抵扣1元
+						</div>
+						
+						<div class="mui-switch mui-active mui-switch-mini btnswitch">
+						  <div class="mui-switch-handle"></div>
+						</div>
+					</div>
+					<div class="remark">
+						
+						<textarea name="" rows="" cols="" placeholder="备注："></textarea>
+					
+				     </div>
+				     
+				     <div class="navbottom">
+				     	<div>合计</div>
+				     	<div>￥98.00</div>
+				     	<div class="submitorder" id="submitorder">提交订单</div>
+				     </div>
+				</div>
+		</div>	
+		
+	</body>
+	<script type="text/javascript">
+	document.getElementById('submitorder').addEventListener('tap',function(){
+				mui.openWindow({
+
+				url:'payfororder.html',
+				
+				id:'payfororder.html'
+			})
+		})
+	</script>
+</html>

@@ -24,10 +24,11 @@
 }
 .center .fruit_item > div {
   width: 25%;
-  height: 5.55555556rem;
+  height: 6.48148148rem;
   float: left;
   text-align: center;
   margin-top: 0.55555556rem;
+  padding-top: 0.55555556rem;
 }
 .center .fruit_item > div img {
   width: 4.44444444rem;

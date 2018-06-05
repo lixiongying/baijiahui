@@ -1,4 +1,5 @@
 @rem:54rem;
+
 .main{
     width: 100%;
   
@@ -6,6 +7,35 @@
 img{
     width: 100%;
     height: 100%;
+}
+.main header{
+    background-color: #e52323;
+    height: 144/@rem;
+    line-height: 144/@rem;
+   
+}
+.main .mui-title{
+    color: #FFFFFF;
+    font-size: 52/@rem;
+    height: 144/@rem;
+    line-height: 144/@rem;
+    font-family: MicrosoftYaHei;
+    font-weight: normal;
+    font-stretch: normal;
+}
+.main header a{
+    color: white;
+    height: 144/@rem;
+    display: block;
+    width: 100/@rem;
+    padding-top: 16/@rem;
+}
+.mui-bar .mui-icon{
+    padding-top: 40/@rem;
+//  margin-top: 10/@rem;
+}
+.main .center{
+    padding-top: 144/@rem;
 }
 .order{
     width: 100%;
@@ -21,7 +51,10 @@ img{
     background-color: #e52323;
     color: #ffffff;
 }
-
+.order span{
+    width: 38/@rem;
+    height: 59/@rem;
+}
 .order span img{
     font-family: MicrosoftYaHei;
     font-size: 40/@rem;
@@ -240,21 +273,21 @@ img{
 }
 
 
-.center .content .nickname{
+.center .content .nicknames{
     width: 100%;
     height: 173/@rem;
     line-height: 173/@rem;
     background-color: #ffffff;
     position: relative;
 }
-.center .content .nickname div{
+.center .content .nicknames div{
     float: right;
 }
-.center .content .nickname .head_title{
+.center .content .nicknames .head_title{
     float: left;
     margin-left: 30/@rem;
 }
-.center .content .nickname .head_pic{
+.center .content .nicknames .head_pic{
     width: 117/@rem;
     height: 116/@rem;
     line-height: 116/@rem;
@@ -264,7 +297,7 @@ img{
     right: 87/@rem;
     top: 19/@rem;
 }
-.center .content .nickname .head_next{
+.center .content .nicknames .head_next{
     width: 22/@rem;
     height: 42/@rem;
     position: absolute;
@@ -273,7 +306,7 @@ img{
 }
 
 
-.center .content .sex{
+.center .content .sexs{
     width: 100%;
     height: 173/@rem;
     line-height: 173/@rem;
@@ -281,14 +314,14 @@ img{
     position: relative;
 //  border-bottom: 5px solid #F5F5F5;
 }
-.center .content .sex div{
+.center .content .sexs div{
     float: right;
 }
-.center .content .sex .head_title{
+.center .content .sexs .head_title{
     float: left;
     margin-left: 30/@rem;
 }
-.center .content .sex .head_pic{
+.center .content .sexs .head_pic{
     width: 117/@rem;
     height: 116/@rem;
     line-height: 116/@rem;
@@ -298,7 +331,7 @@ img{
     right: 87/@rem;
     top: 19/@rem;
 }
-.center .content .sex .head_next{
+.center .content .sexs .head_next{
     width: 22/@rem;
     height: 42/@rem;
     position: absolute;
@@ -306,7 +339,7 @@ img{
     top: 0/@rem;
 }
 
-.center .content .phonenumber{
+.center .content .phonenumbers{
     width: 100%;
     height: 173/@rem;
     line-height: 173/@rem;
@@ -314,14 +347,14 @@ img{
     position: relative;
     margin-top: 30/@rem;
 }
-.center .content .phonenumbe div{
+.center .content .phonenumbes div{
     float: right;
 }
-.center .content .phonenumber .head_title{
+.center .content .phonenumbers .head_title{
     float: left;
     margin-left: 30/@rem;
 }
-.center .content .phonenumber .head_pic{
+.center .content .phonenumbers .head_pic{
     width: 407/@rem;
     height: 116/@rem;
     line-height: 116/@rem;
@@ -331,7 +364,7 @@ img{
     right: 87/@rem;
     top: 19/@rem;
 }
-.center .content .phonenumber .head_next{
+.center .content .phonenumbers .head_next{
     width: 22/@rem;
     height: 42/@rem;
     position: absolute;
@@ -380,9 +413,9 @@ img{
     right: 0;
     top: 0;
     background: black;
-    opacity: 0.5;
-    
-    z-index: 100;
+    opacity: 0;
+//  display: none;
+    z-index: -1;
 }
 
 .changesex{
@@ -395,54 +428,84 @@ img{
     border: solid 1px #cccccc;
     z-index: 101;
     top: 800/@rem;
-    display: none;
+    opacity: 0;
+//  display: none;
 }
-.changesex div{
-    width: 100%;
-    height: 100/@rem;
+.changesex {
+    width: 928/@rem;
+    height: 300/@rem;
     text-align: center;
-    line-height: 100/@rem;
+     position: fixed;
+     left: 76/@rem;
     font-size: 34/@rem;
 }
-.changesex div:first-child{
+.changesex .sex{
+    width: 100%;
+    height: 100/@rem;
     background: #F5F5F5;
     font-size: 40/@rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 0px;
     color: #2a2a2a;
-    position: relative;
+    line-height: 100/@rem;
+    display: block;
+    text-align: center;
 }
-.changesex div:last-child{
-    font-size: 34/@rem;
+.changesex .sex div:first-child{
+    width: 100/@rem;
+    height: 100/@rem;
+    background: #F5F5F5;
+    font-size: 40/@rem;
     font-weight: normal;
     font-stretch: normal;
-    
     letter-spacing: 0px;
-    color: #e52323;
+    color: #2a2a2a;
+    line-height: 100/@rem;
+    display:inline-block;
+    margin-left: 170/@rem;
+   
 }
-.changesex div:first-child p{
+#sexsure{
+    width: 160/@rem;
+    height: 100/@rem;
+    line-height: 100/@rem;
     font-size: 40/@rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 0px;
     color: #e52323;
-    display: inline-block;
-     position: absolute;
-     right:20/@rem;
+   
+    float: right;
+    margin-right: 10/@rem;
 }
+.changesex .girl{
+    width: 100%;
+    height: 100/@rem;
+    font-size: 34/@rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 100/@rem;
+    letter-spacing: 0px;
+
+}
+.changesex .changecolor {
+     color: #e52323;
+}
+
 
 .changenumber{
     width: 930/@rem;
     height: 570/@rem;
     position: fixed;
     left: 76/@rem;
-    height: 470/@rem;
-    z-index: 101;
-    display: none;
+    top: 600/@rem;
+    z-index: -100;
+//  display: none;
+    opacity: 0;
 }
 .changenumber .numreplace{
-    height: 142/@rem;
+    height: 116/@rem;
     width: 100%;
     background: #f5f5f5;
     font-family: MicrosoftYaHei;
@@ -452,7 +515,7 @@ img{
     letter-spacing: 0px;
     color: #2a2a2a;
     text-align: center;
-    line-height: 140/@rem;
+    line-height: 116/@rem;
 }
 .changenumber .surealter{
     width: 100%;
@@ -471,36 +534,36 @@ img{
     width: 100%;
     height:300/@rem;
     background: white;
-    
+   
 }
 .changenumber .phonenum .phonenumitem{
-    width: 928/@rem;
-    height: 80/@rem;
-    position: absolute;
-    top: 180/@rem;
-   left: 70/@rem;
-   }
-.changenumber .phonenum div:first-child{
+    width:100%;
+    height: 150/@rem;
+    padding-top: 40/@rem;
+ }
+.changenumber .phonenum .phonenumitem div:first-child{
     width: 60/@rem;
     height: 70/@rem;
-    line-height: 70/@rem;
+    line-height: 50/@rem;
     white-space: nowrap;
-    display: inline;
+    display: inline-block;
     font-family: MicrosoftYaHei;
     font-size: 32/@rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 0px;
     color: #1f1f1f;
+    margin-left: 163/@rem;
+    margin-top: -15/@rem;
 }
-.changenumber .phonenum div:last-child{
+.changenumber .phonenum .phonenumitem div:last-child{
     width: 500/@rem;
     height: 80/@rem;
-    
-   
-    display: inline;
+    display: inline-block;
+    float: right;
+    margin-right: 162/@rem;
 }
-.changenumber .phonenum div:last-child input{
+.changenumber .phonenum .phonenumitem div:last-child input{
     padding: 0;
     margin: 0;
     width: 500/@rem;
@@ -509,15 +572,48 @@ img{
     font-size: 34/@rem;
     font-weight: normal;
     font-stretch: normal;
-    padding-left: 60/@rem;
+    
     line-height: 70/@rem;
     letter-spacing: 0px;
     color: #666666;
-    position: absolute;
-    top: 20/@rem;
+  
     border: none;
 }
-
+.changenumber .phonenum .phonenumitem .getcode{
+    width: 100%;
+    height: 70/@rem;
+    
+}
+.changenumber .phonenum .getcode .code{
+    float: right;
+    display: inline-block;
+    width: 232/@rem;
+    height: 58/@rem;
+    line-height: 58/@rem;
+    margin-top: 6/@rem;
+    font-family: MicrosoftYaHei;
+    font-size: 34/@rem;
+    font-weight: normal;
+    font-stretch: normal;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #ffa000;
+    background-color: #ffffff;
+    border-radius: 8/@rem;
+    border: solid 2/@rem #ffa000;
+    margin-right: 120/@rem;
+}
+.changenumber .phonenum .getcode input{
+    display: inline-block;
+    width: 430/@rem;
+    height: 58/@rem;
+    line-height: 58/@rem;
+    padding: 0;
+    margin: 0;
+    margin-left: 120/@rem;
+    border: none;
+    border-bottom: 1px solid darkgray;
+}
 .changenickname{
     width: 928/@rem;
     height: 288/@rem;
@@ -525,7 +621,8 @@ img{
     position: fixed;
     top: 700/@rem;
     left: 76/@rem;
-    z-index: 101;
+    z-index: -101;
+    opacity: 0;
     border-radius:20/@rem 20/@rem 20/@rem 20/@rem;
 }
 .changenickname .nickname{
@@ -557,9 +654,14 @@ img{
     position: absolute;
     right: 30/@rem;
 }
+.changenickname .nickname .input_input{
+    width: 600/@rem;
+    height: 120/@rem;
+    border: none;
+}
 .changenickname .nickname .input_input input{
     height: 120/@rem;
-   
+   width: 500/@rem;
     padding-left: 60/@rem;
      border: none;
 }

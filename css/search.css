@@ -4,25 +4,27 @@
   background-color: #f6f6f6;
   position: relative;
 }
-.search_one {
+.search_one a {
   width: 0.51851852rem;
   height: 0.88888889rem;
   position: absolute;
-  top: 0.88888889rem;
+  top: 0.74074074rem;
   left: 0.85185185rem;
 }
 .search_two {
   position: absolute;
-  width: 14.44444444rem;
-  height: 0.88888889rem;
-  margin-top: 0.37037037rem;
-  line-height: 0.88888889rem;
+  width: 13.88888889rem;
+  height: 1.48148148rem;
+  top: 0.74074074rem;
+  line-height: 1.48148148rem;
   right: 3.64814815rem;
   background: none;
 }
 .search_two input {
   border-top: none;
   border-left: none;
+  width: 100%;
+  height: 100%;
   border-right: none;
   border-bottom: 0.03703704rem solid #808080;
   background: none;
@@ -32,7 +34,7 @@
 .search_three {
   position: absolute;
   right: 0.68518519rem;
-  top: 0.66666667rem;
+  top: 0.83333333rem;
   width: 2.77777778rem;
   height: 1.33333333rem;
   background-color: #e52323;
@@ -75,10 +77,10 @@
   position: absolute;
   left: 0.62962963rem;
 }
-.fruit {
+.search .fruit {
   position: relative;
 }
-.fruit .fruit_item li {
+.search .fruit .fruit_item li {
   float: left;
   width: 2.77777778rem;
   height: 1.66666667rem;
@@ -89,7 +91,50 @@
   margin-top: 2.96296296rem;
   margin-left: 0.55555556rem;
 }
-.fruit .fruit_item img {
+.search .fruit .fruit_item img {
+  width: 0.77777778rem;
+  height: 0.85185185rem;
+  display: block;
+}
+.hitsearch {
+  width: 100%;
+  padding-top: 0.55555556rem;
+  position: relative;
+  height: 5.55555556rem;
+  margin-top: 0rem;
+  border-bottom: 1px solid gray;
+}
+.hitsearch .delete img {
+  width: 0.77777778rem;
+  height: 0.85185185rem;
+  right: 0.88888889rem;
+  position: absolute;
+}
+.hitsearch .historysearch {
+  font-family: MicrosoftYaHei;
+  font-size: 0.77777778rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.03703704rem;
+  color: #2a2a2a;
+  position: absolute;
+  left: 0.62962963rem;
+}
+.hitsearch .fruit {
+  position: relative;
+}
+.hitsearch .fruit .fruit_item li {
+  float: left;
+  width: 2.77777778rem;
+  height: 1.66666667rem;
+  background-color: #f5f5f5;
+  border-radius: 0.46296296rem;
+  text-align: center;
+  line-height: 1.66666667rem;
+  margin-top: 2.96296296rem;
+  margin-left: 0.55555556rem;
+}
+.hitsearch .fruit .fruit_item img {
   width: 0.77777778rem;
   height: 0.85185185rem;
   display: block;

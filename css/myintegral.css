@@ -1,6 +1,6 @@
 html,
 body {
-  background: #FFFFFF;
+  background-color: #ffffff;
 }
 .main {
   width: 100%;
@@ -38,8 +38,8 @@ body {
 }
 .content .points {
   width: 100%;
-  height: 3.7037037rem;
-  margin-top: 1.85185185rem;
+  height: 5.55555556rem;
+  padding-top: 1.48148148rem;
   background-color: #ffffff;
   text-align: center;
 }
@@ -65,6 +65,7 @@ body {
   height: 2.22222222rem;
   line-height: 2.22222222rem;
   position: relative;
+  background-color: #ffffff;
 }
 .content .todaypoint_two p {
   display: inline;

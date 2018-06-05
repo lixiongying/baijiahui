@@ -6,10 +6,10 @@
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,minimum-scale=1.0">
-		<title></title>
+		<title>订单详情</title>
 		<link href="../css/mui.min.css" rel="stylesheet"/>
 		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
-		<!--<link rel="stylesheet" type="text/css" href="css/reset.css"/>-->
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
         <link rel="stylesheet" type="text/css" href="../css/myorder.css"/>
         <script src="../js/mui.js" type="text/javascript" charset="utf-8"></script>
         <script src="../js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
@@ -20,14 +20,15 @@
 	<body>
 		<div class="mui-content">
 			<div class="main">
-				<!--头部导航栏-->
-				<div class="order">
-					<div class="order_title">
-						<a href="JavaScript:history.go(-1)"><i></i></a>
-					</div>
-					订单详情
-				</div>	
+				
+				<header class="mui-bar mui-bar-nav mui-action-back">
+				    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+				    <h1 class="mui-title">订单详情</h1>
+				</header>
 				<!--选项卡-->
+				<div class="center">
+					
+				
 				<div class="nav_order">
 					<div class="secskill-content inner_pages topline">
 						<ul class="swiper-wrapper inner_nav">
@@ -55,7 +56,7 @@
 						</ul>
 					</div>
 				</div>
-				
+			</div>	
 								
 				<div class="select">
 				<!--选项卡全部-->	
@@ -350,7 +351,7 @@
 								<div class="form_item_four">
 									
 									<div class="form_btn_three">
-										查看物流
+										<a href="logisticdetails.html" style="color: white;">查看物流</a>
 									</div>
 								</div>
 							</div>
@@ -397,7 +398,7 @@
 								</div>
 								<div class="form_item_four">
 									
-									<div class="form_btn_three">
+									<div class="form_btn_three" id="evalute">
 										去评价
 									</div>
 								</div>

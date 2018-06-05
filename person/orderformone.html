@@ -12,14 +12,15 @@
 		<!--<link rel="stylesheet" type="text/css" href="css/reset.css"/>-->
         <link rel="stylesheet" type="text/css" href="../css/orderformone.css"/>
         <script src="../js/mui.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../js/public.js" type="text/javascript" charset="utf-8"></script>
+       <script src="../js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+       <script src="../js/public.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body>
 		<div class="mui-content">
 			<div class="main">
 				<div class="order">
 					<div class="order_one">
-						<a href="JavaScript:history.go(-1)"><img src="../img/529724036108137347.png"/></a>
+						<a href="myorder.html?num=1"><img src="../img/529724036108137347.png"/></a>
 					</div>
 					订单详情
 				</div>
@@ -92,9 +93,15 @@
 					</div>
 				</div>
 			</div>
-			
-			
-			
 		</div>				
 	</body>
+	<script type="text/javascript">
+		$('.form_btn_three').on('click',function(){
+		mui.openWindow({
+			url:'payfororder.html',
+				
+			id:'payfororder.html'
+		})
+	})
+	</script>
 </html>

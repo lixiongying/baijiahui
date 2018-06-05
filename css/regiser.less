@@ -1,6 +1,6 @@
 @rem:54rem;
 body,html{
-    background: white
+    background-color: white;
 }
 
 .header_title{
@@ -31,14 +31,16 @@ body,html{
 .register_input{
     width: 100%;
     height: auto;
+    background: white;
 
 }
 .register_li{
-    width: 100%;
+    width: 90%;
     position: relative;
     height:120/@rem;
     background: white;
-    margin-bottom: 5/@rem;
+    margin-left: 10%;
+//  margin-bottom: 5/@rem;
 }
 .register_input .register_li .input_input p{
     position: absolute;
@@ -70,28 +72,28 @@ body,html{
     width: 580/@rem;
     position: absolute;
     float: right;
-    left: 167/@rem;
-   top: 25%;
+    left: 87/@rem;
+    top: 25%;
 }
 
 .input_input input{
-     border: none;
-    width: 100%;
+   border: none;
+   width: 100%;
 // height: 100%;
    height: auto;
    margin: 0;
    padding: 0;
-    font-size: 38/@rem;
-    line-height: 50/@rem;
-    letter-spacing: 6/@rem;
-    color: #7b7a7a;
+   font-size: 38/@rem;
+   line-height: 50/@rem;
+   letter-spacing: 6/@rem;
+   color: #7b7a7a;
    
 }
 .inputimg{
     width: 41/@rem;
     height: 64/@rem;
     position: absolute;
-    left: 90/@rem;
+    left: 0/@rem;
     top: 25%;
 }
 .inputimg img{
@@ -144,3 +146,19 @@ body,html{
     margin-top: 150/@rem;
 }
 
+.popTips{
+    position: fixed;
+    opacity: 0.5;
+    width: 600/@rem;
+    height: 100/@rem;
+    background:black;
+    border-radius: 50/@rem;
+    left: 50%;
+    top: 45%;
+    text-align: center;
+    line-height: 100/@rem;
+    color: white;
+    margin-top: -180/@rem;
+    margin-left: -250/@rem;
+    display: none;
+}

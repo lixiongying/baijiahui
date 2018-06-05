@@ -1,8 +1,10 @@
-body {
-  background: white;
+body,
+html {
+  background-color: white;
 }
 .main {
   width: 100%;
+  background-color: white;
 }
 .order {
   width: 100%;

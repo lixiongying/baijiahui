@@ -8,3 +8,17 @@
 				var W = html.clientWidth;
 				html.style.fontSize = W / 20 + "px";
 			}
+
+	function back(){
+		
+		window.history.back(-1);
+		
+	}
+
+	function url(obj){
+		var url = $(obj).attr('data-url');
+		mui.openWindow({
+			url:url,
+			id:url
+		})
+	}

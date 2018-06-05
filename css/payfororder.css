@@ -30,6 +30,7 @@
   width: 100%;
 }
 .center .payaccount {
+  display: none;
   font-family: MicrosoftYaHei;
   font-size: 0.88888889rem;
   font-weight: normal;
@@ -40,6 +41,27 @@
   letter-spacing: 0.03703704rem;
   color: #2a2a2a;
   margin-left: 0.55555556rem;
+}
+.center .paymenber {
+  font-family: MicrosoftYaHei;
+  font-size: 0.88888889rem;
+  font-weight: normal;
+  font-stretch: normal;
+  width: 100%;
+  height: 2.59259259rem;
+  line-height: 2.59259259rem;
+  letter-spacing: 0.03703704rem;
+  color: #2a2a2a;
+  background: white;
+  padding-left: 0.55555556rem;
+}
+.center .paymenber span {
+  font-family: MicrosoftYaHei;
+  font-size: 0.96296296rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.03703704rem;
+  color: #e52323;
 }
 .center .payaccount .payaccount_one {
   width: 3.92592593rem;
@@ -203,8 +225,9 @@
   border-radius: 0.46296296rem;
   z-index: 103;
   position: fixed;
-  top: 11.11111111rem;
+  top: 9.25925926rem;
   left: 1.85185185rem;
+  display: none;
 }
 .paymentcode .code_title {
   width: 100%;
@@ -225,10 +248,10 @@
   left: 1.51851852rem;
 }
 .paymentcode .code_number {
-  width: 10.37037037rem;
-  height: 1.66666667rem;
+  width: 11.48148148rem;
+  height: 1.85185185rem;
   position: absolute;
-  left: 3.24074074rem;
+  left: 2.87037037rem;
   bottom: 2.64814815rem;
 }
 .paymentcode .code_number input {
@@ -254,4 +277,5 @@
   background: black;
   opacity: 0.5;
   z-index: 100;
+  display: none;
 }

@@ -6,9 +6,9 @@
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,minimum-scale=1.0">
-		<title>开通会员</title>
+		<title>设置</title>
 		<link href="../css/mui.min.css" rel="stylesheet"/>
-		<!--<link rel="stylesheet" type="text/css" href="../css/reset.css"/>-->
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
         <link rel="stylesheet" type="text/css" href="../css/setting.css"/>
         <script src="../js/mui.js" type="text/javascript" charset="utf-8"></script>
         <script src="../js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
@@ -17,14 +17,14 @@
 	<body>
 		<div class="mui-content">
 			<div class="main">
-				<!--头部导航栏-->
-				<div class="order">					
-					设置			
-					<span><a href=""><img src="../img/back2.png" alt="" /></a></span>	
-				</div>	
-				
+														
+				<header class="mui-bar mui-bar-nav mui-action-back">
+				    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+				    <h1 class="mui-title">设置</h1>
+				</header>
+
 				<div class="center">
-					<div class="security">
+					<div class="security" id="security">
 						<div class="saft">
 							账号与安全
 						</div>
@@ -32,7 +32,7 @@
 							修改登录/支付密码
 						</div>
 					</div>
-					<div class="exitlogin">
+					<div class="exitlogin" onclick="url(this)"  data-url='../login.html'>
 						退出登录
 					</div>
 				</div>
@@ -40,6 +40,11 @@
 		
 	</body>
 	<script type="text/javascript">
-//		
+	    document.getElementById('security').addEventListener('tap',function(){
+	    	mui.openWindow({
+	    		url:"accountandsecurity.html",
+	    		id:"accountandsecurity.html",
+	    	})
+	    })
 	</script>
 </html>

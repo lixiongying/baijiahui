@@ -1,0 +1,184 @@
+.main {
+  width: 100%;
+}
+.order {
+  width: 100%;
+  height: 2.6666666666666665rem;
+  position: relative;
+  text-align: center;
+  line-height: 2.6666666666666665rem;
+  font-size: 0.8888888888888888rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.037037037037037035rem;
+  color: #2a2a2a;
+  background-color: #e52323;
+  color: #ffffff;
+}
+.order span img {
+  font-family: MicrosoftYaHei;
+  font-size: 0.7407407407407407rem;
+  letter-spacing: 0.037037037037037035rem;
+  color: #ffffff;
+  position: absolute;
+  top: 30%;
+  left: 0.9814814814814815rem;
+  width: 0.5185185185185185rem;
+  height: 0.9074074074074074rem;
+}
+.center {
+  width: 100%;
+}
+.center .revenue {
+  width: 100%;
+  height: 5.555555555555555rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+.center .revenue .money {
+  font-family: MicrosoftYaHei;
+  font-size: 1.6481481481481481rem;
+  font-weight: normal;
+  font-stretch: normal;
+  padding-top: 1.5555555555555556rem;
+  width: 100%;
+  height: 1.6666666666666667rem;
+  line-height: 1.6666666666666667rem;
+  letter-spacing: 0.07407407407407407rem;
+  color: #e52323;
+}
+.center .revenue .total {
+  width: 100%;
+  height: 0.7407407407407407rem;
+  font-family: MicrosoftYaHei;
+  font-size: 0.6296296296296297rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 0.7407407407407407rem;
+  letter-spacing: 0.018518518518518517rem;
+  color: #2a2a2a;
+  margin-top: 1.8518518518518519rem;
+}
+.center .todayrevenue {
+  width: 100%;
+  height: 3.3333333333333335rem;
+  margin-top: 0.5555555555555556rem;
+}
+.center .todayrevenue .today {
+  width: 100%;
+  height: 1.1111111111111112rem;
+  background: none;
+  line-height: 1.1111111111111112rem;
+  text-align: left;
+  font-family: MicrosoftYaHei;
+  font-size: 0.7037037037037037rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  color: #2a2a2a;
+  margin-left: 0.18518518518518517rem;
+}
+.center .todayrevenue .commission {
+  width: 100%;
+  height: 2.2222222222222223rem;
+  background: white;
+  position: relative;
+}
+.center .todayrevenue .commission span {
+  font-family: MicrosoftYaHei;
+  font-size: 0.7407407407407407rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.037037037037037035rem;
+  color: #e52323;
+  position: absolute;
+  right: 0;
+  top: 0.6481481481481481rem;
+  right: 0.37037037037037035rem;
+}
+.center .todayrevenue .commission .commission_title {
+  width: 100%;
+  height: 1.2962962962962963rem;
+  font-family: MicrosoftYaHei;
+  font-size: 0.7037037037037037rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.2962962962962963rem;
+  letter-spacing: 1px;
+  color: #2a2a2a;
+  margin-left: 0.18518518518518517rem;
+}
+.center .todayrevenue .commission .commission_time {
+  width: 100%;
+  height: 0.9259259259259259rem;
+  font-family: MicrosoftYaHei;
+  font-size: 0.5555555555555556rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 0.9259259259259259rem;
+  letter-spacing: 0px;
+  color: #787878;
+  margin-left: 0.18518518518518517rem;
+}
+.center .totalrevenue {
+  width: 100%;
+  height: 3.3333333333333335rem;
+  margin-top: 0.5555555555555556rem;
+}
+.center .totalrevenue .today {
+  width: 100%;
+  height: 1.1111111111111112rem;
+  background: none;
+  margin-left: 0.18518518518518517rem;
+  line-height: 1.1111111111111112rem;
+  text-align: left;
+  font-family: MicrosoftYaHei;
+  font-size: 0.7037037037037037rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  color: #2a2a2a;
+}
+.center .totalrevenue .commission {
+  width: 100%;
+  height: 2.2222222222222223rem;
+  background: white;
+  position: relative;
+}
+.center .totalrevenue .commission span {
+  font-family: MicrosoftYaHei;
+  font-size: 0.7407407407407407rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.037037037037037035rem;
+  color: #e52323;
+  position: absolute;
+  right: 0;
+  top: 0.6481481481481481rem;
+  right: 0.37037037037037035rem;
+}
+.center .totalrevenue .commission .commission_title {
+  width: 100%;
+  height: 1.2962962962962963rem;
+  font-family: MicrosoftYaHei;
+  font-size: 0.7037037037037037rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.2962962962962963rem;
+  letter-spacing: 1px;
+  color: #2a2a2a;
+  margin-left: 0.18518518518518517rem;
+}
+.center .totalrevenue .commission .commission_time {
+  width: 100%;
+  height: 0.9259259259259259rem;
+  font-family: MicrosoftYaHei;
+  font-size: 0.5555555555555556rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 0.9259259259259259rem;
+  letter-spacing: 0px;
+  color: #787878;
+  margin-left: 0.18518518518518517rem;
+}
+/*# sourceMappingURL=returndetails.css.map */

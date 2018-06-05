@@ -13,83 +13,84 @@
 		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
 		<script src="../js/public.js" type="text/javascript" charset="utf-8"></script>
 		<script src="../js/mui.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="../js/mui.min.js" type="text/javascript" charset="utf-8"></script>
 		<title></title>
 	</head>
 	<body>
-		<header class="header_title" style="" id="header">
-		  	<span><img src="../img/529724036108137347.png" alt="" class="back_img"/></span>
-		 	大嘴公告
-		</header>
 		<div class="mui-content">
-			<div class="annoumcement" id="annoumcement">
-				<div class="main">
-					<div class="main_one">
-						<img src="../img/shouye_difangtechan.png"/>
-						<p>烘培</p>
-					</div>
-					<div class="">
-						<p style="margin-right: 5px;">清风月舞</p>
-					</div>
-				</div>
-				<div class="main_pic">
-					<img src="../img/4.jpg"/>
-				</div>
-				<div class="main_world">
-					<p>好吃的肉松饼懒人做法超简单！</p>
-					<p>学会这道点心不需要任何技能，小白首选懒人必备，关键是味道超赞哦</p>
-				</div>
-			</div>
-			
-			<div class="annoumcement" id="annoumcement">
-				<div class="main">
-					<div class="main_one">
-						<img src="../img/shouye_difangtechan.png"/>
-						<p>烘培</p>
-					</div>
-					<div class="">
-						<p style="margin-right: 5px;">清风月舞</p>
-					</div>
-				</div>
-				<div class="main_pic">
-					<img src="../img/4.jpg"/>
-				</div>
-				<div class="main_world">
-					<p>好吃的肉松饼懒人做法超简单！</p>
-					<p>学会这道点心不需要任何技能，小白首选懒人必备，关键是味道超赞哦</p>
-				</div>
-			</div>
-			
-			<div class="annoumcement" id="annoumcement">
-				<div class="main">
-					<div class="main_one">
-						<img src="../img/shouye_difangtechan.png"/>
-						<p>烘培</p>
-					</div>
-					<div class="">
-						<p style="margin-right: 5px;">清风月舞</p>
-					</div>
-				</div>
-				<div class="main_pic">
-					<img src="../img/4.jpg"/>
-				</div>
-				<div class="main_world">
-					<p>好吃的肉松饼懒人做法超简单！</p>
-					<p>学会这道点心不需要任何技能，小白首选懒人必备，关键是味道超赞哦</p>
-				</div>
-			</div>
-		</div>
-		
+			<div class="main">
+				<header class="mui-bar mui-bar-nav" style="background: white;">
+					    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"  style=" color: black;"></a>
+					    <h1 class="mui-title" style=" color: black;">大嘴公告</h1>
+				</header>
+			    <div class="center">
+				     <div class="anmouncement" id="anmounecment">
+				     	<div class="anmounce">
+				     		<div class="anmounce_item">
+				     			<div class="anmounce_one">
+				     				<img src="../img/shouye_xinxianshuiguo.png"/>
+				     			</div>
+				     			<div class="anmounce_two">
+				     				烘焙
+				     			</div>
+				     			<div class="anmounce_three">
+				     				清风月舞
+				     			</div>
+				     		</div>
+				     		<div class="anmounce_pic">
+				     			<img src="../img/1.jpg"/>
+				     		</div>
+				     		<div class="anmounce_world">
+				     			好吃的肉松饼懒人做法超简单！
+				     		</div>
+				     		<div class="anmounce_descrie">
+				     			学会这道点心不需要任何技能，小白首选懒人必备，关键是味道超赞哦
+				     		</div>
+				     	</div>
+				     </div>
+				     
+				     <div class="anmouncement">
+				     	<div class="anmounce">
+				     		<div class="anmounce_item">
+				     			<div class="anmounce_one">
+				     				<img src="../img/shouye_xinxianshuiguo.png"/>
+				     			</div>
+				     			<div class="anmounce_two">
+				     				烘焙
+				     			</div>
+				     			<div class="anmounce_three">
+				     				清风月舞
+				     			</div>
+				     		</div>
+				     		<div class="anmounce_pic">
+				     			<img src="../img/1.jpg"/>
+				     		</div>
+				     		<div class="anmounce_world">
+				     			好吃的肉松饼懒人做法超简单！
+				     		</div>
+				     		<div class="anmounce_descrie">
+				     			学会这道点心不需要任何技能，小白首选懒人必备，关键是味道超赞哦
+				     		</div>
+				     	</div>
+				     </div>
+		       </div>
+	        </div>
+	   </div>
+   
 	</body>
 	<script type="text/javascript">
-			document.getElementById('annoumcement').addEventListener('tap',function(){
-				mui.openWindow({
+	$('.anmouncement').on('click',function(){
+		mui.openWindow({
 
 				url:'bigmousedetails.html',
 				
 				id:'bigmousedetails.html'
 			})
-		})
+	})
+//			document.getElementsByClassName('anmouncement').addEventListener('tap',function(){
+//				
+//		})
 			document.getElementById('header').addEventListener('tap',function(){
 				mui.openWindow({
 

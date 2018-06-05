@@ -208,7 +208,8 @@
 					"img/invite1.png",
 					"img/myself1.png",
 					"homepage/homepage.html",
-					"js/jquery-1.10.2.min.js"
+					"js/jquery-1.10.2.min.js",
+					"homepage/chooseshop.html"
 				],
 				"refer": [
 					"classify.html",
@@ -281,7 +282,13 @@
 					"css/mui.min.css",
 					"homepage/thegoodsdetail.html",
 					"js/mui.js",
-					"js/public.js"
+					"js/public.js",
+					"js/homepage.js",
+					"js/jquery-1.10.2.min.js",
+					"css/reset.css",
+					"img/4.jpg",
+					"js/swiper.min.js",
+					"img/3.jpg"
 				],
 				"refer": [
 					"homepage/search.html",
@@ -317,10 +324,12 @@
 					"js/mui.min.js",
 					"img/shouye_xinxianshuiguo.png",
 					"img/2.jpg",
-					"img/shouye_difangtechan.png"
+					"img/shouye_difangtechan.png",
+					"person/submitorder.html"
 				],
 				"refer": [
-					"homepage/thegoodsevalute.html"
+					"homepage/thegoodsevalute.html",
+					"homepage/customservice.html"
 				],
 				"priority": 0
 			},
@@ -330,7 +339,8 @@
 					"img/529724036108137347.png",
 					"css/mui.min.css",
 					"css/mui.css",
-					"css/reset.css"
+					"css/reset.css",
+					"fonts/mui.ttf"
 				],
 				"refer": [],
 				"priority": 0
@@ -343,7 +353,9 @@
 					"css/reset.css",
 					"js/public.js",
 					"css/mui.min.css",
-					"js/mui.js"
+					"js/mui.js",
+					"fonts/mui.ttf",
+					"js/jquery-1.10.2.min.js"
 				],
 				"refer": [],
 				"priority": 0
@@ -357,7 +369,10 @@
 					"img/3.jpg",
 					"css/reset.css",
 					"img/529724036108137347.png",
-					"js/mui.min.js"
+					"js/mui.min.js",
+					"homepage/announcement.html",
+					"js/public.js",
+					"img/shouye_difangtechan.png"
 				],
 				"refer": [],
 				"priority": 0
@@ -373,10 +388,14 @@
 					"img/4.jpg",
 					"js/mui.js",
 					"css/mui.css",
-					"css/reset.css"
+					"css/reset.css",
+					"homepage/bigmousedetails.html",
+					"img/1.jpg",
+					"fonts/mui.ttf",
+					"img/shouye_xinxianshuiguo.png",
+					"js/jquery-1.10.2.min.js"
 				],
 				"refer": [
-					"homepage/bigmousedetails.html",
 					"homepage/homepage.html"
 				],
 				"priority": 0
@@ -392,10 +411,36 @@
 					"css/reset.css",
 					"css/mui.min.css",
 					"js/mui.js",
-					"img/shouye_xinxianshuiguo.png"
+					"img/shouye_xinxianshuiguo.png",
+					"img/geren_wodedingdan_kaishouhuo.png",
+					"img/person005.png",
+					"img/geren_wodedingdan_kaifahuo.png",
+					"img/person003.png",
+					"img/person001.png",
+					"img/geren_wodedingdan_kaifukuan.png",
+					"img/person004.png",
+					"img/person006.png",
+					"img/geren_wodedingdan_kaipingjia.png",
+					"img/t01e462d459da144398.jpg",
+					"img/person002.png",
+					"person/myorder.html",
+					"person/setting.html",
+					"person/serviceandfeedback.html",
+					"person/rewardinviting.html",
+					"person/shopaddress.html",
+					"person/entitystores.html",
+					"person/storeservice.html",
+					"person/mycollect.html",
+					"js/public.js",
+					"js/jquery-1.10.2.min.js",
+					"person/myprofile.html",
+					"img/shop1.png",
+					"css/nav_table.css",
+					"fonts/mui.ttf",
+					"js/person.js"
 				],
 				"refer": [
-					"person/myorder.html"
+					"login.html"
 				],
 				"priority": 0
 			},
@@ -412,9 +457,22 @@
 					"img/分类_09.png",
 					"js/mui.js",
 					"img/分类_10.png",
-					"img/分类_02.png"
+					"img/分类_02.png",
+					"img/001_09.png",
+					"img/001_03.png",
+					"img/001_13.png",
+					"img/001_04.png",
+					"img/001_02.png",
+					"img/001_08.png",
+					"img/001_12.png",
+					"img/001_07.png",
+					"img/001_05.png",
+					"img/001_10.png",
+					"css/mui.min.css"
 				],
-				"refer": [],
+				"refer": [
+					"classify/classifyitem.html"
+				],
 				"priority": 0
 			},
 			"shopcar/shopcar.html": {
@@ -428,7 +486,10 @@
 					"img/shouye_xinxianshuiguo.png",
 					"css/reset.css",
 					"img/shouye_shishujingcai.png",
-					"js/shopcar.js"
+					"js/shopcar.js",
+					"css/mui.min.css",
+					"img/gouwuche_jia.png",
+					"img/xuanzhong.png"
 				],
 				"refer": [],
 				"priority": 0
@@ -445,9 +506,554 @@
 					"img/shouye_difangtechan.png",
 					"js/jquery-1.10.2.min.js",
 					"js/mui.js",
-					"img/shouye_xinxianshuiguo.png"
+					"img/shouye_xinxianshuiguo.png",
+					"img/back2.png",
+					"person/person.html",
+					"person/orderformevalute.html",
+					"person/logisticdetails.html",
+					"fonts/mui.ttf"
+				],
+				"refer": [
+					"person/orderformone.html",
+					"person/orderform.html",
+					"person/orderformtwo.html",
+					"person/payfororder.html"
+				],
+				"priority": 0
+			},
+			"homepage/chooseshop.html": {
+				"resources": [
+					"img/search.png",
+					"img/2.jpg",
+					"css/chooseshop.css",
+					"img/shouye_dingwei.png",
+					"css/mui.min.css",
+					"img/4.jpg",
+					"js/swiper.min.js",
+					"img/nav2.png",
+					"img/3.jpg",
+					"homepage/homepage.html",
+					"img/next.png",
+					"css/reset.css"
 				],
 				"refer": [],
+				"priority": 0
+			},
+			"person/setting.html": {
+				"resources": [
+					"person/person.html",
+					"fonts/mui.ttf",
+					"css/setting.css",
+					"css/mui.min.css",
+					"js/public.js",
+					"js/jquery-1.10.2.min.js",
+					"js/mui.js",
+					"person/myprofile.html",
+					"img/back2.png",
+					"css/reset.css"
+				],
+				"refer": [
+					"person/accountandsecurity.html",
+					"login.html"
+				],
+				"priority": 0
+			},
+			"person/opinion.html": {
+				"resources": [
+					"css/mui.min.css",
+					"css/opinion.css",
+					"person/serviceandfeedback.html",
+					"css/reset.css"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"person/serviceandfeedback.html": {
+				"resources": [
+					"person/opinion.html",
+					"img/fuwuyufankui_yijianfankui.png",
+					"img/fuwuyufankui_zaixiankefu.png",
+					"img/back2.png",
+					"css/mui.min.css",
+					"img/fuwuyufankui_dianhuakefu.png",
+					"css/serviceandfeedback.css",
+					"person/person.html",
+					"person/service.html",
+					"img/next.png",
+					"css/reset.css",
+					"js/public.js",
+					"js/jquery-1.10.2.min.js",
+					"js/mui.js",
+					"fonts/mui.ttf"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"classify/classifyitem.html": {
+				"resources": [
+					"css/classifyitem.css",
+					"js/classify.js",
+					"fonts/mui.ttf",
+					"css/mui.min.css",
+					"img/fenlei_zhekou.png",
+					"css/reset.css",
+					"img/shouye_difangtechan.png",
+					"img/shouye_tianjiagouwuche.png",
+					"js/public.js",
+					"img/shouye_xinxianshuiguo.png",
+					"js/jquery-1.10.2.min.js",
+					"js/mui.js",
+					"img/shouye_shishujingcai.png"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"person/rewardinviting.html": {
+				"resources": [
+					"img/tuiguangma.png",
+					"img/wodejilu.png",
+					"img/shenqingtixian.png",
+					"js/public.js",
+					"img/t01e462d459da144398.jpg",
+					"img/back2.png",
+					"css/mui.min.css",
+					"js/jquery-1.10.2.min.js",
+					"img/next.png",
+					"js/mui.js",
+					"css/rewardinviting.css",
+					"person/deposit.html",
+					"person/myincome.html",
+					"person/person.html",
+					"person/myinvite.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"person/myprofile.html": {
+				"resources": [
+					"img/back2.png",
+					"js/myprifile.js",
+					"css/myprofile.css",
+					"person/setting.html",
+					"css/mui.min.css",
+					"person/myintegral.html",
+					"img/shouye_xinxianshuiguo.png",
+					"person/person.html",
+					"js/public.js",
+					"js/jquery-1.10.2.min.js",
+					"img/next.png",
+					"js/mui.js",
+					"fonts/mui.ttf",
+					"css/reset.css",
+					"js/velocity.min.js",
+					"js/velocity.ui.min.js"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"person/myintegral.html": {
+				"resources": [
+					"img/back.png",
+					"css/myintegral.css",
+					"css/mui.min.css",
+					"css/reset.css",
+					"person/myprofile.html",
+					"js/public.js",
+					"js/jquery-1.10.2.min.js",
+					"js/mui.js"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"person/deposit.html": {
+				"resources": [
+					"css/deposit.css",
+					"person/rewardinviting.html",
+					"img/tixian_shouyi.png",
+					"person/showtheresult.html",
+					"css/mui.min.css",
+					"css/reset.css",
+					"fonts/mui.ttf"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"person/showtheresult.html": {
+				"resources": [
+					"person/deposit.html",
+					"css/showtheresult.css",
+					"css/mui.min.css",
+					"img/zhifuchenggong.png"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"person/myincome.html": {
+				"resources": [
+					"img/qq.png",
+					"img/weibo.png",
+					"css/myincome.css",
+					"img/pengyouquan.png",
+					"img/weixin.png",
+					"img/002.png",
+					"person/returndetails.html",
+					"person/rewardinviting.html",
+					"css/mui.min.css",
+					"css/reset.css"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"person/returndetails.html": {
+				"resources": [
+					"css/mui.min.css",
+					"css/returndetails.css",
+					"person/myincome.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"person/newharvestaddress.html": {
+				"resources": [
+					"css/newharvestaddress.css",
+					"person/shopaddress.html",
+					"css/mui.min.css",
+					"fonts/mui.ttf"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"person/shopaddress.html": {
+				"resources": [
+					"img/shouhuodizhi_bianji.png",
+					"css/shopaddress.css",
+					"css/mui.min.css",
+					"person/newharvestaddress.html",
+					"img/shouhuodizhi_shanchu.png",
+					"person/person.html",
+					"css/reset.css",
+					"img/back2.png"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"person/entitystores.html": {
+				"resources": [
+					"img/back.png",
+					"person/person.html",
+					"css/entitystores.css",
+					"css/mui.min.css",
+					"img/4.jpg",
+					"person/shopregister.html",
+					"js/public.js",
+					"js/jquery-1.10.2.min.js",
+					"js/mui.js"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"person/storeservice.html": {
+				"resources": [
+					"img/face.png",
+					"css/storeservice.css",
+					"img/gouwuche_jia.png",
+					"css/mui.min.css",
+					"person/person.html",
+					"img/back2.png",
+					"js/public.js",
+					"img/t01e462d459da144398.jpg",
+					"js/jquery-1.10.2.min.js",
+					"js/mui.js"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"person/shopregister.html": {
+				"resources": [
+					"js/shopregister.js",
+					"img/gouwuche_xuanzhong.png",
+					"img/529724036108137347.png",
+					"img/z_add.png",
+					"css/shopregister.css",
+					"css/mui.min.css",
+					"person/entitystores.html",
+					"img/gouwuche_weixuanzhong.png",
+					"js/public.js",
+					"js/jquery-1.10.2.min.js",
+					"js/mui.js"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"person/orderformone.html": {
+				"resources": [
+					"img/tijiaodingdan_weizhi.png",
+					"img/tijaodingdan_lianxiren.png",
+					"img/dingdanxiangqing_kaifukuan.png",
+					"css/orderformone.css",
+					"person/myorder.html",
+					"css/mui.min.css",
+					"img/529724036108137347.png"
+				],
+				"refer": [
+					"person/payfororder.html"
+				],
+				"priority": 0
+			},
+			"person/orderformevalute.html": {
+				"resources": [
+					"css/orderformevalute.css",
+					"img/fabiaopingjia_pingfen2.png",
+					"img/fabiaopingjia_pingfen.png",
+					"img/gouwuche_xuanzhong.png",
+					"img/529724036108137347.png",
+					"css/iconfont.css",
+					"css/fileUpload.css",
+					"css/mui.min.css",
+					"js/fileUpload.js",
+					"person/myorder.html",
+					"img/fabiaopingjia_tianjiatupian.png",
+					"img/shouye_shishujingcai.png",
+					"js/orerformevalute.js",
+					"js/jQuery.score.js",
+					"css/jQuery.score.css",
+					"css/reset.css",
+					"js/public.js",
+					"js/jquery-1.10.2.min.js",
+					"js/mui.js",
+					"img/shangpinxiangqing_quxiao.png"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"person/payfororder.html": {
+				"resources": [
+					"img/zhifufangshi_weixin.png",
+					"js/payfororder.js",
+					"css/payfororder.css",
+					"img/gouwuche_xuanzhong.png",
+					"css/mui.min.css",
+					"img/zhifufangshi_yue.png",
+					"img/zhifufangshi_zhifubao.png",
+					"person/orderformone.html",
+					"img/gouwuche_weixuanzhong.png",
+					"css/reset.css",
+					"person/payforsuccess.html",
+					"js/public.js",
+					"img/shouye_xinxianshuiguo.png",
+					"img/back2.png",
+					"js/jquery-1.10.2.min.js",
+					"js/mui.js"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"person/orderform.html": {
+				"resources": [
+					"img/dingdanxiangqing_kaifahuo.png",
+					"css/orderform.css",
+					"person/myorder.html",
+					"img/tijiaodingdan_weizhi.png",
+					"img/529724036108137347.png",
+					"img/tijaodingdan_lianxiren.png"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"person/orderformtwo.html": {
+				"resources": [
+					"css/orderformtwo.css",
+					"img/dingdanxiangqing_yifahuo.png",
+					"img/tijiaodingdan_weizhi.png",
+					"img/529724036108137347.png",
+					"img/tijaodingdan_lianxiren.png"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"person/logisticdetails.html": {
+				"resources": [
+					"img/wuliuxiangiqng_paisongzhong.png",
+					"css/logisticsdetails.css",
+					"img/003.png",
+					"css/mui.min.css",
+					"person/myorder.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"homepage/customservice.html": {
+				"resources": [
+					"img/face.png",
+					"img/gouwuche_jia.png",
+					"fonts/mui.ttf",
+					"js/public.js",
+					"css/mui.min.css",
+					"js/jquery-1.10.2.min.js",
+					"css/customservice.css",
+					"js/mui.js"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"person/mycollect.html": {
+				"resources": [
+					"person/person.html",
+					"css/mui.min.css",
+					"css/mycollect.css",
+					"img/back.png",
+					"img/shouye_xinxianshuiguo.png",
+					"js/public.js",
+					"js/jquery-1.10.2.min.js",
+					"js/mui.js",
+					"css/reset.css"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"person/service.html": {
+				"resources": [
+					"img/face.png",
+					"img/gouwuche_jia.png",
+					"css/mui.min.css",
+					"css/service.css",
+					"person/serviceandfeedback.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"person/myinvite.html": {
+				"resources": [
+					"css/myinvite.css",
+					"person/rewardinviting.html",
+					"css/mui.min.css",
+					"css/reset.css",
+					"fonts/mui.ttf"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"person/submitorder.html": {
+				"resources": [
+					"img/tijiaodingdan_weizhi.png",
+					"css/mui.min.css",
+					"img/back2.png",
+					"css/submitorder.css",
+					"img/tijaodingdan_lianxiren.png",
+					"js/public.js",
+					"js/jquery-1.10.2.min.js",
+					"js/mui.js",
+					"img/shouye_xinxianshuiguo.png",
+					"homepage/thegoodsdetail.html"
+				],
+				"refer": [
+					"person/payfororder.html"
+				],
+				"priority": 0
+			},
+			"person/payforsuccess.html": {
+				"resources": [
+					"css/payforsuccess.css",
+					"css/mui.min.css",
+					"css/reset.css",
+					"img/zhifuchenggong.png"
+				],
+				"refer": [
+					"homepage/homepage.html"
+				],
+				"priority": 0
+			},
+			"person/accountandsecurity.html": {
+				"resources": [
+					"css/accountandsecurity.css",
+					"js/public.js",
+					"img/back2.png",
+					"css/mui.min.css",
+					"js/jquery-1.10.2.min.js",
+					"img/next.png",
+					"js/mui.js",
+					"fonts/mui.ttf",
+					"css/reset.css"
+				],
+				"refer": [
+					"person/changepassword.html",
+					"person/changeloginpsd.html"
+				],
+				"priority": 0
+			},
+			"person/findthepsd.html": {
+				"resources": [
+					"css/findthepsd.css",
+					"js/public.js",
+					"img/back2.png",
+					"css/mui.min.css",
+					"js/jquery-1.10.2.min.js",
+					"js/mui.js"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"person/changepassword.html": {
+				"resources": [
+					"img/denglu_wangjimima.png",
+					"css/mui.min.css",
+					"css/changepassword.css",
+					"fonts/mui.ttf",
+					"js/public.js",
+					"js/jquery-1.10.2.min.js",
+					"js/mui.js",
+					"css/reset.css"
+				],
+				"refer": [
+					"person/findthepsd.html"
+				],
+				"priority": 0
+			},
+			"person/changeloginpsd.html": {
+				"resources": [
+					"css/changeloginpsd.css",
+					"css/mui.min.css",
+					"js/public.js",
+					"img/back2.png",
+					"js/jquery-1.10.2.min.js",
+					"js/mui.js",
+					"css/reset.css",
+					"fonts/mui.ttf"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"login.html": {
+				"resources": [
+					"img/denglu_wangjimima.png",
+					"img/back.png",
+					"css/login.css",
+					"js/login.js",
+					"img/zhuce_shoujihaoma.png",
+					"img/weixin.png",
+					"css/mui.css",
+					"img/zhuce_mima.png",
+					"js/mui.min.js",
+					"js/public.js",
+					"js/jquery-1.10.2.min.js",
+					"css/reset.css"
+				],
+				"refer": [
+					"register.html"
+				],
+				"priority": 0
+			},
+			"register.html": {
+				"resources": [
+					"img/back.png",
+					"js/register.js",
+					"css/mui.min.css",
+					"css/regiser.css",
+					"css/mui.css"
+				],
+				"refer": [
+					"login.html"
+				],
 				"priority": 0
 			}
 		},
@@ -455,7 +1061,6 @@
 			"resources": [
 				"css/nav_table.less",
 				"css/index.css",
-				"fonts/mui.ttf",
 				"css/index.less"
 			]
 		}

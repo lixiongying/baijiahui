@@ -1,6 +1,10 @@
 .main {
   width: 100%;
 }
+body,
+html {
+  background-color: #ffffff;
+}
 .order {
   width: 100%;
   height: 2.66666667rem;
@@ -12,6 +16,7 @@
   font-stretch: normal;
   letter-spacing: 0.03703704rem;
   color: #2a2a2a;
+  background-color: #ffffff;
 }
 .order_one {
   width: 0.51851852rem;
@@ -61,9 +66,9 @@
 }
 .evalute .publicevalute {
   width: 100%;
-  padding: 0 0.44444444rem;
-  height: 4.44444444rem;
+  height: 9.25925926rem;
   position: relative;
+  background-color: #ffffff;
 }
 #texta {
   width: 19.11111111rem;
@@ -76,14 +81,73 @@
   letter-spacing: 1px;
   color: #7b7a7a;
   padding: 0;
+  margin: 0;
+  margin: 0 0.44444444rem;
+  padding: 0.18518519rem;
 }
-.evalute .picevalute img {
-  width: 1.66666667rem;
-  height: 1.48148148rem;
-  border-radius: 0.11111111rem;
+.evalute .picevalute {
+  width: 100%;
+  height: 5.55555556rem;
+  background: #FFFFFF;
+}
+.evalute .picevalute .fileUploadContent {
+  width: auto;
+  height: 6.48148148rem;
+}
+.evalute .picevalute .fileUploadContent .box {
+  height: 2.96296296rem;
+  width: auto;
+  float: left;
+  display: inline-block;
+  margin-top: 0.92592593rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /*position: relative;*/
+}
+.evalute .picevalute .fileUploadContent .fileItem .pic_delete {
+  width: 0.92592593rem;
+  height: 0.92592593rem;
   position: absolute;
-  top: 7.03703704rem;
-  left: 0.92592593rem;
+  top: -0.27777778rem;
+  right: -0.27777778rem;
+  z-index: 100;
+}
+.evalute .picevalute .fileUploadContent .fileItem {
+  border: solid thin #DDDDDD;
+  width: 2.96296296rem;
+  height: 2.96296296rem;
+  position: relative;
+  display: inline-block;
+  float: right;
+  border-radius: 0.09259259rem;
+  vertical-align: middle;
+  border: none;
+  margin-left: 0.18518519rem;
+}
+.evalute .picevalute .fileUploadContent .uploadBts {
+  width: 2.96296296rem;
+  height: 2.96296296rem;
+  position: relative;
+  display: inline-block;
+  float: left;
+  margin-top: 0.92592593rem;
+  margin-left: 0.37037037rem;
+}
+.evalute .picevalute .fileUploadContent .uploadBts .selectFileBt {
+  border: none;
+  position: absolute;
+  width: 2.96296296rem;
+  height: 2.96296296rem;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  display: inline-block;
+}
+.evalute .publicevalute .picevaluteone {
+  width: 100%;
+  height: 0.92592593rem;
 }
 .evalute .publicevalute .picevaluteone p {
   font-family: MicrosoftYaHei;
@@ -107,10 +171,10 @@
   left: 5.55555556rem;
 }
 .evalute .shopevalute {
-  position: relative;
+  width: 100%;
+  height: 5.55555556rem;
 }
 .evalute .shopevalute .shopevalute_item {
-  margin-top: 4.62962963rem;
   width: 100%;
   height: 3.7037037rem;
   background: #f5f5f5;
@@ -122,9 +186,7 @@
   font-stretch: normal;
   letter-spacing: 0.03703704rem;
   color: #2a2a2a;
-  position: absolute;
-  left: 0.55555556rem;
-  top: 2.22222222rem;
+  margin-top: 0.92592593rem;
 }
 .evalute .shopevalute .shopevalute_descrie {
   width: 100%;
@@ -134,7 +196,19 @@
 .evalute .shopevalute .shopevalute_descrie .star {
   position: absolute;
   left: 4.25925926rem;
-  top: 0.55555556rem;
+  width: 7.40740741rem;
+  height: 2.77777778rem;
+}
+.evalute .shopevalute .shopevalute_descrie ul {
+  width: 100%;
+  height: 100%;
+}
+.evalute .shopevalute .shopevalute_descrie ul li {
+  float: left;
+  margin-left: 0.46296296rem;
+  width: 0.85185185rem;
+  margin-top: 0.55555556rem;
+  height: 0.85185185rem;
 }
 .evalute .shopevalute .shopevalute_descrie img {
   width: 0.85185185rem;

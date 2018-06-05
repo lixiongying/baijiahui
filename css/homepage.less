@@ -3,7 +3,9 @@ img{
     width: 100%;
     height: 100%;
 }
-
+.mui-content{
+    overflow: hidden;
+}
 //头部开始
 #header{
     background:url(../img/nav2.png) no-repeat;
@@ -11,6 +13,7 @@ img{
     width: 100%;  
     height: 144/@rem;
     position: fixed;
+    z-index: 100;
 }
 
 .address {
@@ -104,6 +107,52 @@ img{
     width: 100%;
     height: 100%;
 }
+
+#slider{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+#slider img{
+    width: 100%;
+    height: 620/@rem;
+//  position: relative;
+    overflow: hidden;
+}
+#slider .swiper-container{
+    width:100%;
+    overflow:hidden;
+}
+#slider .swiper-container ul.swiper-wrapper{
+    width: 500%;
+    -webkit-transform: translate(-20%);
+    transform: translate(-20%);
+}
+#slider .swiper-container ul.swiper-wrapper li{
+    width: 20%;
+    float: left;
+}
+#slider .swiper-pagination{
+    width: 100%;
+    position: absolute;
+//  height: 20/@rem;
+    left: 0px;
+    top: 550/@rem;
+    background: none;
+    text-align: center;
+    
+}
+#slider .swiper-pagination span{
+    display: inline-block;
+    width: 20/@rem;
+    height: 20/@rem;
+    background: grey;
+    border-radius: 50%;
+    margin: 0 10/@rem;
+}
+#slider .swiper-pagination span.swiper-pagination-bullet-active{
+    background: #fd5e5e;
+}
 .main .main_nav{
      width: 100%; 
 //   padding: 0;
@@ -130,54 +179,7 @@ img{
 
     margin: 0 auto;
 }
-//.main_notice img:nth-child(1){
-//  width: 83/@rem;
-//  height: 79/@rem;
-//  font-size: 45/@rem;
-//  position: absolute;
-//  top: 11/@rem;
-//  bottom: 11/@rem;
-//  left: 35/@rem;
-//}
-//.main_notice img:nth-child(2){
-//    position: absolute;
-//width: 100/@rem;
-//  height: 60/@rem;
-//  background-color: #fadede;
-//  border-radius: 10px;
-//
-//}
-//.main_notice .pic_food{
-//  display: block;
-//  width: 100/@rem;
-//  height: 60/@rem;
-//  background-color: #fadede;
-//  border-radius: 10/@rem;
-//}
 
-//.main_notice p{
-//  width: 526/@rem;
-//  height: 36/@rem;
-//  font-size: 36/@rem;
-//  line-height: 40/@rem;
-//  letter-spacing: 1px;
-//  color: #2a2a2a;
-//  position: absolute;
-//  left: 168/@rem;
-//  top: 33/@rem;
-//  text-align: center;
-//  white-space: nowrap;
-//}
-//.main_notice a img:nth-child(2){
-//  width: 100/@rem;
-//  height: 60/@rem;
-//  background-color: #fadede;
-//  border-radius: 10/@rem;
-//  position: absolute;
-//  right: 21/@rem;
-//  top: 21/@rem;
-//  bottom: 21/@rem;   
-//}
 .main_notice{
     display: flex;
     justify-content: space-around;
@@ -189,6 +191,7 @@ img{
     background-color: #ffffff;
     margin: 10/@rem 0;
 }
+
 .main_notice .img_one{
     width: 83/@rem;
     height: 79/@rem;
@@ -197,35 +200,77 @@ img{
     width: 100/@rem;
     height: 60/@rem;
 }
-
-.main_notice .main_notice_sign p{
+.main_notice .main_notice_sign{
+//  overflow: hidden;
+    height: 102/@rem;
+    width: 600/@rem;
+}
+.main_notice marquee{
+    width: 600/@rem;
+    height: 62/@rem;
+    margin-top: 20/@rem;
+}
+.main_notice marquee p{
+    width: 100%;
+    height: 100%;
+    line-height: 62/@rem;
+    padding: 0;
+    margin: 0;
+    font-family: MicrosoftYaHei;
     font-size: 36/@rem;
-    margin-top: 30/@rem;
-    letter-spacing: 1px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 1/@rem;
     color: #2a2a2a;
 }
-.main_pic_two,.main_pic_four{
-    height: 368/@rem;
+.main_notice .main_notice_sign #con1,#con2{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+.main_notice .main_notice_sign ul li{
+    font-size: 36/@rem;
+    width: 600/@rem;
+    letter-spacing: 1px;
+    color: #2a2a2a;
+    padding: 0;
+    margin: 0;
+    height: 102/@rem;
+    line-height: 102/@rem;
+}
+.commodity{
+    padding:10/@rem 24/@rem;
+}
+.goods_pic{
+    width: 100%;
+    height: 320/@rem;
     background-color: #ffffff;
-   border-bottom: 0.5px solid #f8f8f8;
-    padding:24/@rem 24/@rem;
+    border-bottom: 0.5px solid #f8f8f8;
+    
 }
 .main_pic_four img{
     display: block;
      border-radius: 10/@rem;
 }
-.main_pic_three{
-    display: flex;
+.main .commodity .inner{
     width: 100%;
+    overflow: hidden;
+    height: 598/@rem;
+}
+.main .commodity .goods_item{
+   
+    width: 300% !important;
     height: 598/@rem;
     background-color: #ffffff;
-    justify-content: space-around;
+
 }
 .main_pic_three .pic{
     width: 503/@rem;
     height: 574/@rem;
 //  background-color: #ffffff;
     text-align: center;
+    float: left;
  
 }
 .main_pic_three .pic .pic_one{
@@ -269,10 +314,13 @@ img{
 .pic_three{
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 #addshopcar{
     width: 44/@rem;
     height: 44/@rem;
+    position: absolute;
+    right: 20/@rem
 }
 #addshopcar img{
      width: 100%;

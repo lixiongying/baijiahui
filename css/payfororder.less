@@ -33,16 +33,41 @@
     width: 100%;
 }
 .center .payaccount{
+    display: none;
     font-family: MicrosoftYaHei;
     font-size: 48/@rem;
     font-weight: normal;
     font-stretch: normal;
     width: 100%;
     height: 290/@rem;
-   position: relative;
+    position: relative;
     letter-spacing: 2/@rem;
     color: #2a2a2a;
     margin-left: 30/@rem;
+}
+
+
+
+.center .paymenber{
+    font-family: MicrosoftYaHei;
+    font-size: 48/@rem;
+    font-weight: normal;
+    font-stretch: normal;
+    width: 100%;
+    height: 140/@rem;
+    line-height: 140/@rem;
+    letter-spacing: 2/@rem;
+    color: #2a2a2a;
+    background: white;
+    padding-left: 30/@rem;
+ }
+.center .paymenber span{
+    font-family: MicrosoftYaHei;
+    font-size: 52/@rem;
+    font-weight: normal;
+    font-stretch: normal;  
+    letter-spacing: 2/@rem;
+    color: #e52323;
 }
 .center .payaccount .payaccount_one{
     width: 212/@rem;
@@ -51,10 +76,7 @@
     left: 108/@rem;
    top: 42/@rem;
 }
-.center .payaccount .payaccount_one img{
-//   width: 150/@rem;
-//   height: 150/@rem;
-}
+
 .center .payaccount_two p{
     font-family: MicrosoftYaHei;
     font-size: 48/@rem;
@@ -215,8 +237,9 @@ border-bottom: 3px solid #F5F5F5;
     border-radius: 25/@rem;
     z-index: 103;
     position: fixed;
-    top: 600/@rem;
+    top: 500/@rem;
     left: 100/@rem;
+    display: none;
 }
 .paymentcode .code_title{
     width: 100%;
@@ -237,12 +260,69 @@ border-bottom: 3px solid #F5F5F5;
     left: 82/@rem;
 }
 .paymentcode .code_number{
-    width: 560/@rem;
-    height: 90/@rem;
+    width: 620/@rem;
+    height: 100/@rem;
     position: absolute;
-    left: 175/@rem;
+    left: 155/@rem;
     bottom: 143/@rem;
 }
+//.mmdd{ background:#FFF}
+//.paymentcode .code_number .mm_box{
+//  width: 600/@rem;
+//  height: 100/@rem;
+//  border: 1px solid #bebebe; 
+//}
+//.paymentcode .code_number .mm_box li{
+//  width: 100/@rem;
+//  height: 100/@rem;
+//  display: block;
+//  float: left;
+//  border-right: 1px solid #efefef;
+//  text-align: center;
+//  line-height: 100/@rem;
+////  background: red;
+//}
+//.numb_box{
+//  position: fixed;
+//  bottom: 0;
+//  left: 0;
+//  z-index: 102; 
+//  background: #f5f5f5; 
+//  
+//  width: 100%;
+//  height: 600/@rem;
+//  display: none;
+//}
+//.numb_box .nub_ggg{
+//  width: 100%;
+// 
+//}
+//.numb_box .nub_ggg li{
+//  width: 33.3333%;
+//  height:150/@rem;
+//  border-bottom: 1px solid #dadada; 
+//  float: left; 
+//  text-align: center; 
+//  font-size: 42/@rem;
+//  line-height: 150/@rem;
+//  position: relative;
+//}
+//.numb_box .nub_ggg .none{
+//  display: block; 
+//  color: #e0e0e0; 
+//  background: #e0e0e0;
+// 
+//  overflow: hidden;
+//}
+//.numb_box .nub_ggg img{
+//  width: 100/@rem;
+//  height: 100/@rem;
+//  position: absolute;
+//  left: 50%;
+//  margin-left: -50/@rem;
+//  top: 50%;
+//   margin-top: -50/@rem;
+//}
 .paymentcode .code_number input{
     float: left;
     border-right: none;
@@ -266,4 +346,5 @@ border-bottom: 3px solid #F5F5F5;
     background: black;
     opacity: 0.5;
     z-index: 100;
+    display: none;
 }

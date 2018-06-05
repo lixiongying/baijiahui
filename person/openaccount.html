@@ -21,7 +21,7 @@
 				<div class="order">
 					
 					开通会员			
-					<span><a href=""><img src="../img/back2.png" alt="" /></a></span>	
+					<span><a class="mui-action-back"><img src="../img/back2.png" alt="" /></a></span>	
 				</div>	
 				<div class="person">
 					<div class="person_login">
@@ -64,9 +64,10 @@
 					</div>
 				</div>
 
-                <div class="dredge_member">
+                <div class="dredge_member" id="dredge_member">
                 	立即开通
                 </div>
+               
                 <div class="panel">
                 	<div class="panel_vip">
                 		vip套餐
@@ -83,7 +84,7 @@
                 		<p>年费<span>66</span>元</p>
                 		<div>开通</div>
                 	</div>
-                	<div class="panel_num">
+                	<div class="panel_num" id="panel_num">
                 		<p>终身<span>288</span>元</p>
                 		<div>开通</div>
                 	</div>
@@ -103,5 +104,28 @@
 //				id:'myorder.html'
 //			})
 //		})
+     $(".dredge_member").on('click',function(){
+     	$('.panel').slideDown();
+     	$('.mask').show();
+     	$('.mask').click(function(){    		
+     		$('.panel').slideUp();
+     	    $('.mask').hide();
+     	})
+     	
+     })
+//   $('.panel_num div').addEventListener('tap',function(){
+//   		mui.openWindow({
+//				url:'payfororder.html',
+//				
+//				id:'payfororder.html'
+//		    })
+//   	})
+     $('#panel_num').addEventListener('tap',function(){
+			mui.openWindow({
+				url:'payfororder.html',
+				
+				id:'payfororder.html'
+		})
+	})
 	</script>
 </html>

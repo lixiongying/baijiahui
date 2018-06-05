@@ -39,7 +39,7 @@ function share(){
 }
 
  function buyimmediately(i){
- 	
+ 	var index=i;
  	var mask=document.getElementById("mask_one");
 	var buy=document.getElementById("buy_one");
 	var tabbar=document.getElementById("tabbar");
@@ -57,42 +57,55 @@ function share(){
 		buy.style.display='block';	
         sureorcancel.style.display='block';
         tabbar.style.display='none';
-	num_jia.onclick=function(){
-		input_num.value=parseInt(input_num.value)+1;  	
-	}
-    num_jian.onclick=function(){
-	  	if(parseInt(input_num.value)==0){
-	  		input_num.value==0;
-	    }else{
-	   	 input_num.value=parseInt(input_num.value)-1;   	
-	    }
-
+  		
+	
+    mask.onclick=function(){
+    	mask.style.display='none';
+    	sureorcancel.style.display='none';
+		tabbar.style.display='block';
+		buy.style.display='none';
     }
-     mask.onclick=function(){
-    	mask.style.display='block';
-    }
+     cancel.onclick=function(){
+    	mask.style.display='none';
+		buy.style.display='none';
+		sureorcancel.style.display='none';
+		tabbar.style.display='block';
+	 }
     fruit.onclick=function(){
     	mask.style.display='none';
 		buy.style.display='none';
 		sureorcancel.style.display='none';
         tabbar.style.display='block';
     }
-    sure.onclick=function(){
-    	mask.style.display='none';
-		buy.style.display='none';
-		sureorcancel.style.display='none';
-		tabbar.style.display='block';
-		shoptoast.style.display="block"
-		setTimeout(function(){
-			shoptoast.style.display='none';
-		},2000)
+    num_jia.onclick=function(){
+			input_num.value=parseInt(input_num.value)+1;  	
+	    }
+	    num_jian.onclick=function(){
+		  	if(parseInt(input_num.value)==0){
+		  		input_num.value==0;
+		    }else{
+		   	 input_num.value=parseInt(input_num.value)-1;   	
+		    }
+	
+	    }
+    if(index==1){
+    	sure.onclick=function(){
+    		location.href="../person/submitorder.html"
+    	}
+    }else{
+    	sure.onclick=function(){
+	    	mask.style.display='none';
+			buy.style.display='none';
+			sureorcancel.style.display='none';
+			tabbar.style.display='block';
+			shoptoast.style.display="block"
+			setTimeout(function(){
+				shoptoast.style.display='none';
+			},2000)
+	    }
+
     }
-    cancel.onclick=function(){
-    	mask.style.display='none';
-		buy.style.display='none';
-		sureorcancel.style.display='none';
-		tabbar.style.display='block';
-    }
+
 }	  
 
 document.onscroll=function(){
@@ -109,3 +122,4 @@ document.onscroll=function(){
 	}
 	
 }
+

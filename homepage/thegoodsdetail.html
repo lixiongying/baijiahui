@@ -32,7 +32,7 @@
 				商品详情
 			</div>
 			<div class="detail_one">
-				<a href="JavaScript:history.go(-1)"><img src="../img/shangpinxiangqing_back.png"/></a>
+				<a href="" class="mui-action-back"><img src="../img/shangpinxiangqing_back.png"/></a>
 			</div>
 			商品详情
 			<div class="detail_two" id="detailss" onclick="share()">
@@ -54,12 +54,15 @@
 		<div class="annoumcement">				
 			<div class="main_world">
 				<div class="main_world_one">
-					<p>云南树莓 125g/袋</p>
-			        <p>￥98.00</p>
-			        <p>¥108.00</p>
+					<div>云南树莓 125g/袋</div>
+					<div>
+						<p>￥98.00</p>
+			            <span>¥108.00</span>
+					</div>
+			        
 				</div>
 				<div class="main_world_two">
-					<p>规格：125g/袋</p>
+					规格：125g/袋
 				</div>				
 			</div>
 		</div>
@@ -118,10 +121,9 @@
 		</div>
 		<!--购物车底部导航栏-->
 		<div class="tablebar" id="tabbar">
-			<div class="tablebar_one">
+			<div class="tablebar_one" id="tablebar_one">
 				<p>客服</p>
-				<a href=""><span><img src="../img/shangpinxiangqing_kefu.png"/></span>
-			</a>
+				<span><img src="../img/shangpinxiangqing_kefu.png"/>
 			
 			</div>
 			<div class="tablebar_two" onclick="buyimmediately(0)" id="plusshopcar">
@@ -152,7 +154,7 @@
 				<p>购买数量</p>
 				<div class="buy_input_num">
 					<button class="reduce" id="jian">-</button>
-					<input id="inputNum" type="text" name="" id="" value="0" />
+					<input id="inputNum" type="text" name="" id="" value="1" />
 					<button class="add" id="jia">+</button>
 				</div>
 			</div>
@@ -208,7 +210,17 @@
 				url:'thegoodsevalute.html',
 				
 				id:'thegoodsevalute.html'
+			  })
+		  })
+		document.getElementById('tablebar_one').addEventListener('tap',function(){
+				mui.openWindow({
+
+				url:'customservice.html',
+				
+				id:'customservice.html'
 			})
 		})
+			
+		
 	</script>
 </html>

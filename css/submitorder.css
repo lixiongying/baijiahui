@@ -1,0 +1,305 @@
+.main {
+  width: 100%;
+}
+.order {
+  width: 100%;
+  height: 2.66666667rem;
+  position: relative;
+  text-align: center;
+  line-height: 2.66666667rem;
+  font-size: 0.88888889rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.03703704rem;
+  color: #2a2a2a;
+  background-color: #e52323;
+  color: #ffffff;
+}
+.order span img {
+  font-family: MicrosoftYaHei;
+  font-size: 0.74074074rem;
+  letter-spacing: 0.03703704rem;
+  color: #ffffff;
+  position: absolute;
+  top: 30%;
+  left: 0.98148148rem;
+  width: 0.51851852rem;
+  height: 0.90740741rem;
+}
+.order .add {
+  width: 1.03703704rem;
+  height: 1.03703704rem;
+  border: 1px solid #ffffff;
+  text-align: center;
+  line-height: 1.03703704rem;
+  border-radius: 100%;
+  position: absolute;
+  right: 0.81481481rem;
+  top: 0.83333333rem;
+}
+.center {
+  width: 100%;
+}
+.center .address {
+  width: 100%;
+  height: 3.7037037rem;
+  background-color: #ffffff;
+}
+.center .address .message {
+  width: 100%;
+  height: 1.48148148rem;
+  margin-left: 0.66666667rem;
+  line-height: 1.85185185rem;
+}
+.center .address .message .name {
+  width: 3.7037037rem;
+  height: 1.48148148rem;
+  font-family: MicrosoftYaHei;
+  font-size: 0.74074074rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.48148148rem;
+  letter-spacing: 0.03703704rem;
+  color: #2a2a2a;
+  display: inline-block;
+}
+.center .address .message .name img {
+  width: 0.7962963rem;
+  margin-top: 0.27777778rem;
+  height: 0.81481481rem;
+}
+.center .address .message .number {
+  display: inline-block;
+  width: 5rem;
+  height: 1.48148148rem;
+  font-family: MicrosoftYaHei;
+  font-size: 0.74074074rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.48148148rem;
+  letter-spacing: 0.03703704rem;
+  color: #2a2a2a;
+}
+.center .address .message .phonenum {
+  display: inline-block;
+  width: 5.92592593rem;
+  height: 1.48148148rem;
+  font-family: MicrosoftYaHei;
+  font-size: 0.74074074rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.48148148rem;
+  letter-spacing: 0.03703704rem;
+  float: right;
+  color: #2a2a2a;
+}
+.center .address .location {
+  width: 100%;
+  height: 1.85185185rem;
+  line-height: 1.85185185rem;
+  margin-left: 0.66666667rem;
+}
+.center .address .location .place {
+  width: 5.05555556rem;
+  height: 1.85185185rem;
+  font-family: MicrosoftYaHei;
+  font-size: 0.62962963rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.85185185rem;
+  letter-spacing: 1px;
+  color: #787878;
+  display: inline;
+}
+.center .address .location .place img {
+  width: 0.77777778rem;
+  height: 0.90740741rem;
+  vertical-align: middle;
+}
+.center .argument {
+  width: 100%;
+  height: 5.55555556rem;
+  background-color: #ffffff;
+  border: solid 0.03703704rem #f0f0f0;
+  margin-top: 0.55555556rem;
+  position: relative;
+}
+.center .argument .argument_img {
+  width: 4.81481481rem;
+  height: 4.81481481rem;
+  background-color: #f8f8f8;
+  margin-left: 0.66666667rem;
+  margin-right: 0.55555556rem;
+  float: left;
+  display: inline-block;
+  margin-top: 0.37037037rem;
+}
+.center .argument .argument_img img {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+.center .argument .argument_item {
+  width: auto;
+  height: 100%;
+  display: inline-block;
+  margin-left: 0.18518519rem;
+}
+.center .argument .argument_item .item_one {
+  width: 5.92592593rem;
+  height: 2.77777778rem;
+  font-family: MicrosoftYaHei;
+  font-size: 0.66666667rem;
+  font-weight: normal;
+  font-stretch: normal;
+  padding-top: 0.55555556rem;
+  line-height: 0.92592593rem;
+  letter-spacing: 1px;
+  color: #2a2a2a;
+  white-space: nowrap;
+}
+.center .argument .argument_item .item_two {
+  width: 4.25925926rem;
+  height: 0.74074074rem;
+  font-family: MicrosoftYaHei;
+  font-size: 0.55555556rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 0.74074074rem;
+  letter-spacing: 0.01851852rem;
+  margin-top: 0.55555556rem;
+  color: #787878;
+  white-space: nowrap;
+}
+.center .argument .argument_item .item_three {
+  width: 4.25925926rem;
+  height: 0.74074074rem;
+  font-family: MicrosoftYaHei;
+  font-size: 0.74074074rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 0.74074074rem;
+  margin-top: 0.37037037rem;
+  letter-spacing: 0.03703704rem;
+  color: #e52323;
+  white-space: nowrap;
+}
+.center .argument .argument_item .item_three span {
+  width: 0.74074074rem;
+  height: 0.55555556rem;
+  font-family: MicrosoftYaHei;
+  font-size: 0.62962963rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 0.55555556rem;
+  letter-spacing: 1px;
+  color: #787878;
+  position: absolute;
+  right: 0.37037037rem;
+}
+.mui-switch {
+  background: red;
+  height: 0.74074074rem;
+  width: 1.55555556rem;
+}
+.mui-switch .mui-switch-handle {
+  width: 0.77777778rem;
+  height: 0.77777778rem;
+  top: -0.14814815rem;
+}
+.center .withraw {
+  width: 100%;
+  height: 2.22222222rem;
+  background-color: #ffffff;
+  position: relative;
+  margin-top: 0.55555556rem;
+}
+.center .withraw .withraw_num {
+  width: 6.48148148rem;
+  height: 100%;
+  line-height: 2.22222222rem;
+  font-family: MicrosoftYaHei;
+  font-size: 0.66666667rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #2a2a2a;
+  display: inline-block;
+  position: absolute;
+  left: 0.37037037rem;
+  white-space: nowrap;
+}
+.center .withraw .btnswitch {
+  display: inline-block;
+  float: right;
+  position: absolute;
+  right: 0.37037037rem;
+  top: 0.74074074rem;
+}
+.center .remark {
+  width: 100%;
+  height: 4.44444444rem;
+  background-color: #ffffff;
+  border-top: 1px solid #F5F5F5;
+  font-family: MicrosoftYaHei;
+  font-size: 0.66666667rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #2a2a2a;
+}
+.center .remark textarea {
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+.center .navbottom {
+  width: 100%;
+  height: 2.59259259rem;
+  background-color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.center .navbottom div:first-child {
+  width: 1.48148148rem;
+  height: 2.59259259rem;
+  font-family: MicrosoftYaHei;
+  font-size: 0.66666667rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 2.59259259rem;
+  letter-spacing: 0.01851852rem;
+  color: #7b7a7a;
+  display: inline-block;
+  margin-left: 0.55555556rem;
+}
+.center .navbottom div:nth-child(2) {
+  width: 3.7037037rem;
+  height: 2.59259259rem;
+  font-family: MicrosoftYaHei;
+  font-size: 0.74074074rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 2.59259259rem;
+  letter-spacing: 0.03703704rem;
+  color: #e52323;
+  display: inline-block;
+}
+.center .navbottom div:last-child {
+  display: inline-block;
+  width: 5.81481481rem;
+  height: 2.22222222rem;
+  margin-top: 0.18518519rem;
+  background-color: #e52323;
+  float: right;
+  font-family: MicrosoftYaHei;
+  font-size: 0.85185185rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.03703704rem;
+  text-align: center;
+  color: #ffffff;
+  line-height: 2.22222222rem;
+}

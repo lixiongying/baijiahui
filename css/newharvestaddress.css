@@ -1,0 +1,300 @@
+.main {
+  width: 100%;
+}
+.order {
+  width: 100%;
+  height: 2.66666667rem;
+  position: relative;
+  text-align: center;
+  line-height: 2.66666667rem;
+  font-size: 0.88888889rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.03703704rem;
+  color: #2a2a2a;
+  background-color: #e52323;
+  color: #ffffff;
+}
+.order span img {
+  font-family: MicrosoftYaHei;
+  font-size: 0.74074074rem;
+  letter-spacing: 0.03703704rem;
+  color: #ffffff;
+  position: absolute;
+  top: 30%;
+  left: 0.98148148rem;
+  width: 0.51851852rem;
+  height: 0.90740741rem;
+}
+.order .add {
+  width: 1.03703704rem;
+  height: 1.03703704rem;
+  border: 1px solid #ffffff;
+  text-align: center;
+  line-height: 1.03703704rem;
+  border-radius: 100%;
+  position: absolute;
+  right: 0.81481481rem;
+  top: 0.83333333rem;
+}
+.center {
+  width: 100%;
+}
+.center .save {
+  width: 16.66666667rem;
+  height: 2.07407407rem;
+  background-color: #e52323;
+  border-radius: 1.01851852rem;
+  font-family: MicrosoftYaHei;
+  font-size: 0.88888889rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 2.07407407rem;
+  letter-spacing: 0.03703704rem;
+  color: #ffffff;
+  text-align: center;
+  margin-left: 1.66666667rem;
+  margin-top: 2.96296296rem;
+}
+.center .address {
+  width: 100%;
+  height: 12.96296296rem;
+}
+.center .address .newaddress {
+  width: 100%;
+  height: 2.22222222rem;
+  background-color: #ffffff;
+}
+.center .address .newaddress .address_title {
+  width: 3.7037037rem;
+  height: 2.22222222rem;
+  line-height: 2.22222222rem;
+  display: inline-block;
+  font-family: MicrosoftYaHei;
+  font-size: 0.74074074rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.03703704rem;
+  color: #2a2a2a;
+  margin-left: 0.55555556rem;
+}
+.center .address .newaddress .address_input {
+  width: 7.40740741rem;
+  height: 2.22222222rem;
+  line-height: 2.22222222rem;
+  display: inline-block;
+}
+.center .address .newaddress .address_input input {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 1.85185185rem;
+  border: none;
+  text-align: left;
+  font-family: MicrosoftYaHei;
+  font-size: 0.74074074rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.03703704rem;
+  color: #787878;
+}
+.center .address .newaddress .address_img {
+  width: 0.74074074rem;
+  height: 2.22222222rem;
+  display: inline-block;
+  float: right;
+  line-height: 2.22222222rem;
+  margin-top: 0.64814815rem;
+  margin-right: 0.37037037rem;
+}
+.center .address .newaddress .address_img img {
+  width: 0.48148148rem;
+  height: 0.85185185rem;
+}
+.center .address .housenumber {
+  width: 100%;
+  height: 2.22222222rem;
+  background-color: #ffffff;
+  border-top: 1px solid #F5F5F5;
+}
+.center .address .housenumber .housenumber_title {
+  width: 3.7037037rem;
+  height: 2.22222222rem;
+  line-height: 2.22222222rem;
+  display: inline-block;
+  font-family: MicrosoftYaHei;
+  font-size: 0.74074074rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.03703704rem;
+  color: #2a2a2a;
+  margin-left: 0.55555556rem;
+}
+.center .address .housenumber .housenumber_input {
+  width: 7.40740741rem;
+  height: 2.22222222rem;
+  line-height: 2.22222222rem;
+  display: inline-block;
+}
+.center .address .housenumber .housenumber_input input {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 1.85185185rem;
+  border: none;
+  text-align: left;
+  font-family: MicrosoftYaHei;
+  font-size: 0.74074074rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.03703704rem;
+  color: #787878;
+}
+.center .address .linkman {
+  width: 100%;
+  height: 2.22222222rem;
+  background-color: #ffffff;
+  border-top: 1px solid #F5F5F5;
+  margin-top: 0.37037037rem;
+}
+.center .address .linkman .linkman_title {
+  width: 3.7037037rem;
+  height: 2.22222222rem;
+  line-height: 2.22222222rem;
+  display: inline-block;
+  font-family: MicrosoftYaHei;
+  font-size: 0.74074074rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.03703704rem;
+  color: #2a2a2a;
+  margin-left: 0.55555556rem;
+}
+.center .address .linkman .linkman_input {
+  width: 7.40740741rem;
+  height: 2.22222222rem;
+  line-height: 2.22222222rem;
+  display: inline-block;
+}
+.center .address .linkman .linkman_input input {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 1.85185185rem;
+  border: none;
+  text-align: left;
+  font-family: MicrosoftYaHei;
+  font-size: 0.74074074rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.03703704rem;
+  color: #787878;
+}
+.center .address .phonenumber {
+  width: 100%;
+  height: 2.22222222rem;
+  background-color: #ffffff;
+  border-top: 1px solid #F5F5F5;
+}
+.center .address .phonenumber .phonenumber_title {
+  width: 3.7037037rem;
+  height: 2.22222222rem;
+  line-height: 2.22222222rem;
+  display: inline-block;
+  font-family: MicrosoftYaHei;
+  font-size: 0.74074074rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.03703704rem;
+  color: #2a2a2a;
+  margin-left: 0.55555556rem;
+}
+.center .address .phonenumber .phonenumber_input {
+  width: 7.40740741rem;
+  height: 2.22222222rem;
+  line-height: 2.22222222rem;
+  display: inline-block;
+}
+.center .address .phonenumber .phonenumber_input input {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 1.85185185rem;
+  border: none;
+  text-align: left;
+  font-family: MicrosoftYaHei;
+  font-size: 0.74074074rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.03703704rem;
+  color: #787878;
+}
+.center .address .tally {
+  width: 100%;
+  height: 2.22222222rem;
+  background-color: #ffffff;
+  margin-top: 0.37037037rem;
+}
+.center .address .tally .tally_title {
+  width: 3.7037037rem;
+  height: 2.22222222rem;
+  line-height: 2.22222222rem;
+  display: inline-block;
+  font-family: MicrosoftYaHei;
+  font-size: 0.74074074rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.03703704rem;
+  color: #2a2a2a;
+  margin-left: 0.55555556rem;
+}
+.center .address .tally .tally_house {
+  width: 1.85185185rem;
+  height: 1rem;
+  background-color: #ffffff;
+  border-radius: 0.18518519rem;
+  border: solid 0.03703704rem #787878;
+  line-height: 1rem;
+  text-align: center;
+  font-family: MicrosoftYaHei;
+  font-size: 0.74074074rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.03703704rem;
+  color: #787878;
+  display: inline-block;
+}
+.center .address .tally .tally_school {
+  width: 2.59259259rem;
+  height: 1rem;
+  background-color: #ffffff;
+  border-radius: 0.18518519rem;
+  border: solid 0.03703704rem #787878;
+  line-height: 1rem;
+  text-align: center;
+  font-family: MicrosoftYaHei;
+  font-size: 0.74074074rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.03703704rem;
+  color: #787878;
+  margin-left: 0.64814815rem;
+  display: inline-block;
+}
+.center .address .tally .tally_company {
+  width: 2.59259259rem;
+  height: 1rem;
+  background-color: #ffffff;
+  border-radius: 0.18518519rem;
+  border: solid 0.03703704rem #e52323;
+  line-height: 1rem;
+  text-align: center;
+  font-family: MicrosoftYaHei;
+  font-size: 0.74074074rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.03703704rem;
+  color: #e52323;
+  display: inline-block;
+  margin-left: 0.64814815rem;
+}

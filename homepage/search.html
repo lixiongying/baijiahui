@@ -9,16 +9,18 @@
 		<title></title>
 		<link href="../css/mui.min.css" rel="stylesheet"/>
 		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
-		<!--<link rel="stylesheet" type="text/css" href="css/reset.css"/>-->
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
         <link rel="stylesheet" type="text/css" href="../css/search.css"/>
         <script src="../js/mui.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
         <script src="../js/public.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body>
 		<div class="mui-content">
 			<div class="searchs">
 				<div class="search_one">
-					<a href="JavaScript:history.go(-1)"><img src="../img/529724036108137347.png"/></a>
+					<!--<a href="homepage.html"><img src="../img/529724036108137347.png"/></a>-->
+					<a href="" class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" style="color: #2a2a2a;"></a>
 				</div>
 				<div class="search_two">
 					<input id="search_input" type="text" name="" id="" value="" />
@@ -44,7 +46,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="search">
+			<div class="hitsearch">
 				<div class="historysearch">
 					 热门搜索
 				</div>
@@ -65,4 +67,13 @@
 		</div>			
 		
 	</body>
+	<script type="text/javascript">
+		$(function(){
+			var $delete=$('.mui-content .search .delete');
+			var $search=$('.mui-content .search');
+			$delete.on('click',function(){
+				$search.css('display','none')
+			})
+		})
+	</script>
 </html>

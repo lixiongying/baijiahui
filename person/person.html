@@ -6,39 +6,47 @@
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,minimum-scale=1.0">
-		<title></title>
+		<title>个人中心</title>
 		<link href="../css/mui.min.css" rel="stylesheet"/>
 		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/nav_table.css"/>
         <link rel="stylesheet" type="text/css" href="../css/person.css"/>
         <script src="../js/mui.js" type="text/javascript" charset="utf-8"></script>
         <script src="../js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+        
         <script src="../js/public.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body>
 		<div class="mui-content">
 			<div class="main">
-				<!--头部导航栏-->
-				<div class="order">
+			
+				<header class="mui-bar mui-bar-nav" style="box-shadow: initial;">					   
+					    <h1 class="mui-title">个人中心</h1>
+					    <a class="setting"><img src="../img/geren_shezhi.png" alt="" /></a>
+				</header>
+				<div class="center">
 					
-					个人中心				
-					<span><a href=""><img src="../img/geren_shezhi.png" alt="" /></a></span>	
-				</div>	
+				
 				<div class="person">
 					<div class="person_login">
-						<div class="login_img">
-							<img src="../img/shouye_xinxianshuiguo.png"/>
+						<div class="nologin havelogin myprofile">
+							<!--<img src="../img/t01e462d459da144398.jpg">-->
+							<!--<img src="../img/geren"/>-->
 						</div>
 						<div class="name">
 							<div class="name_one">
-									xu小敏
+									黎雄鹰
 							</div>
 						
-							<div class="name_two">
+							<div class="name_two" id="openaccount">
 								开通会员
 							</div>
 						</div>
 						<div class="descrie">
 							我任性，我开心，喵~
+						</div>
+						<div class="pleaselogin">
+							点击登录
 						</div>
 					</div>
 				    <div class="myorder">
@@ -48,63 +56,82 @@
 				    	<div class="myorder_one_two">
 				    		我的订单
 				    	</div>
-				    	<div id="more"><div class="myorder_one_three">
-				    		更多
+				    	<div id="more">
+                                                                              更多				    	    
+					    	<div class="myorder_one_four">
+					    		<img src="../img/next.png"/>
+					    	</div>
 				    	</div>
-				    	<div class="myorder_one_four">
-				    		<img src="../img/next.png"/>
-				    	</div></div>
 				    	
 				    </div>
 					<div class="ordernav">
-						<div class="ordernav_one">
-							<a href=""><img src="../img/zhuce_yaoqingma.png"/></a>
+						<a>
+							<div class="ordernav_one">
+								<img src="../img/geren_wodedingdan_kaifukuan.png"/>
+								待付款
+						    </div>
+						</a>
+						<!--<div class="ordernav_one">
+							<a href="myorder.html?num=1"><img src="../img/geren_wodedingdan_kaifukuan.png"/></a>
 							待付款
-						</div>
-						<div class="ordernav_two">
-							<a href=""><img src="../img/zhuce_yaoqingma.png"/></a>
-							待发货
-						</div>
-						<div class="ordernav_three">
-							<a href=""><img src="../img/zhuce_yaoqingma.png"/></a>
-							待收获
-						</div>
-						<div class="ordernav_four">
-							<a href=""><img src="../img/zhuce_yaoqingma.png"/></a>
-							评价
-						</div>
+						</div>-->
+						<a>
+							<div class="ordernav_two">
+								<img src="../img/geren_wodedingdan_kaifahuo.png"/>
+								待发货
+							</div>
+						</a>
+						<a>
+							<div class="ordernav_three">
+								<img src="../img/geren_wodedingdan_kaishouhuo.png"/>
+								待收获
+							</div>
+						</a>
+						<a>
+							<div class="ordernav_four">
+								<img src="../img/geren_wodedingdan_kaipingjia.png"/></a>
+								评价
+							</div>
+						</a>
 					</div>
 				    <div class="item">
-				     	<div>
-				     		<img src="../img/11.png"/>
+				     	<div onclick="url(this)" data-url="./rewardinviting.html">
+				     		<img src="../img/person001.png"/>
 				     		邀请有礼
+				     		
 				     	</div>
-				     	<div>
-				     		<img src="../img/11.png"/>
+				     	<div class="shop">
+				     		<a><img src="../img/person002.png"/>
 				     		实体门店
+				     		</a>
 				     	</div>
-				     	<div>
-				     		<img src="../img/11.png"/>
+				     	<div class="mynews">
+				     		<a><img src="../img/person003.png"/>
 				     		我的消息
+				     		</a>
 				     	</div>
-				     	<div>
-				     		<img src="../img/11.png"/>
+				     	<div class="shopaddress">
+				     		<a><img src="../img/person004.png"/>
 				     		收货地址
+				     		</a>
 				     	</div>
-				     	<div>
-				     		<img src="../img/11.png"/>
+				     	<div class="mycollect">
+				     		<a><img src="../img/person005.png"/>
 				     		我的收藏
+				     		</a>
 				     	</div>
-				     	<div>
-				     		<img src="../img/11.png"/>
+				     	<div class="serviceandfeedback">
+				     		<a><img src="../img/person006.png"/>
 				     		服务与反馈
+				     		</a>
 				     	</div>
 				     
-				    </div>
-				</div>
+					    </div>
+					</div>
 				</div>
 			</div>
-		</div>				
+		</div>		
+	</div>	
 	</body>
 	<script type="text/javascript">
 		document.getElementById("more").addEventListener('tap',function(){
@@ -114,5 +141,15 @@
 				id:'myorder.html'
 			})
 		})
+		document.getElementById("openaccount").addEventListener('tap',function(){
+			mui.openWindow({
+				url:'openaccount.html',
+				
+				id:'openaccount.html'
+			})
+		});
+		
+
 	</script>
+	<script src="../js/person.js" type="text/javascript" charset="utf-8"></script>
 </html>

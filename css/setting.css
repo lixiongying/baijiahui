@@ -26,6 +26,9 @@
   width: 0.51851852rem;
   height: 0.90740741rem;
 }
+.order span a {
+  color: white;
+}
 .center {
   width: 100%;
 }

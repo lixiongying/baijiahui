@@ -8,18 +8,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,minimum-scale=1.0">
 		<title></title>
 		<link href="../css/mui.min.css" rel="stylesheet"/>
-		<!--<link rel="stylesheet" type="text/css" href="../css/reset.css"/>-->
-		<!--<link rel="stylesheet" type="text/css" href="css/reset.css"/>-->
+        <!--<link rel="stylesheet" type="text/css" href="../css/fileUpload.css"/>-->
         <link rel="stylesheet" type="text/css" href="../css/shopregister.css"/>
-        <script src="../js/mui.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../js/public.js" type="text/javascript" charset="utf-8"></script>
+        <!--<link href="。。/css/iconfont.css" rel="stylesheet" type="text/css"/>-->
 	</head>
 	<body>
 		<div class="mui-content">
 			<div class="main">
 				<div class="shop">
 					<div class="shoptitle">
-						<a href="JavaScript:history.go(-1)"><img src="../img/529724036108137347.png"/></a>
+						<a href="" class="mui-action-back"><img src="../img/529724036108137347.png"/></a>
 					</div>
 					店铺入驻
 				</div>
@@ -51,32 +49,36 @@
 								<div class="word">
 							      	上传一张门店图片  大小不超过1M,支持GIF,JP,PNG,BMP,JPEG格式
 							    </div>
-							    <div class="pic" id="pic">
-								   <img src="../img/fabiaopingjia_tianjiatupian.png"/>
-							    </div>
+							   
+							    <div class="pic1">
+								    <input type="file" name="file" id="file" class="pic2" value="" onchange="imgChange('shop_pic','pic2');" />
+								</div>
+							    
 							</div>
 							
 						</div>
 						<div class="agree">
 							<div class="agrees">
-								<img src="../img/gouwuche_xuanzhong.png"/>
-								
+								<img src="../img/gouwuche_xuanzhong.png" data-target = "1"/>
+							
 							</div>
 							<div class="agreeword">
 								<span>同意《联盟商家合作协议》</span>
 							</div>
 						</div>
 						
-						<div class="post">
+						<div class="post" id="post">
 							提交
 						</div>
 					</div>
-				</div>
-				
-			
-			
-			
+					
+				</div>			
 		</div>	
-		
 	</body>
+	
+	    <script src="../js/mui.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../js/shopregister.js" type="text/javascript" charset="utf-8"></script>
+        <!--<script src="../js/fileUpload.js" type="text/javascript" charset="utf-8"></script>-->
+        <script src="../js/public.js" type="text/javascript" charset="utf-8"></script>
 </html>

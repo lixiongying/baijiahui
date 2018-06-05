@@ -13,11 +13,13 @@
 		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
 		<script src="js/public.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+
 		<title></title>
 	</head>
 	<body>
 		<header class="header_title" style="">
-		  	<span><img src="img/next.png" alt="" class="back_img"/></span>
+		  	<!--<a class="mui-action-back"><span><img src="img/back.png"" class="back_img"/></span></a>-->
 		 	登录
 		</header>
 		<div class="mui-content">
@@ -34,13 +36,13 @@
 							</div>
 								
 							<div class="input_input">
-								<input type="number" class="login_moblie loginMoblie" placeholder="手机号码"/>
+								<input type="number" class="login_moblie loginMoblie" id="phone" placeholder="手机号码" />
 							</div>
 						</div>
 						<div class="line_login" style="">
 							
 						</div>
-						<div class="login_li" style="">
+						<div class="code_li" style="">
 							<div class="inputimg">
 								<img src="img/zhuce_mima.png" alt="" class="inputImg"/>
 							</div>
@@ -52,10 +54,10 @@
 							
 						</div>
 						<div class="weixin">
-							<p><span class="register">免费注册</span><img src="img/denglu_wangjimima.png"/><span class="forgetcode">忘记密码</span></p>								
+							<p><span class="register">免费注册</span><img src="img/denglu_wangjimima.png"/><span class="forgetcode" onclick="url(this)" data-url='findthepsd.html'>忘记密码</span></p>								
 						</div>
 						
-						<div class="complete">
+						<div class="complete" onclick="checkPhone()">
 							<input type="button" name="" id="" value="完成" />
 						</div>
 					</div>
@@ -78,4 +80,5 @@
 			</div>
 		</div>
 	</body>
+		<script src="js/login.js" type="text/javascript" charset="utf-8"></script>
 </html>

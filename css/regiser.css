@@ -1,6 +1,6 @@
 body,
 html {
-  background: #ffffff;
+  background-color: white;
 }
 .header_title {
   width: 100%;
@@ -29,13 +29,14 @@ html {
 .register_input {
   width: 100%;
   height: auto;
+  background: white;
 }
 .register_li {
-  width: 100%;
+  width: 90%;
   position: relative;
   height: 2.22222222rem;
   background: white;
-  margin-bottom: 0.09259259rem;
+  margin-left: 10%;
 }
 .register_input .register_li .input_input p {
   position: absolute;
@@ -65,7 +66,7 @@ html {
   width: 10.74074074rem;
   position: absolute;
   float: right;
-  left: 3.09259259rem;
+  left: 1.61111111rem;
   top: 25%;
 }
 .input_input input {
@@ -83,7 +84,7 @@ html {
   width: 0.75925926rem;
   height: 1.18518519rem;
   position: absolute;
-  left: 1.66666667rem;
+  left: 0rem;
   top: 25%;
 }
 .inputimg img {
@@ -130,4 +131,20 @@ html {
   color: #ffffff;
   margin-left: 1.66666667rem;
   margin-top: 2.77777778rem;
+}
+.popTips {
+  position: fixed;
+  opacity: 0.5;
+  width: 11.11111111rem;
+  height: 1.85185185rem;
+  background: black;
+  border-radius: 0.92592593rem;
+  left: 50%;
+  top: 45%;
+  text-align: center;
+  line-height: 1.85185185rem;
+  color: white;
+  margin-top: -3.33333333rem;
+  margin-left: -4.62962963rem;
+  display: none;
 }

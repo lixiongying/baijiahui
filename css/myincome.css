@@ -1,9 +1,53 @@
 html,
 body {
-  background: #FFFFFF;
+  background-color: #FFFFFF;
 }
 .main {
   width: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+a {
+  display: block;
+  width: 100%;
+  /*color: #FFFFFF;*/
+  text-decoration: none;
+}
+img {
+  border: 0;
+  display: block;
+  /*width: 100%;*/
+  vertical-align: middle;
+}
+input {
+  /*  -webkit-appearance: none;*/
+  outline: none;
+  border: none;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0;
+  clear: both;
+}
+li,
+ol {
+  list-style: none;
+}
+img {
+  width: 100%;
+  height: 100%;
 }
 .order {
   width: 100%;
@@ -68,7 +112,7 @@ body {
   font-stretch: normal;
   letter-spacing: 0px;
   color: #1f1f1f;
-  margin-top: 0.55555556rem;
+  padding-top: 0.55555556rem;
 }
 .content .item .invite div:last-child {
   font-family: PingFang-SC-Medium;
@@ -83,11 +127,12 @@ body {
   width: 100%;
   height: 12.96296296rem;
   margin-top: 0.37037037rem;
+  background: #FFFFFF;
 }
 .content .item .share .share_title {
   width: 100%;
-  height: 1.2962963rem;
-  line-height: 1.2962963rem;
+  height: 1.66666667rem;
+  line-height: 1.66666667rem;
   text-align: center;
   font-family: MicrosoftYaHei;
   font-size: 0.88888889rem;
@@ -126,4 +171,5 @@ body {
   letter-spacing: 0.03703704rem;
   color: #7b7a7a;
   margin-left: 6.72222222rem;
+  background-color: #ffffff;
 }

@@ -1,6 +1,6 @@
 @rem:54rem;
 body,html{
-    background: white
+    background:#FFFFFF
 }
 
 .header_title{
@@ -30,14 +30,14 @@ body,html{
 .login_input{
     width: 100%;
     height: auto;
-
+    background: white;
 }
 .login_li{
     width: 100%;
     position: relative;
     height:120/@rem;
-    background: white;
-    margin-bottom: 5/@rem;
+    
+    margin-left: 90/@rem;
 }
 .line_login{
     width: 900/@rem;
@@ -45,39 +45,87 @@ body,html{
     background-color: #f5f5f5;
     margin-left: 90/@rem;
 }
-.input_input{
+.login_li .input_input{
     width: 380/@rem;
     position: absolute;
     float: right;
-    left: 167/@rem;
-   top: 25%;
+    left: 67/@rem;
+    top: 25%;
 }
 
-.input_input input{
-     border: none;
-    width: 100%;
+.login_li .input_input input{
+   border: none;
+   width: 100%;
 // height: 100%;
    height: auto;
    margin: 0;
    padding: 0;
-    font-size: 38/@rem;
-    line-height: 50/@rem;
-    letter-spacing: 6/@rem;
-    color: #7b7a7a;
+   font-size: 38/@rem;
+   line-height: 50/@rem;
+   letter-spacing: 6/@rem;
+   color: #7b7a7a;
    
 }
-.inputimg{
+.login_li .inputimg{
     width: 41/@rem;
     height: 64/@rem;
     position: absolute;
-    left: 90/@rem;
+    left:0/@rem;
     top: 25%;
 }
-.inputimg img{
+.login_li .inputimg img{
     width: 100%;
     height: 100%;
     float: left;
 }
+
+.code_li{
+    width: 100%;
+    position: relative;
+    height:120/@rem;
+    background: white;
+    margin-left: 90/@rem;
+}
+.code_li .line_login{
+    width: 900/@rem;
+    height: 4/@rem;
+    background-color: #f5f5f5;
+    margin-left: 90/@rem;
+}
+.code_li .input_input{
+    width: 380/@rem;
+    position: absolute;
+    float: right;
+    left: 67/@rem;
+    top: 25%;
+}
+
+.code_li .input_input input{
+   border: none;
+   width: 100%;
+// height: 100%;
+   height: auto;
+   margin: 0;
+   padding: 0;
+   font-size: 38/@rem;
+   line-height: 50/@rem;
+   letter-spacing: 6/@rem;
+   color: #7b7a7a;
+   
+}
+.code_li .inputimg{
+    width: 41/@rem;
+    height: 64/@rem;
+    position: absolute;
+    left: 0/@rem;
+    top: 25%;
+}
+.code_li .inputimg img{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
 .weixin{
     width: 100%;
       height: 120/@rem;
@@ -136,7 +184,7 @@ body,html{
 //  line-height: 0.5px;
 //}
 .otherloginmethod .line {
- flex-grow: 1;
+   flex-grow: 1;
   height: 2/@rem;
   background-color: #CCCCCC;
 
@@ -146,7 +194,8 @@ body,html{
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-top: 200/@rem;
+      padding-top: 200/@rem;
+      background: #FFFFFF;
 //    background: white;
 }
 .otherloginmethod p{
@@ -166,7 +215,8 @@ body,html{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100/@rem;
+    padding-top: 100/@rem;
+    background: #FFFFFF;
 }
 .webchatimg{
     width: 160/@rem;

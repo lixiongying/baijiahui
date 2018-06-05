@@ -6,9 +6,9 @@
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,minimum-scale=1.0">
-		<title>开通会员</title>
+		<title>提现</title>
 		<link href="../css/mui.min.css" rel="stylesheet"/>
-		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<!--<link rel="stylesheet" type="text/css" href="../css/reset.css"/>-->
         <link rel="stylesheet" type="text/css" href="../css/myincome.css"/>
         <script src="../js/mui.js" type="text/javascript" charset="utf-8"></script>
         <script src="../js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
@@ -20,8 +20,8 @@
 				<!--头部导航栏-->
 				<div class="order">					
 					提现			
-					<span><a href=""><img src="../img/back2.png" alt="" /></a></span>
-					<p>收益明细</p>
+					<span><a class="mui-action-back"><img src="../img/back2.png" alt="" /></a></span>
+					<p class="details"><a style="color: white;">收益明细</a></p>
 				</div>	
 				
 				<div class="center">
@@ -60,11 +60,12 @@
 										<img src="../img/weibo.png"/>微博
 									</div>
 								</div>
+								
 							</div>
-						
-							<div class="cancelinvite">
+						<div class="cancelinvite">
 								取消分享
-						    </div>
+						  </div>
+							
 						</div>
 						
 					</div>
@@ -74,5 +75,11 @@
 		
 	</body>
 	<script type="text/javascript">
+		$('.details').on('click',function(){
+       		mui.openWindow({
+	    		url:"returndetails.html",
+	    		id:"returndetails.html",
+	    	})
+       	})
 	</script>
 </html>
